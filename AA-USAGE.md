@@ -14,7 +14,7 @@ using the information here:
 
 ✅✅✅✅👇👇👇👇
 
-DEPLOY with NETLIFY:
+DEPLOY with NETLIFY (STATIC)(Which should be fine):
 
 1. export static build (netlify is static only):
   `npm run export`

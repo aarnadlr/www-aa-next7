@@ -1,4 +1,21 @@
-$color: #2ecc71;
-.example {
-  background-color: $color;
-}
+
+@import 'css/global';
+@import 'css/variables';
+
+/* @import 'ibm-colors.css'; */
+/* @import "mrmrs-colors.css"; */
+@import 'css/palx/palx-master';
+
+@import 'css/tachyons';
+@import 'css/_tachyons-extend';
+// @import 'typography.css';
+
+/* MAIN STYLE RULES GO HERE */
+@import 'css/app';
+
+@import 'css/media-queries';
+
+// $color: #2ecc71;
+// .example {
+//   background-color: $color;
+// }

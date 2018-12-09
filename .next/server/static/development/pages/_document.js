@@ -169,22 +169,32 @@ function (_Document) {
           lineNumber: 14
         },
         __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "https://use.fontawesome.com/releases/v5.5.0/css/all.css",
+        integrity: "sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU",
+        crossorigin: "anonymous",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 21
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 22
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 23
         },
         __self: this
       })));
