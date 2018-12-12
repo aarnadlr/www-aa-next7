@@ -12,7 +12,7 @@ const WelcomeBio = () => (
       <img
         id="profile-pic"
         className="grow2 center mb3"
-        src="https://ww2.aaronadler.com/images/profile-pic.jpg"
+        src="../../static/icons/profile-pic.jpg"
         alt='alt'
       />
       <p className="f2c tc">Aaron Adler</p>
