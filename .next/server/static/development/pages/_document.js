@@ -150,6 +150,7 @@ function (_Document) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", {
+        prefix: "og: http://ogp.me/ns#",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
@@ -220,10 +221,18 @@ function (_Document) {
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "og:image",
-        content: "../static/og-aa-com.jpg",
+        content: "/static/og-aa-com.jpg",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        property: "og:url",
+        content: "https://aaronadler.com",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {

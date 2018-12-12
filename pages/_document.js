@@ -9,7 +9,7 @@ import Document, { Head, Main, NextScript } from 'next/document'
 export default class MyDocument extends Document {
   render () {
     return (
-      <html>
+      <html prefix="og: http://ogp.me/ns#">
         <Head>
           <meta name="keywords" content="Aaron Adler, UX, design, HTML, CSS, JavaScript"/>
           <meta name="og:title" content="Aaron Adler - UX/Dev"/>
@@ -18,8 +18,8 @@ export default class MyDocument extends Document {
           <meta name="og:description" content="Aaron Adler - UX/Dev"/>
           <meta name='viewport' content="width=device-width, initial-scale=1.0"/>
           <meta name="title" property="og:title" content="Aaron Adler - UX/Dev"/>
-          <meta name="og:image" content="../static/og-aa-com.jpg"/>
-
+          <meta name="og:image" content="/static/og-aa-com.jpg"/>
+          <meta property='og:url' content='https://aaronadler.com'/>
           {/* <link
             rel='stylesheet'
             href='/_next/static/style.css'
