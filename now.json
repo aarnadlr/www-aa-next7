@@ -1,5 +1,6 @@
 {
   "version": 2,
-  "name": "aaronadler-UXDev",
+  "name": "aaronadler-uxdev",
+  "alias": "aaronadler.net",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }

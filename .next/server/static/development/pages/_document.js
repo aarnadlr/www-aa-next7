@@ -161,12 +161,69 @@ function (_Document) {
           lineNumber: 13
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "/_next/static/style.css",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "keywords",
+        content: "Aaron Adler, UX, design, HTML, CSS, JavaScript",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "og:title",
+        content: "Aaron Adler - UX/Dev",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "og:type",
+        content: "website",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "og:site_name",
+        content: "Aaron Adler - UX/Dev",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "og:description",
+        content: "Aaron Adler - UX/Dev",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "title",
+        property: "og:title",
+        content: "Aaron Adler - UX/Dev",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "og:image",
+        content: "../static/og-aa-com.jpg",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -176,25 +233,25 @@ function (_Document) {
         crossOrigin: "anonymous",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 29
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 33
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 34
         },
         __self: this
       })));

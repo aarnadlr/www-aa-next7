@@ -1,7 +1,13 @@
-❌❌❌❌❌❌❌❌ Now NOT working! Use Netlify instructions below:
+❌❌❌❌❌❌❌❌
 
-This app is configured to deploy a STATIC build, not node.
+✅✅ Zeit Now (currently configured STATIC!) deployment:
 
+This app is configured to deploy a STATIC build, NOT node!:
+
+`now`
+
+
+---------------------------
 To change to a NODE build, you will need to adjust the
 `package.json`
 and the
@@ -12,9 +18,7 @@ using the information here:
 
 
 
-✅✅✅✅👇👇👇👇
-
-DEPLOY with NETLIFY (STATIC)(Which should be fine):
+✅✅✅✅👇👇👇👇 NETLIFY (STATIC!!) deployment:
 
 1. export static build (netlify is static only):
   `npm run export`
