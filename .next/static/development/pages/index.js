@@ -3957,11 +3957,11 @@ var projects = [{
   // image: require('./images/ibm.png'),
   title: 'IBM Partners',
   desc: "Wireframing, UX design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
-  // role: "UX wireframes, UI design, and client-side coded components using CSS3 and javascript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
+  // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
   role1: "Interfaced with IBM marketing, design and engineering teams to develop UX design and coded components for IBM Partners",
   role2: "Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
   role3: "Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
-  role4: "Delivered front-end javascript code to be implemented on the IBM website",
+  role4: "Delivered front-end JavaScript code to be implemented on the IBM website",
   // techstack: ""
   // TAGS:
   tag1: 'Sketch',
@@ -3977,7 +3977,7 @@ var projects = [{
   image: '../static/kith-rect3.jpg',
   title: 'Kith Footwear',
   desc: 'Ecommerce store prototype. Built with React, Webpack, styled-components, CSS grid, tachyons, and more. Click to view the project.',
-  role: "Built each piece of UI as a React component. Each product card is rendered from a mapped array, and inserted into a responsive CSS Grid.  All product data is passed from parent to child component via props. Set up custom media queries with ES6 template strings, which retrieve screen widths from a javascript object.",
+  role: "Built each piece of UI as a React component. Each product card is rendered from a mapped array, and inserted into a responsive CSS Grid.  All product data is passed from parent to child component via props. Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.",
   // TAGS:
   tag1: 'HTML5',
   tag2: 'CSS Grid',
@@ -4026,7 +4026,7 @@ var projects = [{
   // TAGS:
   tag1: 'React',
   tag2: 'CSS3',
-  tag3: 'javascript',
+  tag3: 'JavaScript',
   tag4: 'YouTube API',
   year: 2017,
   // HREF LINK
@@ -4042,7 +4042,7 @@ var projects = [{
   //  tag1: 'sketch',
   tag1: 'HTML5',
   tag2: 'CSS3',
-  tag3: 'javascript',
+  tag3: 'JavaScript',
   tag4: 'Gulp',
   year: 2018,
   //  tag6: 'sass/scss',
@@ -4105,9 +4105,9 @@ var projects = [{
   //  tag1: 'sketch',
   //  tag2: 'CSS3',
   tag1: 'After Effects',
-  tag2: 'javascript',
+  tag2: 'JavaScript',
   tag3: 'Lottie',
-  tag4: 'Illustrator',
+  //  tag4: 'Illustrator',
   tag5: 'SVG',
   year: 2017,
   // HREF LINK
@@ -4152,7 +4152,7 @@ var projects = [{
   // TAGS:
   tag1: 'Illustrator',
   tag2: 'After Effects',
-  tag3: 'javascript',
+  tag3: 'JavaScript',
   tag4: 'lottie',
   year: 2017,
   // HREF LINK
@@ -4166,7 +4166,7 @@ var projects = [{
 //   // TAGS:
 //    tag1: 'HTML5',
 //    tag2: 'css3',
-//    tag3: 'javascript',
+//    tag3: 'JavaScript',
 //    tag4: 'gulp',
 //    year: 2017,
 //    // HREF LINK
