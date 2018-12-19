@@ -1,5 +1,21 @@
 import React, { Component } from 'react'
 import RSSRequestHOC from './HOCs/RSSRequestHOC'
+
+// IMPORTANT MEDIUNM INFO:
+// RSS FEED:
+// https://medium.com/feed/@aaronadler
+
+// GIST: FetchDataFromRSSFeed
+// https://gist.github.com/mittalyashu/4182b0cdaa54654e6b9f3e9441831edc
+
+// RSS 2 JSON:
+// https://rss2json.com/#rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40aaronadler
+
+// 👇👇👇
+// PAGE OF POSTS I SHOULD EMULATE:
+// https://medium.com/@aaronadler
+
+
 class MediumCard extends Component {
 
   componentDidMount(){
