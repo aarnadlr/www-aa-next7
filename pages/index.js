@@ -1,9 +1,10 @@
 import '../styles/style.scss'
 
 export default () =>
-  <div className=''>
-    {/* <RSSRequestHOC/> */}
+  <div style={{color:'white'}} className=''>
+    
+    hi
 
-  {/* <style jsx>{`
-  `}</style> */}
+    {/* <style jsx>{`
+    `}</style> */}
   </div>
