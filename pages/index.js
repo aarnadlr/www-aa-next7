@@ -10,6 +10,7 @@ import MediumCard from '../Components/MediumCard';
 
 export default () =>
   <div className=''>
+  
     {/* <RSSRequestHOC/> */}
 
     <TopNav />
@@ -18,7 +19,7 @@ export default () =>
 
     <Cards />
     
-    <MediumCard/>
+    {/* <MediumCard/> */}
 
     <CoreTools />
 

@@ -87,6 +87,14 @@ const CoreTools = () => (
             </span>
             React
           </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              {/* <i className="fab fa-react rainbow9" /> */}
+              <i className="fas fa-database rainbow9"></i>
+            </span>
+            Redux
+          </li>
           
 
           <li className="skill">
@@ -189,7 +197,7 @@ const CoreTools = () => (
 
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-facebook-square rainbow14" />
+              <i className="fab fa-facebook-square rainbow14" />
             </span>{" "}
             Facebook AR Studio</li>
 
@@ -225,7 +233,7 @@ const CoreTools = () => (
           </li>
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-file-code-o rainbow13" />
+              <i className="fas fa-database rainbow13" />
             </span>{" "}
             MongoDB
           </li>
@@ -237,7 +245,8 @@ const CoreTools = () => (
           </li>
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-code-fork rainbow14" />
+              {/* <i className="fab fa-gulp rainbow14" /> */}
+              <i className="fas fa-wine-bottle rainbow14" />
             </span>{" "}
             Gulp
           </li>
