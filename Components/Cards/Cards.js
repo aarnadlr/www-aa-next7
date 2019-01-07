@@ -54,7 +54,7 @@ const Cards = () => {
                     {/* <a target="_blank" href={project.link?project.link:null}> */}
                     <a target="_blank" href={project.link}>
 
-                      <img  src={project.image} alt="alt" className="image" />
+                      <img  src={project.image} alt="alt" className={project.gif?"gifStyle":"image"} />
 
                       <div className="textContainer pa4b lh-copy3">
                         <p id="title" className="f3c mt1 mb0 fw6 lh-title">
@@ -128,49 +128,53 @@ const Cards = () => {
           );
         })}
 
-      <style jsx>{`
+<style jsx>{`
 
-.card{
-  width: 430px;
-  transition: all .3s ease;
-  /* -moz-transition: scale .3s ease; */
-  /* -webkit-transition: scale .3s ease; */
-  &:hover{
-    transform:translateY(-10px);
+  .card{
+    width: 430px;
+    transition: all .3s ease;
+    /* -moz-transition: scale .3s ease; */
+    /* -webkit-transition: scale .3s ease; */
+    &:hover{
+      transform:translateY(-10px);
+    }
   }
-}
 
-.completed{
-  border: 1px solid blue;
-  margin-top: 2.7rem;
-}
+  .completed{
+    border: 1px solid blue;
+    margin-top: 2.7rem;
+  }
 
-.image{
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-}     
-      
-.tag{
-  /* background: blue; */
-  color: white;
-  display: inline-block;
-  padding: 4px 12px;
-  border-radius: 6px;
-  font-size: 10px;
-  margin-top:10px;
-}
+  .image{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }     
+  .gifStyle{
+    width:100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .tag{
+    /* background: blue; */
+    color: white;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 10px;
+    margin-top:10px;
+  }
 
 
 
-p.tag:not([first]){
-  margin-left: 6px;
-}
+  p.tag:not([first]){
+    margin-left: 6px;
+  }
 
-p.projectRole{
-  /* line-height: 1.3; */
-}
-  
-      `}</style>
+  p.projectRole{
+    /* line-height: 1.3; */
+  }
+
+`}</style>
 
       
       </div>

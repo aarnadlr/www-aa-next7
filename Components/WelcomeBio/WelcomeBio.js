@@ -31,11 +31,14 @@ const WelcomeBio = () => (
         <a target='_blank' rel="noopener noreferrer" href="https://twitter.com/aaronadler"><img className='icon grow-large-2 ml3' src='../../static/icons/twitter.png' /></a>
       </div>
 
-      <p className="paragraph f5 lh-copy4 mh3">
-        Hi there. I’m a UX designer & Front-end developer in NYC. I’ve worked on
-        projects for Facebook, Google, IBM, R/GA, Droga5 and
-        others. My work has been recognized by Cannes, AICP, the Art Directors
-        Club, Clios, Archive, Adweek, and the New York Times. My focus is on <span className="bg-green8">&nbsp;UX design&nbsp;</span> , <span className="bg-teal8">&nbsp;CSS3&nbsp;</span> , <span className="bg-cyan8">&nbsp;JavaScript ES6 + React&nbsp;</span> and <span className="bg-blue6">&nbsp;coded
+      <p className="paragraph f5 lh-copy4b mh3">
+        Hi there. &nbsp;I'm a&nbsp;
+        <span className="bg-blue6">&nbsp;UI Engineer&nbsp;</span>&nbsp;,&nbsp;
+        <span className="bg-cyan8">&nbsp;UX Designer&nbsp;</span>&nbsp;,&nbsp; and &nbsp;
+        <span className="bg-teal8">&nbsp;Front-end Developer&nbsp;</span> in NYC.&nbsp;
+        I’ve worked on projects for Facebook, Google, IBM, R/GA, Droga5 and
+        others. &nbsp;My work has been recognized by Cannes, AICP, the Art Directors
+        Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="bg-green8">&nbsp;UX design&nbsp;</span> , <span className="bg-teal8">&nbsp;CSS3&nbsp;</span> , <span className="bg-cyan8">&nbsp;JavaScript ES6 + React&nbsp;</span> and <span className="bg-blue6">&nbsp;coded
         animation&nbsp;</span>.
       </p>
     </div>

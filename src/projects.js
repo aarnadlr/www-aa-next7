@@ -252,6 +252,7 @@ const projects = [
   },
   {
     key: 8,
+    gif: true,
     image: '../static/thumbs2018/daftpunk-320.gif',
     title: 'Daft Punk - Facebook Camera Effect AR',
      desc: 'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
@@ -304,6 +305,7 @@ const projects = [
   // },
   {
     key: 11,
+    gif: true,
     image: '../static/thumbs2018/moic3.gif',
     title: 'Museum of Ice Cream - Facebook Camera Effect',
      desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
