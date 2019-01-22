@@ -1,6 +1,7 @@
 import React from "react";
 // import Tilt from "react-tilt";
 import projects from "../../src/projects";
+import CodeWindow from "../CodeWindow.js/CodeWindow";
 // import './Cards.css';
 // import '../../src/css/entry.css';
 const uuidv1 = require("uuid/v1");
@@ -54,7 +55,17 @@ const Cards = () => {
                     {/* <a target="_blank" href={project.link?project.link:null}> */}
                     <a target="_blank" href={project.link}>
 
-                      <img  src={project.image} alt="alt" className={project.gif?"gifStyle":"image"} />
+
+
+                      {/* If the project object has an image key, display img tag. Otherwise, show a div for JS code. */}
+                      {project.image
+                        ?
+                        <img  src={project.image} alt="alt" className={project.gif?"gifStyle":"image"} />
+                        :
+                        <CodeWindow/>
+                      }
+
+
 
                       <div className="textContainer pa4b lh-copy3">
                         <p id="title" className="f3c mt1 mb0 fw6 lh-title">
@@ -140,6 +151,7 @@ const Cards = () => {
     }
   }
 
+
   .completed{
     border: 1px solid blue;
     margin-top: 2.7rem;
@@ -177,7 +189,7 @@ const Cards = () => {
 `}</style>
 
       
-      </div>
+  </div>
   );
 };
 

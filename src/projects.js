@@ -25,13 +25,16 @@ const projects = [
     title: 'IBM Partners',
     desc: "Wireframing, UX design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
 
+
     // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
-    role1:"Interfaced with IBM marketing, design and engineering teams to develop UX design and coded components for IBM Partners",
+    role1:"Developed wireframes and UX designs using Sketch and AdobeCC",
 
-    role2:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
-    role3:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+    role2:"Delivered front-end JavaScript code to IBM engineering",
+    
+    role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
+    
+    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
-    role4:"Delivered front-end JavaScript code to be implemented on the IBM website",
     // techstack: ""
     // TAGS:
     tag1: 'Sketch',
@@ -44,6 +47,7 @@ const projects = [
     // link: "./ibm.html"
     link: "https://www.ibm.com/partners/start/"
   },
+
   
   {
     key: 2,
@@ -85,6 +89,40 @@ const projects = [
          // HREF LINK
     link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
   },
+
+
+  {
+    key: 30,
+    // image: './images/thumbs2018/IBM-rect.jpg',
+    // image: '../static/thumbs2018/IBM-rect.jpg',
+    // image: require('./images/ibm.png'),
+    title: 'IBM Partners - Motion Identity',
+    desc: "Motion graphic creation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground view.",
+
+
+    // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
+    // role1:"Developed wireframes and UX designs using Sketch and AdobeCC",
+
+    
+    // role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
+    
+    role1:"Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser",
+    
+    role2:"Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.",
+    // techstack: ""
+    // TAGS:
+    tag1: 'Sketch',
+    tag2: 'AfterEffects',
+    tag3: 'CSS3',
+    tag4: 'JavaScript',
+
+    year: 2018,
+        // HREF LINK
+    // link: "./ibm.html"
+    link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
+  },
+
+
   {
     key: '2B',
     image: '../static/thumbs2018/motet3b.jpg',
