@@ -97,7 +97,7 @@ const projects = [
     // image: '../static/thumbs2018/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners - Motion Identity',
-    desc: "Motion graphic creation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground view.",
+    desc: "Coded brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
 
 
     // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
@@ -106,7 +106,7 @@ const projects = [
     
     // role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
     
-    role1:"Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser",
+    role1:"Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.",
     
     role2:"Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.",
     // techstack: ""
