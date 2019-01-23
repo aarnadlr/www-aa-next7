@@ -1,20 +1,3 @@
-// import kith from './images/kith-rect3.jpg';
-// import ibm from '../static/thumbs2018/IBM-rect.jpg';
-
-// import arthritis from './images/thumbs2018/arthritis-rect.jpg';
-// import motet from './images/thumbs2018/motet3b.jpg';
-// import verbal from './images/thumbs2018/verbal4.jpg';
-// import patagonia from './images/thumbs2018/patagonia-ww3.gif';
-// import googlePlay from './images/thumbs2018/google-play-17-rect.jpg';
-
-// import daftpunk from './images/thumbs2018/daftpunk-320.gif';
-// import cottonBur from './images/thumbs2018/cotton-bur-rect.gif';
-// // import moic from './images/thumbs2018/moic3.gif';
-// import youtubeZero from './images/thumbs2018/youtubezero3-rect.gif';
-
-
-// import bpCover from './images/Blockparty-800x400-3.jpg';
-// import wfCover from '../src/images/wellsfargo/wfLock2.jpg'
 
 const projects = [
   {
@@ -23,7 +6,7 @@ const projects = [
     image: '../static/thumbs2018/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners',
-    desc: "Wireframing, UX design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
+    desc: "UX and JavaScript development for IBM Partners, IBM's business services portal. Click to view the project.",
 
 
     // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
@@ -31,7 +14,7 @@ const projects = [
 
     role2:"Delivered front-end JavaScript code to IBM engineering",
     
-    role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
+    role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, and column layouts",
     
     // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
@@ -53,9 +36,10 @@ const projects = [
     key: 2,
     image: '../static/kith-rect3.jpg',
     title: 'Kith Footwear',
-     desc: 'Ecommerce store prototype. Built with React, Webpack, styled-components, CSS grid, tachyons, and more. Click to view the project.',
+     desc: 'Ecommerce store prototype. Built with React, Styled-components, CSS Grid, Tachyons, and more. Click to view the project.',
 
-     role: "Built each piece of UI as a React component. Each product card is rendered from a mapped array, and inserted into a responsive CSS Grid.  All product data is passed from parent to child component via props. Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.",
+     role1: "Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.",
+     role2: "Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.",
 
 
     // TAGS:
@@ -69,26 +53,29 @@ const projects = [
          // HREF LINK
     link: "http://kith-store.aaronadler.com"
   },
+  
+
+
   {
-    key: '26',
-    image: '../static/wellsfargo/wfLock2.jpg',
-    title: 'Wells Fargo UX',
-    
-     desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
+    key: 5,
+    image: '../static/thumbs2018/youtubezero3-rect.gif',
+    title: 'YouTube Zero',
+     desc: 'React application providing a zero-click YouTube search interface. Click to view.',
 
-     role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
-     role2: "Built a family of button styles and their default, hover, active, and disabled states.",
-     role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
+     role1: 'Fetches data in realtime from YouTube DataAPI v3. ',
+     role2: 'Designed using Styled-components and Tachyons.',
     // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
+     tag1: 'React',
+     tag2: 'CSS3',
+     tag3: 'JavaScript',
+     tag4: 'YouTube API',
 
-     year: 2018,
+     year: 2017,
          // HREF LINK
-    link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
+    // link: "https://youtubezero.herokuapp.com/"
+    link: "https://youtubezero.now.sh/"
   },
+
 
 
   {
@@ -97,7 +84,7 @@ const projects = [
     // image: '../static/thumbs2018/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners - Motion Identity',
-    desc: "Coded brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
+    desc: "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
 
 
     // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
@@ -123,44 +110,6 @@ const projects = [
   },
 
 
-  {
-    key: '2B',
-    image: '../static/thumbs2018/motet3b.jpg',
-    title: 'Motet - Music App UX',
-     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
-
-     role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
-    // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
-
-     year: 2017,
-         // HREF LINK
-    link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
-  },
-
-
-  {
-    key: 5,
-    image: '../static/thumbs2018/youtubezero3-rect.gif',
-    title: 'YouTube Zero',
-     desc: 'React application providing a zero-click YouTube search interface. Fetches data in realtime from YouTube DataAPI v3. Click to view.',
-
-     role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
-    // TAGS:
-     tag1: 'React',
-     tag2: 'CSS3',
-     tag3: 'JavaScript',
-     tag4: 'YouTube API',
-
-     year: 2017,
-         // HREF LINK
-    // link: "https://youtubezero.herokuapp.com/"
-    link: "https://youtubezero.now.sh/"
-  },
-
 
   {
     key: 3,
@@ -182,6 +131,46 @@ const projects = [
          // HREF LINK
     // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
     link: "https://tradewindmarkets.com"
+  },
+
+
+  {
+    key: '2B',
+    image: '../static/thumbs2018/motet3b.jpg',
+    title: 'Motet - Music App UX',
+     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
+
+     role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
+    // TAGS:
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
+
+     year: 2017,
+         // HREF LINK
+    link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
+  },
+
+  {
+    key: '26',
+    image: '../static/wellsfargo/wfLock2.jpg',
+    title: 'Wells Fargo UX',
+    
+     desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
+
+     role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
+     role2: "Built a family of button styles and their default, hover, active, and disabled states.",
+     role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
+    // TAGS:
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
+
+     year: 2018,
+         // HREF LINK
+    link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
   },
 
 
@@ -359,23 +348,27 @@ const projects = [
       // HREF LINK
       link: "https://www.facebook.com/160758384681784/videos/162009941223295/"
   },
-  {
-    key: 12,
-    image: '../static/thumbs2018/arthritis-rect.jpg',
-    title: 'Arthritis Foundation',
-     desc: 'Graphic to promote awareness for the Arthritis Foundation. Click to view.',
 
-     role: "Concept creation and graphic design",
-    // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'SVG',
-     tag4: 'Photoshop',
+  // {
+  //   key: 12,
+  //   image: '../static/thumbs2018/arthritis-rect.jpg',
+  //   title: 'Arthritis Foundation',
+  //    desc: 'Graphic to promote awareness for the Arthritis Foundation. Click to view.',
 
-     year: 2011,
-      // HREF LINK
-    link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
-  },
+  //    role: "Concept creation and graphic design",
+  //   // TAGS:
+  //    tag1: 'Sketch',
+  //    tag2: 'Illustrator',
+  //    tag3: 'SVG',
+  //    tag4: 'Photoshop',
+
+  //    year: 2011,
+  //     // HREF LINK
+  //   link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
+  // },
+
+
+  
   // {
   //   key: 13,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/facebook-rect.jpg',

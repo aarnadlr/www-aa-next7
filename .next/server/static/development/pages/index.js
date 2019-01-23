@@ -1936,51 +1936,37 @@ var WelcomeBio = function WelcomeBio() {
       lineNumber: 36
     },
     __self: this
-  }, "\xA0UI Engineer\xA0"), "\xA0,\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+  }, "\xA0UI Engineer\xA0"), "\xA0and ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-2609408294" + " " + "bg-cyan8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 36
     },
     __self: this
-  }, "\xA0UX Designer\xA0"), "\xA0,\xA0 and \xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-2609408294" + " " + "bg-teal8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "\xA0Front-end Developer\xA0"), " in NYC.\xA0 I\u2019ve worked on projects for Facebook, Google, IBM, R/GA, Droga5 and others. \xA0My work has been recognized by Cannes, AICP, the Art Directors Club, Clios, Archive, Adweek, and the New York Times. \xA0My focus is on ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+  }, "\xA0Front-end Developer\xA0"), "\xA0in NYC.\xA0 I\u2019ve worked on projects for Facebook, Google, IBM, R/GA, Droga5 and others. \xA0My work has been recognized by Cannes, AICP, the Art Directors Club, Clios, Archive, Adweek, and the New York Times. \xA0My focus is on ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-2609408294" + " " + "bg-green8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 39
     },
     __self: this
-  }, "\xA0UX design\xA0"), " , ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+  }, "\xA0JavaScript ES6 + React\xA0"), " , ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-2609408294" + " " + "bg-teal8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 39
     },
     __self: this
-  }, "\xA0CSS3\xA0"), " , ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-2609408294" + " " + "bg-cyan8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "\xA0JavaScript ES6 + React\xA0"), " and ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+  }, "\xA0CSS3\xA0"), " , and ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-2609408294" + " " + "bg-blue6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }, "\xA0coded animation\xA0"), ".")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, "\xA0IX / coded animation\xA0"), ".")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "2609408294",
-    css: ".icon.jsx-2609408294{width:20px;height:20px;border-radius:3px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkNjLEFBRWMsV0FDQyxZQUNNLGtCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG4vLyBpbXBvcnQgc3R5bGVzIGZyb20gXCIuL1dlbGNvbWVCaW8uY3NzXCI7XG5cbi8vIGNvbnN0IFBhcmFncmFwaCA9IHN0eWxlZC5wYFxuLy8gICBmb250LXdlaWdodDozMDA7XG4vLyBgXG5cbmNvbnN0IFdlbGNvbWVCaW8gPSAoKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwiXCI+XG5cbiAgICA8ZGl2IGlkPVwidG9wU2VjdGlvblwiIGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2x1bW4gY2VudGVyIHdoaXRlIG10NiBtYjVcIj5cbiAgICAgIDxpbWdcbiAgICAgICAgaWQ9XCJwcm9maWxlLXBpY1wiXG4gICAgICAgIGNsYXNzTmFtZT1cImdyb3cyIGNlbnRlciBtYjNcIlxuICAgICAgICBzcmM9XCIuLi8uLi9zdGF0aWMvaWNvbnMvcHJvZmlsZS1waWMuanBnXCJcbiAgICAgICAgYWx0PSdhbHQnXG4gICAgICAvPlxuICAgICAgPHAgY2xhc3NOYW1lPVwiZjJjIHRjXCI+QWFyb24gQWRsZXI8L3A+XG5cblxuICAgICAgey8qIFNPQ0lBTCBJQ09OUyBVTkRFUiBOQU1FICovfVxuICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1jZW50ZXIgbWI0Jz5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9kcmliYmJsZS5jb20vYWFybmFkbHJcIj48aW1nIGFsdD0nZHJpYmJiJyBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9BQS1kcmliYmJsZS1pY29uLnBuZycgLz48L2E+XG4gICAgICAgIDxhIHRhcmdldD0nX2JsYW5rJyByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCIgaHJlZj1cImh0dHBzOi8vd3d3LnRvcHRhbC5jb20vZGVzaWduZXJzL3Jlc3VtZS9hYXJvbi1hZGxlclwiPjxpbWcgYWx0PSd0b3B0YWwnIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy90b3B0YWwuZ2lmJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2Fhcm5hZGxyXCI+PGltZyBhbHQ9J2dpdGh1YicgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL2dpdGh1Yi5naWYnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vYWFyb25hZGxlci9cIj48aW1nIGFsdD0nbGlua2VkaW4nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9saW5rZWRpbi5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL2NvZGVwZW4uaW8vYWFyb25hZGxlci9cIj48aW1nIGFsdD0nY29kZXBlbicgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL2NvZGVwZW4ucG5nJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9tZWRpdW0uY29tL0BhYXJvbmFkbGVyXCI+PGltZyBhbHQ9J21lZGl1bScgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL21lZGl1bS5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5wcm9kdWN0aHVudC5jb20vQGFhcm5hZGxyXCI+PGltZyBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yIG1sMycgc3JjPScuLi8uLi9zdGF0aWMvaWNvbnMvcHJvZGh1bnQucG5nJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly93b3JraW5nbm90d29ya2luZy5jb20vYWFyblwiPjxpbWcgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL3dudy5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3R3aXR0ZXIuY29tL2Fhcm9uYWRsZXJcIj48aW1nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy90d2l0dGVyLnBuZycgLz48L2E+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHAgY2xhc3NOYW1lPVwicGFyYWdyYXBoIGY1IGxoLWNvcHk0YiBtaDNcIj5cbiAgICAgICAgSGkgdGhlcmUuICZuYnNwO0knbSBhJm5ic3A7XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7VUkgRW5naW5lZXImbmJzcDs8L3NwYW4+Jm5ic3A7LCZuYnNwO1xuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJiZy1jeWFuOFwiPiZuYnNwO1VYIERlc2lnbmVyJm5ic3A7PC9zcGFuPiZuYnNwOywmbmJzcDsgYW5kICZuYnNwO1xuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJiZy10ZWFsOFwiPiZuYnNwO0Zyb250LWVuZCBEZXZlbG9wZXImbmJzcDs8L3NwYW4+IGluIE5ZQy4mbmJzcDtcbiAgICAgICAgSeKAmXZlIHdvcmtlZCBvbiBwcm9qZWN0cyBmb3IgRmFjZWJvb2ssIEdvb2dsZSwgSUJNLCBSL0dBLCBEcm9nYTUgYW5kXG4gICAgICAgIG90aGVycy4gJm5ic3A7TXkgd29yayBoYXMgYmVlbiByZWNvZ25pemVkIGJ5IENhbm5lcywgQUlDUCwgdGhlIEFydCBEaXJlY3RvcnNcbiAgICAgICAgQ2x1YiwgQ2xpb3MsIEFyY2hpdmUsIEFkd2VlaywgYW5kIHRoZSBOZXcgWW9yayBUaW1lcy4gJm5ic3A7TXkgZm9jdXMgaXMgb24gPHNwYW4gY2xhc3NOYW1lPVwiYmctZ3JlZW44XCI+Jm5ic3A7VVggZGVzaWduJm5ic3A7PC9zcGFuPiAsIDxzcGFuIGNsYXNzTmFtZT1cImJnLXRlYWw4XCI+Jm5ic3A7Q1NTMyZuYnNwOzwvc3Bhbj4gLCA8c3BhbiBjbGFzc05hbWU9XCJiZy1jeWFuOFwiPiZuYnNwO0phdmFTY3JpcHQgRVM2ICsgUmVhY3QmbmJzcDs8L3NwYW4+IGFuZCA8c3BhbiBjbGFzc05hbWU9XCJiZy1ibHVlNlwiPiZuYnNwO2NvZGVkXG4gICAgICAgIGFuaW1hdGlvbiZuYnNwOzwvc3Bhbj4uXG4gICAgICA8L3A+XG4gICAgPC9kaXY+XG5cbiAgPHN0eWxlIGpzeD57YFxuICAgIC5pY29ue1xuICAgICAgd2lkdGg6MjBweDtcbiAgICAgIGhlaWdodDogMjBweDtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICB9XG4gICAgLy8ucGFyYWdyYXBoe1xuICAgIC8vICBmb250LXdlaWdodDozMDA7XG4gICAgLy99XG4gIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBXZWxjb21lQmlvO1xuIl19 */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/WelcomeBio/WelcomeBio.js */",
+    css: ".icon.jsx-2609408294{width:20px;height:20px;border-radius:3px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNENjLEFBRWMsV0FDQyxZQUNNLGtCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG4vLyBpbXBvcnQgc3R5bGVzIGZyb20gXCIuL1dlbGNvbWVCaW8uY3NzXCI7XG5cbi8vIGNvbnN0IFBhcmFncmFwaCA9IHN0eWxlZC5wYFxuLy8gICBmb250LXdlaWdodDozMDA7XG4vLyBgXG5cbmNvbnN0IFdlbGNvbWVCaW8gPSAoKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwiXCI+XG5cbiAgICA8ZGl2IGlkPVwidG9wU2VjdGlvblwiIGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2x1bW4gY2VudGVyIHdoaXRlIG10NiBtYjVcIj5cbiAgICAgIDxpbWdcbiAgICAgICAgaWQ9XCJwcm9maWxlLXBpY1wiXG4gICAgICAgIGNsYXNzTmFtZT1cImdyb3cyIGNlbnRlciBtYjNcIlxuICAgICAgICBzcmM9XCIuLi8uLi9zdGF0aWMvaWNvbnMvcHJvZmlsZS1waWMuanBnXCJcbiAgICAgICAgYWx0PSdhbHQnXG4gICAgICAvPlxuICAgICAgPHAgY2xhc3NOYW1lPVwiZjJjIHRjXCI+QWFyb24gQWRsZXI8L3A+XG5cblxuICAgICAgey8qIFNPQ0lBTCBJQ09OUyBVTkRFUiBOQU1FICovfVxuICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1jZW50ZXIgbWI0Jz5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9kcmliYmJsZS5jb20vYWFybmFkbHJcIj48aW1nIGFsdD0nZHJpYmJiJyBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9BQS1kcmliYmJsZS1pY29uLnBuZycgLz48L2E+XG4gICAgICAgIDxhIHRhcmdldD0nX2JsYW5rJyByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCIgaHJlZj1cImh0dHBzOi8vd3d3LnRvcHRhbC5jb20vZGVzaWduZXJzL3Jlc3VtZS9hYXJvbi1hZGxlclwiPjxpbWcgYWx0PSd0b3B0YWwnIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy90b3B0YWwuZ2lmJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2Fhcm5hZGxyXCI+PGltZyBhbHQ9J2dpdGh1YicgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL2dpdGh1Yi5naWYnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vYWFyb25hZGxlci9cIj48aW1nIGFsdD0nbGlua2VkaW4nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9saW5rZWRpbi5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL2NvZGVwZW4uaW8vYWFyb25hZGxlci9cIj48aW1nIGFsdD0nY29kZXBlbicgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL2NvZGVwZW4ucG5nJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9tZWRpdW0uY29tL0BhYXJvbmFkbGVyXCI+PGltZyBhbHQ9J21lZGl1bScgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL21lZGl1bS5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5wcm9kdWN0aHVudC5jb20vQGFhcm5hZGxyXCI+PGltZyBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yIG1sMycgc3JjPScuLi8uLi9zdGF0aWMvaWNvbnMvcHJvZGh1bnQucG5nJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly93b3JraW5nbm90d29ya2luZy5jb20vYWFyblwiPjxpbWcgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL3dudy5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3R3aXR0ZXIuY29tL2Fhcm9uYWRsZXJcIj48aW1nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy90d2l0dGVyLnBuZycgLz48L2E+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHAgY2xhc3NOYW1lPVwicGFyYWdyYXBoIGY1IGxoLWNvcHk0YiBtaDNcIj5cbiAgICAgICAgSGkgdGhlcmUuICZuYnNwO0knbSBhJm5ic3A7XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7VUkgRW5naW5lZXImbmJzcDs8L3NwYW4+Jm5ic3A7YW5kIDxzcGFuIGNsYXNzTmFtZT1cImJnLWN5YW44XCI+Jm5ic3A7RnJvbnQtZW5kIERldmVsb3BlciZuYnNwOzwvc3Bhbj4mbmJzcDtpbiBOWUMuJm5ic3A7XG4gICAgICAgIEnigJl2ZSB3b3JrZWQgb24gcHJvamVjdHMgZm9yIEZhY2Vib29rLCBHb29nbGUsIElCTSwgUi9HQSwgRHJvZ2E1IGFuZFxuICAgICAgICBvdGhlcnMuICZuYnNwO015IHdvcmsgaGFzIGJlZW4gcmVjb2duaXplZCBieSBDYW5uZXMsIEFJQ1AsIHRoZSBBcnQgRGlyZWN0b3JzXG4gICAgICAgIENsdWIsIENsaW9zLCBBcmNoaXZlLCBBZHdlZWssIGFuZCB0aGUgTmV3IFlvcmsgVGltZXMuICZuYnNwO015IGZvY3VzIGlzIG9uIDxzcGFuIGNsYXNzTmFtZT1cImJnLWdyZWVuOFwiPiZuYnNwO0phdmFTY3JpcHQgRVM2ICsgUmVhY3QmbmJzcDs8L3NwYW4+ICwgPHNwYW4gY2xhc3NOYW1lPVwiYmctdGVhbDhcIj4mbmJzcDtDU1MzJm5ic3A7PC9zcGFuPiAsXG4gICAgICAgIFxuICAgICAgICAgYW5kIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7SVggLyBjb2RlZCBhbmltYXRpb24mbmJzcDs8L3NwYW4+LlxuICAgICAgPC9wPlxuICAgIDwvZGl2PlxuXG4gIDxzdHlsZSBqc3g+e2BcbiAgICAuaWNvbntcbiAgICAgIHdpZHRoOjIwcHg7XG4gICAgICBoZWlnaHQ6IDIwcHg7XG4gICAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgfVxuICAgIC8vLnBhcmFncmFwaHtcbiAgICAvLyAgZm9udC13ZWlnaHQ6MzAwO1xuICAgIC8vfVxuICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgV2VsY29tZUJpbztcbiJdfQ== */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/WelcomeBio/WelcomeBio.js */",
     __self: this
   }));
 };
@@ -2085,30 +2071,17 @@ var _jsxFileName = "/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/pages/i
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-// import kith from './images/kith-rect3.jpg';
-// import ibm from '../static/thumbs2018/IBM-rect.jpg';
-// import arthritis from './images/thumbs2018/arthritis-rect.jpg';
-// import motet from './images/thumbs2018/motet3b.jpg';
-// import verbal from './images/thumbs2018/verbal4.jpg';
-// import patagonia from './images/thumbs2018/patagonia-ww3.gif';
-// import googlePlay from './images/thumbs2018/google-play-17-rect.jpg';
-// import daftpunk from './images/thumbs2018/daftpunk-320.gif';
-// import cottonBur from './images/thumbs2018/cotton-bur-rect.gif';
-// // import moic from './images/thumbs2018/moic3.gif';
-// import youtubeZero from './images/thumbs2018/youtubezero3-rect.gif';
-// import bpCover from './images/Blockparty-800x400-3.jpg';
-// import wfCover from '../src/images/wellsfargo/wfLock2.jpg'
 var projects = [{
   key: 1,
   // image: './images/thumbs2018/IBM-rect.jpg',
   image: '../static/thumbs2018/IBM-rect.jpg',
   // image: require('./images/ibm.png'),
   title: 'IBM Partners',
-  desc: "Wireframing, UX design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
+  desc: "UX and JavaScript development for IBM Partners, IBM's business services portal. Click to view the project.",
   // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
   role1: "Developed wireframes and UX designs using Sketch and AdobeCC",
   role2: "Delivered front-end JavaScript code to IBM engineering",
-  role3: "Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
+  role3: "Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, and column layouts",
   // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
   // techstack: ""
   // TAGS:
@@ -2124,8 +2097,9 @@ var projects = [{
   key: 2,
   image: '../static/kith-rect3.jpg',
   title: 'Kith Footwear',
-  desc: 'Ecommerce store prototype. Built with React, Webpack, styled-components, CSS grid, tachyons, and more. Click to view the project.',
-  role: "Built each piece of UI as a React component. Each product card is rendered from a mapped array, and inserted into a responsive CSS Grid.  All product data is passed from parent to child component via props. Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.",
+  desc: 'Ecommerce store prototype. Built with React, Styled-components, CSS Grid, Tachyons, and more. Click to view the project.',
+  role1: "Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.",
+  role2: "Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.",
   // TAGS:
   tag1: 'HTML5',
   tag2: 'CSS Grid',
@@ -2136,28 +2110,28 @@ var projects = [{
   // HREF LINK
   link: "http://kith-store.aaronadler.com"
 }, {
-  key: '26',
-  image: '../static/wellsfargo/wfLock2.jpg',
-  title: 'Wells Fargo UX',
-  desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
-  role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
-  role2: "Built a family of button styles and their default, hover, active, and disabled states.",
-  role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
+  key: 5,
+  image: '../static/thumbs2018/youtubezero3-rect.gif',
+  title: 'YouTube Zero',
+  desc: 'React application providing a zero-click YouTube search interface. Click to view.',
+  role1: 'Fetches data in realtime from YouTube DataAPI v3. ',
+  role2: 'Designed using Styled-components and Tachyons.',
   // TAGS:
-  tag1: 'Sketch',
-  tag2: 'Illustrator',
-  tag3: 'Photoshop',
-  tag4: 'SVG',
-  year: 2018,
+  tag1: 'React',
+  tag2: 'CSS3',
+  tag3: 'JavaScript',
+  tag4: 'YouTube API',
+  year: 2017,
   // HREF LINK
-  link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
+  // link: "https://youtubezero.herokuapp.com/"
+  link: "https://youtubezero.now.sh/"
 }, {
   key: 30,
   // image: './images/thumbs2018/IBM-rect.jpg',
   // image: '../static/thumbs2018/IBM-rect.jpg',
   // image: require('./images/ibm.png'),
   title: 'IBM Partners - Motion Identity',
-  desc: "Coded brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
+  desc: "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
   // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
   // role1:"Developed wireframes and UX designs using Sketch and AdobeCC",
   // role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
@@ -2173,35 +2147,6 @@ var projects = [{
   // HREF LINK
   // link: "./ibm.html"
   link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
-}, {
-  key: '2B',
-  image: '../static/thumbs2018/motet3b.jpg',
-  title: 'Motet - Music App UX',
-  desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
-  role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
-  // TAGS:
-  tag1: 'Sketch',
-  tag2: 'Illustrator',
-  tag3: 'Photoshop',
-  tag4: 'SVG',
-  year: 2017,
-  // HREF LINK
-  link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
-}, {
-  key: 5,
-  image: '../static/thumbs2018/youtubezero3-rect.gif',
-  title: 'YouTube Zero',
-  desc: 'React application providing a zero-click YouTube search interface. Fetches data in realtime from YouTube DataAPI v3. Click to view.',
-  role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
-  // TAGS:
-  tag1: 'React',
-  tag2: 'CSS3',
-  tag3: 'JavaScript',
-  tag4: 'YouTube API',
-  year: 2017,
-  // HREF LINK
-  // link: "https://youtubezero.herokuapp.com/"
-  link: "https://youtubezero.now.sh/"
 }, {
   key: 3,
   image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
@@ -2220,6 +2165,36 @@ var projects = [{
   // HREF LINK
   // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
   link: "https://tradewindmarkets.com"
+}, {
+  key: '2B',
+  image: '../static/thumbs2018/motet3b.jpg',
+  title: 'Motet - Music App UX',
+  desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
+  role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
+  // TAGS:
+  tag1: 'Sketch',
+  tag2: 'Illustrator',
+  tag3: 'Photoshop',
+  tag4: 'SVG',
+  year: 2017,
+  // HREF LINK
+  link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
+}, {
+  key: '26',
+  image: '../static/wellsfargo/wfLock2.jpg',
+  title: 'Wells Fargo UX',
+  desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
+  role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
+  role2: "Built a family of button styles and their default, hover, active, and disabled states.",
+  role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
+  // TAGS:
+  tag1: 'Sketch',
+  tag2: 'Illustrator',
+  tag3: 'Photoshop',
+  tag4: 'SVG',
+  year: 2018,
+  // HREF LINK
+  link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
 }, // vvv BLOCKPARTY
 // vvv BLOCKPARTY
 // vvv BLOCKPARTY
@@ -2358,20 +2333,6 @@ var projects = [{
   year: 2017,
   // HREF LINK
   link: "https://www.facebook.com/160758384681784/videos/162009941223295/"
-}, {
-  key: 12,
-  image: '../static/thumbs2018/arthritis-rect.jpg',
-  title: 'Arthritis Foundation',
-  desc: 'Graphic to promote awareness for the Arthritis Foundation. Click to view.',
-  role: "Concept creation and graphic design",
-  // TAGS:
-  tag1: 'Sketch',
-  tag2: 'Illustrator',
-  tag3: 'SVG',
-  tag4: 'Photoshop',
-  year: 2011,
-  // HREF LINK
-  link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (projects);
 
