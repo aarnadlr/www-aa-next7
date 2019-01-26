@@ -93,6 +93,251 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./Components/Card.js":
+/*!****************************!*\
+  !*** ./Components/Card.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Card; });
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _CodeWindow__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CodeWindow */ "./Components/CodeWindow/index.js");
+var _jsxFileName = "/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/Card.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var uuidv1 = __webpack_require__(/*! uuid/v1 */ "uuid/v1");
+
+
+
+var Card =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Card, _Component);
+
+  function Card() {
+    _classCallCheck(this, Card);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Card).apply(this, arguments));
+  }
+
+  _createClass(Card, [{
+    key: "render",
+    value: function render() {
+      var project = this.props.project;
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2930508700" + " " + 'card',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2930508700" + " " + "br2 ma2 bg-white",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        target: "_blank",
+        href: project.link,
+        className: "jsx-2930508700",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, project.image ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        src: project.image,
+        alt: "alt",
+        className: "jsx-2930508700" + " " + ((project.gif ? "gifStyle" : "image") || ""),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_CodeWindow__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-2930508700" + " " + "textContainer pa4b lh-copy3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        id: "title",
+        className: "jsx-2930508700" + " " + "f3c mt1 mb0 fw6 lh-title",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, project.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        id: "desc",
+        className: "jsx-2930508700" + " " + "f6b blue7  mt3 mb4 space",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, project.desc), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        id: "",
+        className: "jsx-2930508700" + " " + "projectRole f6 mt1 blue7 mb2 fw6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, "My project role :"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+        style: {
+          listStyleType: 'circle'
+        },
+        className: "jsx-2930508700" + " " + 'f6b blue7',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: "jsx-2930508700" + " " + 'mt3',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, project.role1 ? project.role1 : project.role), project.role2 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: "jsx-2930508700" + " " + 'mt3',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, project.role2) : null, project.role3 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: "jsx-2930508700" + " " + 'mt3',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, project.role3) : null, project.role4 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: "jsx-2930508700" + " " + 'mt3',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, project.role4) : null, project.role5 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: "jsx-2930508700" + " " + 'mt3',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }, project.role5) : null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        id: "",
+        className: "jsx-2930508700" + " " + "f6 mt4 mb0 blue7 fw6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69
+        },
+        __self: this
+      }, "Project stack:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        first: "",
+        className: "jsx-2930508700" + " " + "mt0 tag bg-blue5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73
+        },
+        __self: this
+      }, project.tag1), project.tag2 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2930508700" + " " + "mt0 tag bg-blue6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
+        },
+        __self: this
+      }, project.tag2) : null, project.tag3 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2930508700" + " " + "mt0 tag bg-indigo7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
+        },
+        __self: this
+      }, project.tag3) : null, project.tag4 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2930508700" + " " + "mt0 tag bg-violet7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        },
+        __self: this
+      }, project.tag4) : null, project.tag5 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-2930508700" + " " + "mt0 tag bg-violet7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88
+        },
+        __self: this
+      }, project.tag5) : null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        id: "",
+        className: "jsx-2930508700" + " " + "completed dib f7 blue7 ph3 pv2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, "Completed: \xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+        className: "jsx-2930508700" + " " + "fw7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, project.year))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+        styleId: "2930508700",
+        css: ".card.jsx-2930508700{width:430px;-webkit-transition:all .3s ease;transition:all .3s ease;}.card.jsx-2930508700:hover{-webkit-transform:translateY(-10px);-ms-transform:translateY(-10px);transform:translateY(-10px);}.completed.jsx-2930508700{border:1px solid blue;margin-top:2.7rem;}.image.jsx-2930508700{border-top-right-radius:4px;border-top-left-radius:4px;}.gifStyle.jsx-2930508700{width:100%;border-top-right-radius:4px;border-top-left-radius:4px;}.tag.jsx-2930508700{color:white;display:inline-block;padding:4px 12px;border-radius:6px;font-size:10px;margin-top:10px;}p.tag.jsx-2930508700:not([first]){margin-left:6px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9DYXJkLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNHZ0IsQUFFZSxBQUtrQixBQUdSLEFBSU0sQUFJakIsQUFNQyxBQVFJLFdBYlksQ0FoQkosQUFzQkgsSUFPSixNQXJCQyxNQUlTLEtBV1YsTUFOVSxDQVRSLFVBZ0JELEtBWlUsV0FLQSxFQWZjLEFBdUIzQixlQUNDLGFBdEJlLEdBc0JkIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9DYXJkLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0J1xuY29uc3QgdXVpZHYxID0gcmVxdWlyZShcInV1aWQvdjFcIik7XG5pbXBvcnQgQ29kZVdpbmRvdyBmcm9tIFwiLi9Db2RlV2luZG93XCI7XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIENhcmQgZXh0ZW5kcyBDb21wb25lbnQge1xuICByZW5kZXIoKSB7XG4gICAgXG4gICAgY29uc3Qge3Byb2plY3R9ID0gdGhpcy5wcm9wcztcblxuICAgIHJldHVybiAoXG4gICAgICBcbiAgICAgIDxkaXYgY2xhc3NOYW1lPSdjYXJkJyA+XG4gICAgICB7LyogPFRpbHRcbiAgICAgICAgY2xhc3NOYW1lPVwiVGlsdFwiXG4gICAgICAgIG9wdGlvbnM9e3sgcmV2ZXJzZTogdHJ1ZSwgbWF4OiAxMiwgc2NhbGU6IDEuMDMsIHNwZWVkOiA5MDAgfX1cbiAgICAgID4gKi99XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJicjIgbWEyIGJnLXdoaXRlXCI+XG4gICAgICAgICAgICB7LyogPGEgdGFyZ2V0PVwiX2JsYW5rXCIgaHJlZj17cHJvamVjdC5saW5rP3Byb2plY3QubGluazpudWxsfT4gKi99XG4gICAgICAgICAgICA8YSB0YXJnZXQ9XCJfYmxhbmtcIiBocmVmPXtwcm9qZWN0Lmxpbmt9PlxuXG5cblxuICAgICAgICAgICAgICB7LyogSWYgdGhlIHByb2plY3Qgb2JqZWN0IGhhcyBhbiBpbWFnZSBrZXksIGRpc3BsYXkgaW1nIHRhZy4gT3RoZXJ3aXNlLCBzaG93IGEgZGl2IGZvciBKUyBjb2RlLiAqL31cbiAgICAgICAgICAgICAge3Byb2plY3QuaW1hZ2VcbiAgICAgICAgICAgICAgICA/XG4gICAgICAgICAgICAgICAgPGltZyAgc3JjPXtwcm9qZWN0LmltYWdlfSBhbHQ9XCJhbHRcIiBjbGFzc05hbWU9e3Byb2plY3QuZ2lmP1wiZ2lmU3R5bGVcIjpcImltYWdlXCJ9IC8+XG4gICAgICAgICAgICAgICAgOlxuICAgICAgICAgICAgICAgIDxDb2RlV2luZG93Lz5cbiAgICAgICAgICAgICAgfVxuXG5cblxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHRDb250YWluZXIgcGE0YiBsaC1jb3B5M1wiPlxuICAgICAgICAgICAgICAgIDxwIGlkPVwidGl0bGVcIiBjbGFzc05hbWU9XCJmM2MgbXQxIG1iMCBmdzYgbGgtdGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LnRpdGxlfVxuICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgICA8cCBpZD1cImRlc2NcIiBjbGFzc05hbWU9XCJmNmIgYmx1ZTcgIG10MyBtYjQgc3BhY2VcIj5cbiAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LmRlc2N9XG4gICAgICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICAgICAgPHAgaWQ9XCJcIiBjbGFzc05hbWU9XCJwcm9qZWN0Um9sZSBmNiBtdDEgYmx1ZTcgbWIyIGZ3NlwiPlxuICAgICAgICAgICAgICAgICAgTXkgcHJvamVjdCByb2xlIDpcbiAgICAgICAgICAgICAgICA8L3A+XG5cbiAgICAgICAgICAgICAgICA8dWwgc3R5bGU9e3tsaXN0U3R5bGVUeXBlOidjaXJjbGUnfX0gY2xhc3NOYW1lPSdmNmIgYmx1ZTcnPlxuXG5cbiAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9J210Myc+e3Byb2plY3Qucm9sZTE/cHJvamVjdC5yb2xlMTpwcm9qZWN0LnJvbGV9PC9saT5cblxuICAgICAgICAgICAgICAgICAge3Byb2plY3Qucm9sZTI/XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGUyfTwvbGk+XG4gICAgICAgICAgICAgICAgICA6bnVsbH1cblxuICAgICAgICAgICAgICAgICAge3Byb2plY3Qucm9sZTM/XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGUzfTwvbGk+XG4gICAgICAgICAgICAgICAgICA6bnVsbH1cblxuICAgICAgICAgICAgICAgICAge3Byb2plY3Qucm9sZTQ/XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGU0fTwvbGk+XG4gICAgICAgICAgICAgICAgICA6bnVsbH1cbiAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAge3Byb2plY3Qucm9sZTU/XG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGU1fTwvbGk+XG4gICAgICAgICAgICAgICAgICA6bnVsbH1cblxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPC91bD5cblxuICAgICAgICAgICAgICAgIDxwIGlkPVwiXCIgY2xhc3NOYW1lPVwiZjYgbXQ0IG1iMCBibHVlNyBmdzZcIj5cbiAgICAgICAgICAgICAgICAgIFByb2plY3Qgc3RhY2s6XG4gICAgICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICAgICAgPHAgZmlyc3Q9XCJcIiBjbGFzc05hbWU9XCJtdDAgdGFnIGJnLWJsdWU1XCI+e3Byb2plY3QudGFnMX08L3A+XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAge3Byb2plY3QudGFnMj9cbiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJtdDAgdGFnIGJnLWJsdWU2XCI+e3Byb2plY3QudGFnMn08L3A+XG4gICAgICAgICAgICAgICAgOm51bGx9XG5cbiAgICAgICAgICAgICAgICB7cHJvamVjdC50YWczP1xuICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cIm10MCB0YWcgYmctaW5kaWdvN1wiPntwcm9qZWN0LnRhZzN9PC9wPlxuICAgICAgICAgICAgICAgIDpudWxsfVxuXG4gICAgICAgICAgICAgICAge3Byb2plY3QudGFnND9cbiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJtdDAgdGFnIGJnLXZpb2xldDdcIj57cHJvamVjdC50YWc0fTwvcD5cbiAgICAgICAgICAgICAgICA6bnVsbH1cblxuICAgICAgICAgICAgICAgIHtwcm9qZWN0LnRhZzU/XG4gICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwibXQwIHRhZyBiZy12aW9sZXQ3XCI+e3Byb2plY3QudGFnNX08L3A+XG4gICAgICAgICAgICAgICAgOm51bGx9XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPHAgaWQ9XCJcIiBjbGFzc05hbWU9XCJjb21wbGV0ZWQgZGliIGY3IGJsdWU3IHBoMyBwdjJcIj5cbiAgICAgICAgICAgICAgICAgIENvbXBsZXRlZDogJm5ic3A7PHNwYW4gY2xhc3NOYW1lPVwiZnc3XCI+e3Byb2plY3QueWVhcn08L3NwYW4+XG4gICAgICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9hPlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICB7LyogPC9UaWx0PiAqL31cblxuXG5cbiAgICA8c3R5bGUganN4PntgXG5cbiAgICAuY2FyZHtcbiAgICAgIHdpZHRoOiA0MzBweDtcbiAgICAgIHRyYW5zaXRpb246IGFsbCAuM3MgZWFzZTtcbiAgICAgIC8qIC1tb3otdHJhbnNpdGlvbjogc2NhbGUgLjNzIGVhc2U7ICovXG4gICAgICAvKiAtd2Via2l0LXRyYW5zaXRpb246IHNjYWxlIC4zcyBlYXNlOyAqL1xuICAgICAgJjpob3ZlcntcbiAgICAgICAgdHJhbnNmb3JtOnRyYW5zbGF0ZVkoLTEwcHgpO1xuICAgICAgfVxuICAgIH1cblxuXG4gICAgLmNvbXBsZXRlZHtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIGJsdWU7XG4gICAgICBtYXJnaW4tdG9wOiAyLjdyZW07XG4gICAgfVxuXG4gICAgLmltYWdle1xuICAgICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDRweDtcbiAgICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDRweDtcbiAgICB9ICAgICBcbiAgICAuZ2lmU3R5bGV7XG4gICAgICB3aWR0aDoxMDAlO1xuICAgICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDRweDtcbiAgICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDRweDtcbiAgICB9XG4gICAgLnRhZ3tcbiAgICAgIC8qIGJhY2tncm91bmQ6IGJsdWU7ICovXG4gICAgICBjb2xvcjogd2hpdGU7XG4gICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICBwYWRkaW5nOiA0cHggMTJweDtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGZvbnQtc2l6ZTogMTBweDtcbiAgICAgIG1hcmdpbi10b3A6MTBweDtcbiAgICB9XG5cblxuXG4gICAgcC50YWc6bm90KFtmaXJzdF0pe1xuICAgICAgbWFyZ2luLWxlZnQ6IDZweDtcbiAgICB9XG5cbiAgICBwLnByb2plY3RSb2xle1xuICAgICAgLyogbGluZS1oZWlnaHQ6IDEuMzsgKi9cbiAgICB9XG5cbiAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICAgKVxuICB9XG59XG4iXX0= */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/Card.js */",
+        __self: this
+      }));
+    }
+  }]);
+
+  return Card;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
+
+
+
+/***/ }),
+
 /***/ "./Components/Cards/Cards.js":
 /*!***********************************!*\
   !*** ./Components/Cards/Cards.js ***!
@@ -102,234 +347,39 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _src_projects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/projects */ "./src/projects.js");
-/* harmony import */ var _CodeWindow_js_CodeWindow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../CodeWindow.js/CodeWindow */ "./Components/CodeWindow.js/CodeWindow.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _src_projects__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/projects */ "./src/projects.js");
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Card */ "./Components/Card.js");
 var _jsxFileName = "/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/Cards/Cards.js";
-
  // import Tilt from "react-tilt";
 
+
+
+var uuidv1 = __webpack_require__(/*! uuid/v1 */ "uuid/v1");
 
  // import './Cards.css';
 // import '../../src/css/entry.css';
 
-var uuidv1 = __webpack_require__(/*! uuid/v1 */ "uuid/v1"); // const Container = styled.div`
-//   /* transform: scale(1); */
-// `
-// const Div = styled.div`
-//   width: 430px;
-//   transition: all .3s ease;
-//   /* -moz-transition: scale .3s ease; */
-//   /* -webkit-transition: scale .3s ease; */
-//   &:hover{
-//     transform:translateY(-10px);
-//   }
-// `;
-// const Div2 = styled.div`
-//   /* flex: 1; */
-// `;
-// const Completed = styled.p`
-//   border: 1px solid blue;
-//   margin-top: 2.7rem;
-// `;
-// const Img = styled.img`
-//   border-top-right-radius: 4px;
-//   border-top-left-radius: 4px;
-// `
-// --------- END STYLED-COMPONENTS ---------
-
-
 var Cards = function Cards() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4117071207" + " " + "flex flex-wrap justify-center",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex flex-wrap justify-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 15
     },
     __self: this
-  }, _src_projects__WEBPACK_IMPORTED_MODULE_2__["default"].map(function (project) {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, _src_projects__WEBPACK_IMPORTED_MODULE_1__["default"].map(function (project) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
       key: uuidv1(),
-      className: "jsx-4117071207" + " " + 'card',
+      project: project,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 19
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "jsx-4117071207" + " " + "br2 ma2 bg-white",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      target: "_blank",
-      href: project.link,
-      className: "jsx-4117071207",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56
-      },
-      __self: this
-    }, project.image ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: project.image,
-      alt: "alt",
-      className: "jsx-4117071207" + " " + ((project.gif ? "gifStyle" : "image") || ""),
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63
-      },
-      __self: this
-    }) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_CodeWindow_js_CodeWindow__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 65
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "jsx-4117071207" + " " + "textContainer pa4b lh-copy3",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 70
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      id: "title",
-      className: "jsx-4117071207" + " " + "f3c mt1 mb0 fw6 lh-title",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 71
-      },
-      __self: this
-    }, project.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      id: "desc",
-      className: "jsx-4117071207" + " " + "f6b blue7  mt3 mb4 space",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 74
-      },
-      __self: this
-    }, project.desc), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      id: "",
-      className: "jsx-4117071207" + " " + "projectRole f6 mt1 blue7 mb2 fw6",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 78
-      },
-      __self: this
-    }, "My project role :"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-      style: {
-        listStyleType: 'circle'
-      },
-      className: "jsx-4117071207" + " " + 'f6b blue7',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 82
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-      className: "jsx-4117071207" + " " + 'mt3',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 85
-      },
-      __self: this
-    }, project.role1 ? project.role1 : project.role), project.role2 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-      className: "jsx-4117071207" + " " + 'mt3',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 88
-      },
-      __self: this
-    }, project.role2) : null, project.role3 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-      className: "jsx-4117071207" + " " + 'mt3',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 92
-      },
-      __self: this
-    }, project.role3) : null, project.role4 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-      className: "jsx-4117071207" + " " + 'mt3',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 96
-      },
-      __self: this
-    }, project.role4) : null, project.role5 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-      className: "jsx-4117071207" + " " + 'mt3',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 100
-      },
-      __self: this
-    }, project.role5) : null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      id: "",
-      className: "jsx-4117071207" + " " + "f6 mt4 mb0 blue7 fw6",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 106
-      },
-      __self: this
-    }, "Project stack:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      first: "",
-      className: "jsx-4117071207" + " " + "mt0 tag bg-blue5",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 110
-      },
-      __self: this
-    }, project.tag1), project.tag2 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      className: "jsx-4117071207" + " " + "mt0 tag bg-blue6",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 113
-      },
-      __self: this
-    }, project.tag2) : null, project.tag3 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      className: "jsx-4117071207" + " " + "mt0 tag bg-indigo7",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 117
-      },
-      __self: this
-    }, project.tag3) : null, project.tag4 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      className: "jsx-4117071207" + " " + "mt0 tag bg-violet7",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 121
-      },
-      __self: this
-    }, project.tag4) : null, project.tag5 ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      className: "jsx-4117071207" + " " + "mt0 tag bg-violet7",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 125
-      },
-      __self: this
-    }, project.tag5) : null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      id: "",
-      className: "jsx-4117071207" + " " + "completed dib f7 blue7 ph3 pv2",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 128
-      },
-      __self: this
-    }, "Completed: \xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-      className: "jsx-4117071207" + " " + "fw7",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 129
-      },
-      __self: this
-    }, project.year))))));
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "4117071207",
-    css: ".card.jsx-4117071207{width:430px;-webkit-transition:all .3s ease;transition:all .3s ease;}.card.jsx-4117071207:hover{-webkit-transform:translateY(-10px);-ms-transform:translateY(-10px);transform:translateY(-10px);}.completed.jsx-4117071207{border:1px solid blue;margin-top:2.7rem;}.image.jsx-4117071207{border-top-right-radius:4px;border-top-left-radius:4px;}.gifStyle.jsx-4117071207{width:100%;border-top-right-radius:4px;border-top-left-radius:4px;}.tag.jsx-4117071207{color:white;display:inline-block;padding:4px 12px;border-radius:6px;font-size:10px;margin-top:10px;}p.tag.jsx-4117071207:not([first]){margin-left:6px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9DYXJkcy9DYXJkcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2SVksQUFFZSxBQUtrQixBQUdSLEFBSU0sQUFJakIsQUFNQyxBQVFJLFdBYlksQ0FoQkosQUFzQkgsSUFPSixNQXJCQyxNQUlTLEtBV1YsTUFOVSxDQVRSLFVBZ0JELEtBWlUsV0FLQSxFQWZjLEFBdUIzQixlQUNDLGFBdEJlLEdBc0JkIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9DYXJkcy9DYXJkcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbi8vIGltcG9ydCBUaWx0IGZyb20gXCJyZWFjdC10aWx0XCI7XG5pbXBvcnQgcHJvamVjdHMgZnJvbSBcIi4uLy4uL3NyYy9wcm9qZWN0c1wiO1xuaW1wb3J0IENvZGVXaW5kb3cgZnJvbSBcIi4uL0NvZGVXaW5kb3cuanMvQ29kZVdpbmRvd1wiO1xuLy8gaW1wb3J0ICcuL0NhcmRzLmNzcyc7XG4vLyBpbXBvcnQgJy4uLy4uL3NyYy9jc3MvZW50cnkuY3NzJztcbmNvbnN0IHV1aWR2MSA9IHJlcXVpcmUoXCJ1dWlkL3YxXCIpO1xuXG4vLyBjb25zdCBDb250YWluZXIgPSBzdHlsZWQuZGl2YFxuLy8gICAvKiB0cmFuc2Zvcm06IHNjYWxlKDEpOyAqL1xuXG4vLyBgXG4vLyBjb25zdCBEaXYgPSBzdHlsZWQuZGl2YFxuLy8gICB3aWR0aDogNDMwcHg7XG4vLyAgIHRyYW5zaXRpb246IGFsbCAuM3MgZWFzZTtcbi8vICAgLyogLW1vei10cmFuc2l0aW9uOiBzY2FsZSAuM3MgZWFzZTsgKi9cbi8vICAgLyogLXdlYmtpdC10cmFuc2l0aW9uOiBzY2FsZSAuM3MgZWFzZTsgKi9cbi8vICAgJjpob3Zlcntcbi8vICAgICB0cmFuc2Zvcm06dHJhbnNsYXRlWSgtMTBweCk7XG4vLyAgIH1cbi8vIGA7XG5cbi8vIGNvbnN0IERpdjIgPSBzdHlsZWQuZGl2YFxuLy8gICAvKiBmbGV4OiAxOyAqL1xuLy8gYDtcblxuLy8gY29uc3QgQ29tcGxldGVkID0gc3R5bGVkLnBgXG4vLyAgIGJvcmRlcjogMXB4IHNvbGlkIGJsdWU7XG4vLyAgIG1hcmdpbi10b3A6IDIuN3JlbTtcblxuLy8gYDtcblxuXG4vLyBjb25zdCBJbWcgPSBzdHlsZWQuaW1nYFxuLy8gICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogNHB4O1xuLy8gICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiA0cHg7XG4vLyBgXG4vLyAtLS0tLS0tLS0gRU5EIFNUWUxFRC1DT01QT05FTlRTIC0tLS0tLS0tLVxuXG5jb25zdCBDYXJkcyA9ICgpID0+IHtcbiAgcmV0dXJuIChcblxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggZmxleC13cmFwIGp1c3RpZnktY2VudGVyXCI+XG4gICAgICAgIHtwcm9qZWN0cy5tYXAoZnVuY3Rpb24ocHJvamVjdCkge1xuICAgICAgICAgIHJldHVybiAoXG5cblxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2NhcmQnIGtleT17dXVpZHYxKCl9PlxuICAgICAgICAgICAgICB7LyogPFRpbHRcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJUaWx0XCJcbiAgICAgICAgICAgICAgICBvcHRpb25zPXt7IHJldmVyc2U6IHRydWUsIG1heDogMTIsIHNjYWxlOiAxLjAzLCBzcGVlZDogOTAwIH19XG4gICAgICAgICAgICAgID4gKi99XG4gICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJyMiBtYTIgYmctd2hpdGVcIj5cbiAgICAgICAgICAgICAgICAgICAgey8qIDxhIHRhcmdldD1cIl9ibGFua1wiIGhyZWY9e3Byb2plY3QubGluaz9wcm9qZWN0Lmxpbms6bnVsbH0+ICovfVxuICAgICAgICAgICAgICAgICAgICA8YSB0YXJnZXQ9XCJfYmxhbmtcIiBocmVmPXtwcm9qZWN0Lmxpbmt9PlxuXG5cblxuICAgICAgICAgICAgICAgICAgICAgIHsvKiBJZiB0aGUgcHJvamVjdCBvYmplY3QgaGFzIGFuIGltYWdlIGtleSwgZGlzcGxheSBpbWcgdGFnLiBPdGhlcndpc2UsIHNob3cgYSBkaXYgZm9yIEpTIGNvZGUuICovfVxuICAgICAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LmltYWdlXG4gICAgICAgICAgICAgICAgICAgICAgICA/XG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nICBzcmM9e3Byb2plY3QuaW1hZ2V9IGFsdD1cImFsdFwiIGNsYXNzTmFtZT17cHJvamVjdC5naWY/XCJnaWZTdHlsZVwiOlwiaW1hZ2VcIn0gLz5cbiAgICAgICAgICAgICAgICAgICAgICAgIDpcbiAgICAgICAgICAgICAgICAgICAgICAgIDxDb2RlV2luZG93Lz5cbiAgICAgICAgICAgICAgICAgICAgICB9XG5cblxuXG4gICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0Q29udGFpbmVyIHBhNGIgbGgtY29weTNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGlkPVwidGl0bGVcIiBjbGFzc05hbWU9XCJmM2MgbXQxIG1iMCBmdzYgbGgtdGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAge3Byb2plY3QudGl0bGV9XG4gICAgICAgICAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8cCBpZD1cImRlc2NcIiBjbGFzc05hbWU9XCJmNmIgYmx1ZTcgIG10MyBtYjQgc3BhY2VcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAge3Byb2plY3QuZGVzY31cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cblxuICAgICAgICAgICAgICAgICAgICAgICAgPHAgaWQ9XCJcIiBjbGFzc05hbWU9XCJwcm9qZWN0Um9sZSBmNiBtdDEgYmx1ZTcgbWIyIGZ3NlwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICBNeSBwcm9qZWN0IHJvbGUgOlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8dWwgc3R5bGU9e3tsaXN0U3R5bGVUeXBlOidjaXJjbGUnfX0gY2xhc3NOYW1lPSdmNmIgYmx1ZTcnPlxuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0nbXQzJz57cHJvamVjdC5yb2xlMT9wcm9qZWN0LnJvbGUxOnByb2plY3Qucm9sZX08L2xpPlxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LnJvbGUyP1xuICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGUyfTwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIDpudWxsfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LnJvbGUzP1xuICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGUzfTwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIDpudWxsfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LnJvbGU0P1xuICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdtdDMnPntwcm9qZWN0LnJvbGU0fTwvbGk+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIDpudWxsfVxuICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgICAge3Byb2plY3Qucm9sZTU/XG4gICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9J210Myc+e3Byb2plY3Qucm9sZTV9PC9saT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgOm51bGx9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICA8L3VsPlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8cCBpZD1cIlwiIGNsYXNzTmFtZT1cImY2IG10NCBtYjAgYmx1ZTcgZnc2XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIFByb2plY3Qgc3RhY2s6XG4gICAgICAgICAgICAgICAgICAgICAgICA8L3A+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGZpcnN0PVwiXCIgY2xhc3NOYW1lPVwibXQwIHRhZyBiZy1ibHVlNVwiPntwcm9qZWN0LnRhZzF9PC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICB7cHJvamVjdC50YWcyP1xuICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwibXQwIHRhZyBiZy1ibHVlNlwiPntwcm9qZWN0LnRhZzJ9PC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgOm51bGx9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIHtwcm9qZWN0LnRhZzM/XG4gICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJtdDAgdGFnIGJnLWluZGlnbzdcIj57cHJvamVjdC50YWczfTwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDpudWxsfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICB7cHJvamVjdC50YWc0P1xuICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwibXQwIHRhZyBiZy12aW9sZXQ3XCI+e3Byb2plY3QudGFnNH08L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA6bnVsbH1cblxuICAgICAgICAgICAgICAgICAgICAgICAge3Byb2plY3QudGFnNT9cbiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cIm10MCB0YWcgYmctdmlvbGV0N1wiPntwcm9qZWN0LnRhZzV9PC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgOm51bGx9XG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGlkPVwiXCIgY2xhc3NOYW1lPVwiY29tcGxldGVkIGRpYiBmNyBibHVlNyBwaDMgcHYyXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIENvbXBsZXRlZDogJm5ic3A7PHNwYW4gY2xhc3NOYW1lPVwiZnc3XCI+e3Byb2plY3QueWVhcn08L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L3A+XG5cbiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIHsvKiA8L1RpbHQ+ICovfVxuICAgICAgICAgICAgPC9kaXY+XG5cblxuICAgICAgICAgICk7XG4gICAgICAgIH0pfVxuXG48c3R5bGUganN4PntgXG5cbiAgLmNhcmR7XG4gICAgd2lkdGg6IDQzMHB4O1xuICAgIHRyYW5zaXRpb246IGFsbCAuM3MgZWFzZTtcbiAgICAvKiAtbW96LXRyYW5zaXRpb246IHNjYWxlIC4zcyBlYXNlOyAqL1xuICAgIC8qIC13ZWJraXQtdHJhbnNpdGlvbjogc2NhbGUgLjNzIGVhc2U7ICovXG4gICAgJjpob3ZlcntcbiAgICAgIHRyYW5zZm9ybTp0cmFuc2xhdGVZKC0xMHB4KTtcbiAgICB9XG4gIH1cblxuXG4gIC5jb21wbGV0ZWR7XG4gICAgYm9yZGVyOiAxcHggc29saWQgYmx1ZTtcbiAgICBtYXJnaW4tdG9wOiAyLjdyZW07XG4gIH1cblxuICAuaW1hZ2V7XG4gICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDRweDtcbiAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiA0cHg7XG4gIH0gICAgIFxuICAuZ2lmU3R5bGV7XG4gICAgd2lkdGg6MTAwJTtcbiAgICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogNHB4O1xuICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDRweDtcbiAgfVxuICAudGFne1xuICAgIC8qIGJhY2tncm91bmQ6IGJsdWU7ICovXG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBwYWRkaW5nOiA0cHggMTJweDtcbiAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgZm9udC1zaXplOiAxMHB4O1xuICAgIG1hcmdpbi10b3A6MTBweDtcbiAgfVxuXG5cblxuICBwLnRhZzpub3QoW2ZpcnN0XSl7XG4gICAgbWFyZ2luLWxlZnQ6IDZweDtcbiAgfVxuXG4gIHAucHJvamVjdFJvbGV7XG4gICAgLyogbGluZS1oZWlnaHQ6IDEuMzsgKi9cbiAgfVxuXG5gfTwvc3R5bGU+XG5cbiAgICAgIFxuICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IENhcmRzO1xuIl19 */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/Cards/Cards.js */",
-    __self: this
+    }) // END CARD
+    ;
   }));
 };
 
@@ -352,10 +402,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./Components/CodeWindow.js/CodeWindow.js":
-/*!************************************************!*\
-  !*** ./Components/CodeWindow.js/CodeWindow.js ***!
-  \************************************************/
+/***/ "./Components/CodeWindow/CodeWindow.js":
+/*!*********************************************!*\
+  !*** ./Components/CodeWindow/CodeWindow.js ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -368,9 +418,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lottie_react_web__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lottie-react-web */ "lottie-react-web");
 /* harmony import */ var lottie_react_web__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lottie_react_web__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _data_circle_diamond__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data-circle-diamond */ "./Components/CodeWindow.js/data-circle-diamond.json");
-var _data_circle_diamond__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data-circle-diamond */ "./Components/CodeWindow.js/data-circle-diamond.json", 1);
-var _jsxFileName = "/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/CodeWindow.js/CodeWindow.js";
+/* harmony import */ var _data_circle_diamond__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data-circle-diamond */ "./Components/CodeWindow/data-circle-diamond.json");
+var _data_circle_diamond__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./data-circle-diamond */ "./Components/CodeWindow/data-circle-diamond.json", 1);
+var _jsxFileName = "/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/CodeWindow/CodeWindow.js";
 
  // import LottieControl from '../LottieControl'
 
@@ -397,21 +447,36 @@ function CodeWindow() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "2227284577",
-    css: ".codeRect.jsx-2227284577{height:207px;background:blue;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9Db2RlV2luZG93LmpzL0NvZGVXaW5kb3cuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUJrQixBQUVnQixhQUNHLGdCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9Db2RlV2luZG93LmpzL0NvZGVXaW5kb3cuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG4vLyBpbXBvcnQgTG90dGllQ29udHJvbCBmcm9tICcuLi9Mb3R0aWVDb250cm9sJ1xuaW1wb3J0IExvdHRpZSBmcm9tICdsb3R0aWUtcmVhY3Qtd2ViJztcbmltcG9ydCBpYm0gZnJvbSAnLi9kYXRhLWNpcmNsZS1kaWFtb25kJ1xuXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENvZGVXaW5kb3coKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9J2NvZGVSZWN0Jz5cbiAgICAgIFxuICAgICAgey8qIDxMb3R0aWVDb250cm9sLz4gKi99XG5cbiAgICAgIDxMb3R0aWVcbiAgICAgICAgb3B0aW9ucz17e1xuICAgICAgICAgIGFuaW1hdGlvbkRhdGE6IGlibSxcbiAgICAgICAgICAvLyBsb29wOiBmYWxzZSxcbiAgICAgICAgIFxuICAgICAgICB9fVxuICAgICAgICBzcGVlZD17LjZ9XG4gICAgICAvPlxuXG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAuY29kZVJlY3R7XG4gICAgICAgIFxuICAgICAgICBoZWlnaHQ6IDIwN3B4O1xuICAgICAgICBiYWNrZ3JvdW5kOiBibHVlO1xuICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICAgIFxuICApXG59XG4iXX0= */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/CodeWindow.js/CodeWindow.js */",
+    css: ".codeRect.jsx-2227284577{height:207px;background:blue;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9Db2RlV2luZG93L0NvZGVXaW5kb3cuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBcUJrQixBQUVnQixhQUNHLGdCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9Db2RlV2luZG93L0NvZGVXaW5kb3cuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG4vLyBpbXBvcnQgTG90dGllQ29udHJvbCBmcm9tICcuLi9Mb3R0aWVDb250cm9sJ1xuaW1wb3J0IExvdHRpZSBmcm9tICdsb3R0aWUtcmVhY3Qtd2ViJztcbmltcG9ydCBpYm0gZnJvbSAnLi9kYXRhLWNpcmNsZS1kaWFtb25kJ1xuXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENvZGVXaW5kb3coKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9J2NvZGVSZWN0Jz5cbiAgICAgIFxuICAgICAgey8qIDxMb3R0aWVDb250cm9sLz4gKi99XG5cbiAgICAgIDxMb3R0aWVcbiAgICAgICAgb3B0aW9ucz17e1xuICAgICAgICAgIGFuaW1hdGlvbkRhdGE6IGlibSxcbiAgICAgICAgICAvLyBsb29wOiBmYWxzZSxcbiAgICAgICAgIFxuICAgICAgICB9fVxuICAgICAgICBzcGVlZD17LjZ9XG4gICAgICAvPlxuXG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAuY29kZVJlY3R7XG4gICAgICAgIFxuICAgICAgICBoZWlnaHQ6IDIwN3B4O1xuICAgICAgICBiYWNrZ3JvdW5kOiBibHVlO1xuICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICAgIFxuICApXG59XG4iXX0= */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/CodeWindow/CodeWindow.js */",
     __self: this
   }));
 }
 
 /***/ }),
 
-/***/ "./Components/CodeWindow.js/data-circle-diamond.json":
-/*!***********************************************************!*\
-  !*** ./Components/CodeWindow.js/data-circle-diamond.json ***!
-  \***********************************************************/
+/***/ "./Components/CodeWindow/data-circle-diamond.json":
+/*!********************************************************!*\
+  !*** ./Components/CodeWindow/data-circle-diamond.json ***!
+  \********************************************************/
 /*! exports provided: v, fr, ip, op, w, h, nm, ddd, assets, layers, default */
 /***/ (function(module) {
 
 module.exports = {"v":"4.13.0","fr":30,"ip":10,"op":66,"w":2400,"h":1500,"nm":"Circle Square Comp 2","ddd":0,"assets":[{"id":"comp_0","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"I-1 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[770.879,671.278,0],"ix":2},"a":{"a":0,"k":[3.791,4.33,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-3.542,4.081],[3.542,4.081],[3.542,-4.081],[-3.542,-4.081]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[3.791,4.33],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"I-2 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[847.104,671.278,0],"ix":2},"a":{"a":0,"k":[5.331,4.33,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[5.081,-4.081],[-5.081,-4.081],[-5.081,4.081],[5.081,4.081]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.331,4.33],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"I-3 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[933.709,671.278,0],"ix":2},"a":{"a":0,"k":[3.829,4.33,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.579,-4.081],[-3.579,-4.081],[-3.579,4.081],[3.579,4.081]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[3.83,4.33],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"I-4 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[847.104,899.153,0],"ix":2},"a":{"a":0,"k":[5.331,18.957,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-5.081,18.707],[5.081,18.707],[5.081,-18.707],[-5.081,-18.707]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.331,18.957],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"I-5 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[760.879,1127.028,0],"ix":2},"a":{"a":0,"k":[3.791,4.33,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-3.542,4.081],[3.542,4.081],[3.542,-4.081],[-3.542,-4.081]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[3.791,4.331],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"I-6 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[847.104,1127.028,0],"ix":2},"a":{"a":0,"k":[5.331,4.33,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-5.081,4.081],[5.081,4.081],[5.081,-4.081],[-5.081,-4.081]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.331,4.331],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"I-7 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[933.709,1127.028,0],"ix":2},"a":{"a":0,"k":[3.829,4.33,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[3.579,-4.081],[-3.579,-4.081],[-3.579,4.081],[3.579,4.081]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[3.83,4.331],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"B-1 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1124.246,758.341,0],"ix":2},"a":{"a":0,"k":[5.331,13.036,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[5.081,9.617],[5.081,-4.163],[5.081,-12.786],[-5.081,-12.786],[-5.081,12.786],[5.081,12.786]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.331,13.036],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":9,"ty":4,"nm":"B-2 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1240.039,673.748,0],"ix":2},"a":{"a":0,"k":[6.748,4.577,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[-0.152,-0.008],[0,0],[0,0],[0,0]],"o":[[0.158,0],[0,0],[0,0],[0,0],[0,0]],"v":[[6.051,4.296],[6.499,4.327],[6.499,-4.327],[-6.499,-4.327],[-6.499,4.296]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[6.748,4.577],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":10,"ty":4,"nm":"B-3 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1384.774,758.338,0],"ix":2},"a":{"a":0,"k":[8.225,13.036,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-0.939,-0.915],[0,-1.796],[0,0],[1.026,-1],[1.625,-0.078],[0,0],[0,0],[0,0],[-1.154,0.461],[-0.898,0.924],[-0.539,1.412],[0,2.054],[0.641,1.721],[1.233,1.182],[1.771,0.668],[2.206,0],[0,0],[0,0]],"o":[[1.026,1.001],[0,0],[0,1.797],[-0.939,0.915],[0,0],[0,0],[0,0],[1.231,-0.05],[1.155,-0.462],[0.898,-0.923],[0.538,-1.412],[0,-2.052],[-0.643,-1.719],[-1.231,-1.179],[-1.77,-0.666],[0,0],[0,0],[1.625,0.078]],"v":[[-4.113,-2.663],[-2.573,1.533],[-2.573,3.919],[-4.113,8.115],[-7.975,9.585],[-7.975,12.786],[-1.648,12.786],[-1.648,12.542],[1.93,11.773],[5.01,9.693],[7.167,6.191],[7.975,0.993],[7.012,-4.665],[4.201,-9.014],[-0.301,-11.786],[-6.268,-12.786],[-7.975,-12.786],[-7.975,-4.132]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[8.224,13.036],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":11,"ty":4,"nm":"B-4 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1240.039,870.196,0],"ix":2},"a":{"a":0,"k":[6.748,1.851,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.158,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[-0.152,0.008]],"v":[[6.051,-1.569],[-6.499,-1.569],[-6.499,1.601],[6.499,1.601],[6.499,-1.601]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[6.748,1.851],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":12,"ty":4,"nm":"B-5 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1124.246,1027.02,0],"ix":2},"a":{"a":0,"k":[5.331,14.332,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[5.081,-8.937],[5.081,-14.082],[-5.081,-14.082],[-5.081,14.082],[5.081,14.082],[5.081,5.459]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.331,14.332],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":13,"ty":4,"nm":"B-6 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1240.039,911.928,0],"ix":2},"a":{"a":0,"k":[6.748,2.823,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-6.499,2.572],[6.499,2.572],[6.499,-2.572],[-6.499,-2.572]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 2","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[6.748,2.822],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":3,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":14,"ty":4,"nm":"B-7 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1394.775,1027.021,0],"ix":2},"a":{"a":0,"k":[9.225,14.331,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0.77,1.566],[1.155,1],[1.359,0.462],[1.181,0],[0,0],[0,0],[0,0],[0,0],[-1.078,-1.025],[0,-1.898],[0,0],[1.078,-1.001],[1.95,0],[0,0],[0,0],[0,0],[-1.694,0.795],[-1.232,1.386],[-0.692,1.874],[0,2.156]],"o":[[-0.77,-1.564],[-1.154,-1.001],[-1.361,-0.462],[0,0],[0,0],[0,0],[0,0],[1.95,0],[1.078,1.028],[0,0],[0,1.9],[-1.078,1.001],[0,0],[0,0],[0,0],[2.002,0],[1.694,-0.795],[1.232,-1.386],[0.694,-1.873],[0,-2.309]],"v":[[7.821,-7.128],[4.934,-10.977],[1.162,-13.171],[-2.649,-13.865],[-2.649,-14.081],[-8.975,-14.081],[-8.975,-8.938],[-7.807,-8.938],[-3.265,-7.398],[-1.648,-3.01],[-1.648,-0.393],[-3.265,3.958],[-7.807,5.458],[-8.975,5.458],[-8.975,14.081],[-4.882,14.081],[0.661,12.889],[5.05,9.615],[7.936,4.728],[8.975,-1.316]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[9.225,14.331],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":15,"ty":4,"nm":"B-8 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1240.039,1124.718,0],"ix":2},"a":{"a":0,"k":[6.748,4.562,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-6.499,4.311],[6.499,4.311],[6.499,-4.311],[-6.499,-4.311]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[6.748,4.562],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":16,"ty":4,"nm":"M-1 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1631.96,899.153,0],"ix":2},"a":{"a":0,"k":[5.062,27.118,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-4.811,-26.868],[-4.811,26.868],[4.811,26.868],[4.811,-11.702],[4.811,-26.868]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.062,27.118],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":17,"ty":4,"nm":"M-2 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1757.44,850.627,0],"ix":2},"a":{"a":0,"k":[7.986,22.266,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[7.66,4.236],[-6.119,-22.016],[-7.736,-22.016],[-7.736,-6.85],[-7.506,-6.85],[-3.272,1.773],[7.736,22.016],[7.736,4.236]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[7.986,22.266],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":18,"ty":4,"nm":"M-3 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1912.566,850.653,0],"ix":2},"a":{"a":0,"k":[8.026,22.268,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[6.083,-22.018],[-7.621,4.234],[-7.776,4.234],[-7.776,22.013],[-7.774,22.018],[3.388,1.694],[7.468,-6.466],[7.776,-6.466],[7.776,-22.018]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[8.026,22.268],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":19,"ty":4,"nm":"M-4 Outlines","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[2038.444,899.153,0],"ix":2},"a":{"a":0,"k":[5.062,27.118,0],"ix":1},"s":{"a":0,"k":[1000,1000,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[-4.811,-26.868],[-4.811,-11.316],[-4.811,26.868],[4.811,26.868],[4.811,-26.868]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[5.061,27.118],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0}]},{"id":"comp_1","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"CIRCLE 1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.15,"y":1},"o":{"x":0.85,"y":0},"n":"0p15_1_0p85_0","t":95,"s":[592,750,0],"e":[1004,750,0],"to":[68.6666641235352,0,0],"ti":[-68.6666641235352,0,0]},{"t":130}],"ix":2},"a":{"a":0,"k":[-475.094,-2.219,0],"ix":1},"s":{"a":1,"k":[{"i":{"x":[0.15,0.15,0.15],"y":[1,1,1]},"o":{"x":[0.85,0.85,0.85],"y":[0,0,0]},"n":["0p15_1_0p85_0","0p15_1_0p85_0","0p15_1_0p85_0"],"t":95,"s":[100,100,100],"e":[145,145,100]},{"t":130}],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"d":1,"ty":"el","s":{"a":0,"k":[871.562,871.562],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"nm":"Ellipse Path 1","mn":"ADBE Vector Shape - Ellipse","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":1,"k":[{"i":{"x":[0.15],"y":[1]},"o":{"x":[0.85],"y":[0]},"n":["0p15_1_0p85_0"],"t":95,"s":[8],"e":[6]},{"t":130}],"ix":5},"lc":1,"lj":1,"ml":4,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":0,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[-475.094,-2.219],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Ellipse 1","np":3,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":450,"st":0,"bm":0}]},{"id":"comp_2","layers":[{"ddd":0,"ind":1,"ty":3,"nm":"NULL CONTROL","sr":1,"ks":{"o":{"a":0,"k":0,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[1074.996,452.541,0],"ix":2},"a":{"a":0,"k":[60,60,0],"ix":1},"s":{"a":0,"k":[500,500,100],"ix":6}},"ao":0,"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":2,"ty":4,"nm":"P Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[-70.797,56.613,0],"ix":2},"a":{"a":0,"k":[20.304,27.118,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[-1.13,1.053],[0,1.951],[0,0],[1.128,1.027],[1.95,0],[0,0]],"o":[[0,0],[1.95,0],[1.128,-1.051],[0,0],[0,-1.95],[-1.13,-1.026],[0,0],[0,0]],"v":[[-9.893,-2.387],[3.195,-2.387],[7.814,-3.965],[9.507,-8.469],[9.507,-12.01],[7.814,-16.475],[3.195,-18.015],[-9.893,-18.015]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[-1.977,-0.795],[-1.387,-1.463],[-0.72,-2.053],[0,-2.462],[0.718,-2.027],[1.385,-1.463],[1.975,-0.795],[2.464,0],[0,0],[0,0]],"o":[[0,0],[0,0],[2.464,0],[1.975,0.797],[1.385,1.463],[0.718,2.053],[0,2.516],[-0.72,2.028],[-1.387,1.462],[-1.977,0.797],[0,0],[0,0],[0,0]],"v":[[-20.055,26.868],[-20.055,-26.868],[4.118,-26.868],[10.778,-25.675],[15.821,-22.287],[18.977,-17.014],[20.055,-10.24],[18.977,-3.426],[15.821,1.809],[10.778,5.196],[4.118,6.389],[-9.893,6.389],[-9.893,26.868]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[20.304,27.118],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":4,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":3,"ty":4,"nm":"A Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[-27.108,63.387,0],"ix":2},"a":{"a":0,"k":[19.188,21.267,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[-1.951,0],[-1.541,0.968],[0,1.886],[0,0],[0,0],[0,-3.263],[0,0],[-1.052,-0.789]],"o":[[2.207,0],[1.539,-0.969],[0,0],[0,0],[-5.133,0],[0,0],[0,1.631],[1.053,0.79]],"v":[[-2.848,13.857],[2.773,12.406],[5.082,8.123],[5.082,2.848],[-1.232,2.848],[-8.93,7.742],[-8.93,9.041],[-7.353,12.672]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[0,0],[1.258,1.258],[0.308,2.104],[0,0],[2.051,-1.309],[3.029,0],[2.206,2.148],[0,3.582],[-2.977,2.02],[-5.492,0],[0,0],[0,0],[1.181,1.232],[2.617,0],[1.411,-1.001],[0.974,-1.386],[0,0],[-2.464,1.42],[-4.055,0],[-2.823,-2.458],[0,-4.606],[0,0],[0,0],[0,0]],"o":[[-2.155,0],[-1.258,-1.257],[0,0],[-0.668,2.617],[-2.054,1.309],[-4.105,0],[-2.207,-2.149],[0,-4.144],[2.977,-2.021],[0,0],[0,0],[0,-2.258],[-1.18,-1.232],[-2.311,0],[-1.412,1.001],[0,0],[1.487,-2.323],[2.464,-1.419],[5.44,0],[2.822,2.458],[0,0],[0,0],[0,0],[0,0]],"v":[[13.473,20.093],[8.353,18.207],[6.006,13.165],[5.545,13.165],[1.464,19.054],[-6.16,21.017],[-15.628,17.795],[-18.939,9.199],[-14.473,-0.048],[-1.771,-3.08],[5.082,-3.08],[5.082,-6.005],[3.311,-11.24],[-2.385,-13.087],[-7.967,-11.586],[-11.548,-8.006],[-17.398,-13.273],[-11.471,-18.887],[-1.693,-21.017],[10.702,-17.33],[14.936,-6.732],[14.936,12.164],[18.939,12.164],[18.939,20.093]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[19.188,21.267],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":4,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":4,"nm":"R1 Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[11.346,63.387,0],"ix":2},"a":{"a":0,"k":[11.76,20.343,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[-0.539,1.001],[-0.874,0.77],[-1.207,0.462],[-1.592,0],[0,0],[0,0],[0,0],[1.693,-0.974],[0,-2.206],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0.257,-1.078],[0.538,-1.001],[0.872,-0.77],[1.205,-0.462],[0,0],[0,0],[0,0],[-3.336,0],[-1.694,0.975],[0,0],[0,0]],"v":[[-11.51,20.094],[-11.51,-20.094],[-1.656,-20.094],[-1.656,-11.779],[-1.271,-11.779],[-0.077,-14.896],[2.04,-17.553],[5.158,-19.4],[9.353,-20.094],[11.51,-20.094],[11.51,-10.777],[8.429,-10.777],[0.885,-9.316],[-1.656,-4.542],[-1.656,20.094]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[11.76,20.343],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":5,"ty":4,"nm":"T Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[38.636,57.883,0],"ix":2},"a":{"a":0,"k":[12.259,25.848,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[1.771,1.77],[0,3.285],[0,0],[0,0],[0,0],[0,0],[-0.539,0.693],[0,1.386],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"o":[[-3.388,0],[-1.77,-1.771],[0,0],[0,0],[0,0],[0,0],[1.488,0],[0.539,-0.693],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],"v":[[4.312,25.598],[-3.426,22.941],[-6.083,15.359],[-6.083,-6.814],[-12.01,-6.814],[-12.01,-14.59],[-8.93,-14.59],[-5.89,-15.629],[-5.081,-18.747],[-5.081,-25.598],[3.773,-25.598],[3.773,-14.59],[12.01,-14.59],[12.01,-6.814],[3.773,-6.814],[3.773,17.667],[11.393,17.667],[11.393,25.598]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[12.259,25.848],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":6,"ty":4,"nm":"N Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[76.358,62.926,0],"ix":2},"a":{"a":0,"k":[17.418,20.805,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[-1.77,1.462],[-3.13,0],[-2.207,-2.72],[0,-5.03],[0,0],[0,0],[0,0],[1.027,1.437],[2.36,0],[0.949,-0.281],[0.743,-0.539],[0.462,-0.795],[0,-1.077],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0.821,-2.156],[1.771,-1.463],[4.158,0],[2.207,2.72],[0,0],[0,0],[0,0],[0,-2.874],[-1.027,-1.437],[-1.027,0],[-0.95,0.283],[-0.745,0.539],[-0.462,0.796],[0,0],[0,0]],"v":[[-17.168,20.555],[-17.168,-19.632],[-7.313,-19.632],[-7.313,-12.934],[-6.928,-12.934],[-3.041,-18.361],[4.311,-20.555],[13.857,-16.475],[17.168,-4.85],[17.168,20.555],[7.314,20.555],[7.314,-3.849],[5.774,-10.316],[0.693,-12.472],[-2.271,-12.049],[-4.811,-10.817],[-6.62,-8.815],[-7.313,-6.006],[-7.313,20.555]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[17.418,20.805],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":7,"ty":4,"nm":"E Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[120.241,63.387,0],"ix":2},"a":{"a":0,"k":[18.727,21.268,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[2.565,0],[1.539,-1.744],[0,-2.772],[0,0],[0,0],[0,0],[1.359,1.72]],"o":[[-2.618,0],[-1.541,1.745],[0,0],[0,0],[0,0],[0,-2.771],[-1.362,-1.719]],"v":[[0.308,-13.626],[-5.927,-11.01],[-8.238,-4.234],[-8.238,-3.618],[8.237,-3.618],[8.237,-4.312],[6.198,-11.048]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ind":1,"ty":"sh","ix":2,"ks":{"a":0,"k":{"i":[[3.746,0],[2.335,1],[1.616,1.822],[0.872,2.592],[0,3.233],[-0.846,2.567],[-1.592,1.822],[-2.309,1.001],[-2.925,0],[-2.311,-1.078],[-1.489,-1.847],[-0.744,-2.437],[0,-2.771],[0,0],[0,0],[0,0],[-1.644,-1.758],[-3.233,0],[-1.565,1.018],[-1.232,1.581],[0,0],[2.85,-1.313]],"o":[[-2.976,0],[-2.336,-1.001],[-1.616,-1.821],[-0.873,-2.591],[0,-3.182],[0.848,-2.566],[1.589,-1.822],[2.31,-1.001],[3.13,0],[2.308,1.078],[1.488,1.848],[0.744,2.438],[0,0],[0,0],[0,0],[0,2.905],[1.642,1.759],[2.464,0],[1.566,-1.02],[0,0],[-1.642,2.317],[-2.848,1.31]],"v":[[0.461,21.018],[-7.507,19.516],[-13.434,15.281],[-17.168,8.661],[-18.477,-0.077],[-17.207,-8.7],[-13.549,-15.281],[-7.699,-19.516],[0.154,-21.018],[8.315,-19.4],[14.01,-15.012],[17.359,-8.585],[18.477,-0.771],[18.477,2.464],[-8.238,2.464],[-8.238,3.456],[-5.774,10.451],[1.539,13.087],[7.582,11.561],[11.779,7.661],[17.09,13.605],[10.354,19.049]],"c":true},"ix":2},"nm":"Path 2","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"mm","mm":1,"nm":"Merge Paths 1","mn":"ADBE Vector Filter - Merge","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[18.726,21.268],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":4,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":8,"ty":4,"nm":"R2 Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[158.925,63.387,0],"ix":2},"a":{"a":0,"k":[11.759,20.343,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0],[0,0],[-0.539,1.001],[-0.873,0.77],[-1.206,0.462],[-1.591,0],[0,0],[0,0],[0,0],[1.693,-0.974],[0,-2.206],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0],[0.256,-1.078],[0.539,-1.001],[0.872,-0.77],[1.206,-0.462],[0,0],[0,0],[0,0],[-3.336,0],[-1.695,0.975],[0,0],[0,0]],"v":[[-11.509,20.094],[-11.509,-20.094],[-1.656,-20.094],[-1.656,-11.779],[-1.271,-11.779],[-0.077,-14.896],[2.04,-17.553],[5.158,-19.4],[9.353,-20.094],[11.509,-20.094],[11.509,-10.777],[8.43,-10.777],[0.887,-9.316],[-1.656,-4.542],[-1.656,20.094]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[11.759,20.343],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0},{"ddd":0,"ind":9,"ty":4,"nm":"S Outlines","parent":1,"sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":0,"k":[190.796,63.387,0],"ix":2},"a":{"a":0,"k":[16.841,21.267,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ind":0,"ty":"sh","ix":1,"ks":{"a":0,"k":{"i":[[2.515,0],[2.617,1.309],[2.002,2.31],[0,0],[-1.772,-0.975],[-2.31,0],[-1.052,0.822],[0,1.438],[0.744,0.693],[1.796,0.257],[0,0],[2.283,1.923],[0,3.695],[-0.721,1.566],[-1.334,1.104],[-1.875,0.59],[-2.309,0],[-1.514,-0.282],[-1.232,-0.539],[-1.027,-0.795],[-0.975,-0.974],[0,0],[1.643,0.822],[1.949,0],[0.95,-0.77],[0,-1.231],[-0.797,-0.693],[-1.9,-0.307],[0,0],[0,-6.671],[0.795,-1.617],[1.437,-1.155],[2.027,-0.641]],"o":[[-3.849,0],[-2.617,-1.309],[0,0],[1.488,1.694],[1.769,0.975],[2.36,0],[1.052,-0.82],[0,-1.18],[-0.744,-0.692],[0,0],[-4.362,-0.564],[-2.286,-1.925],[0,-1.949],[0.717,-1.565],[1.334,-1.104],[1.873,-0.589],[1.951,0],[1.514,0.283],[1.232,0.539],[1.026,0.797],[0,0],[-1.182,-1.233],[-1.642,-0.821],[-2.157,0],[-0.949,0.77],[0,1.335],[0.795,0.693],[0,0],[8.673,1.232],[0,1.951],[-0.796,1.617],[-1.438,1.155],[-2.029,0.642]],"v":[[0.038,21.017],[-9.661,19.054],[-16.591,13.626],[-10.585,7.775],[-5.696,11.779],[0.424,13.242],[5.543,12.009],[7.122,8.622],[6.005,5.812],[2.194,4.388],[-1.81,3.849],[-11.778,0.116],[-15.204,-8.315],[-14.126,-13.588],[-11.048,-17.591],[-6.235,-20.132],[0.038,-21.017],[5.235,-20.594],[9.354,-19.362],[12.741,-17.361],[15.743,-14.705],[9.97,-8.93],[5.735,-12.01],[0.347,-13.242],[-4.312,-12.087],[-5.735,-9.085],[-4.542,-6.044],[-0.5,-4.543],[3.58,-4.004],[16.591,7.852],[15.397,13.203],[12.048,17.36],[6.852,20.054]],"c":true},"ix":2},"nm":"Path 1","mn":"ADBE Vector Shape - Group","hd":false},{"ty":"fl","c":{"a":0,"k":[1,1,1,1],"ix":4},"o":{"a":0,"k":100,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[16.841,21.267],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Group 1","np":2,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":391,"st":0,"bm":0}]},{"id":"comp_3","layers":[{"ddd":0,"ind":1,"ty":4,"nm":"SQUARE","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.15],"y":[1]},"o":{"x":[0.85],"y":[0]},"n":["0p15_1_0p85_0"],"t":95,"s":[90],"e":[0]},{"t":130}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.15,"y":1},"o":{"x":0.85,"y":0},"n":"0p15_1_0p85_0","t":95,"s":[1406.57,750.57,0],"e":[1002.57,750.57,0],"to":[-67.3333358764648,0,0],"ti":[67.3333358764648,0,0]},{"t":130}],"ix":2},"a":{"a":0,"k":[830.57,0.57,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"shapes":[{"ty":"gr","it":[{"ty":"rc","d":1,"s":{"a":0,"k":[877.141,877.141],"ix":2},"p":{"a":0,"k":[0,0],"ix":3},"r":{"a":0,"k":0,"ix":4},"nm":"Rectangle Path 1","mn":"ADBE Vector Shape - Rect","hd":false},{"ty":"st","c":{"a":0,"k":[1,1,1,1],"ix":3},"o":{"a":0,"k":100,"ix":4},"w":{"a":0,"k":8,"ix":5},"lc":1,"lj":1,"ml":4,"nm":"Stroke 1","mn":"ADBE Vector Graphic - Stroke","hd":false},{"ty":"fl","c":{"a":0,"k":[0.460000011968,0.460000011968,0.460000011968,1],"ix":4},"o":{"a":0,"k":0,"ix":5},"r":1,"nm":"Fill 1","mn":"ADBE Vector Graphic - Fill","hd":false},{"ty":"tr","p":{"a":0,"k":[830.57,0.57],"ix":2},"a":{"a":0,"k":[0,0],"ix":1},"s":{"a":0,"k":[100,100],"ix":3},"r":{"a":0,"k":0,"ix":6},"o":{"a":0,"k":100,"ix":7},"sk":{"a":0,"k":0,"ix":4},"sa":{"a":0,"k":0,"ix":5},"nm":"Transform"}],"nm":"Rectangle 1","np":3,"cix":2,"ix":1,"mn":"ADBE Vector Group","hd":false}],"ip":0,"op":450,"st":0,"bm":0}]}],"layers":[{"ddd":0,"ind":2,"ty":0,"nm":"IBM Pre-comp-MSTR","refId":"comp_0","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.2,"y":1},"o":{"x":0.8,"y":0},"n":"0p2_1_0p8_0","t":40,"s":[460,750,0],"e":[728,750,0],"to":[44.6666679382324,0,0],"ti":[-44.6666679382324,0,0]},{"t":60}],"ix":2},"a":{"a":0,"k":[1400,900,0],"ix":1},"s":{"a":0,"k":[15,15,100],"ix":6}},"ao":0,"w":2800,"h":1800,"ip":20,"op":470,"st":20,"bm":0},{"ddd":0,"ind":3,"ty":0,"nm":"CIRCLE 1 Comp 1","refId":"comp_1","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.2,"y":0.2},"o":{"x":0.167,"y":0.167},"n":"0p2_0p2_0p167_0p167","t":0,"s":[868,750,0],"e":[868,750,0],"to":[0,0,0],"ti":[0,0,0]},{"i":{"x":0.2,"y":1},"o":{"x":0.8,"y":0},"n":"0p2_1_0p8_0","t":40,"s":[868,750,0],"e":[1140,750,0],"to":[45.3333320617676,0,0],"ti":[-45.3333320617676,0,0]},{"t":60}],"ix":2},"a":{"a":0,"k":[1000,750,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"hasMask":true,"masksProperties":[{"inv":false,"mode":"a","pt":{"a":1,"k":[{"i":{"x":0,"y":1},"o":{"x":1,"y":0},"n":"0_1_1_0","t":0,"s":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-4,276],[-4,240],[2012,240],[2012,276]],"c":true}],"e":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-12,284],[-12,1216],[2012,1216],[2012,284]],"c":true}]},{"i":{"x":0.833,"y":1},"o":{"x":0.167,"y":0},"n":"0p833_1_0p167_0","t":40,"s":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-12,284],[-12,1216],[2012,1216],[2012,284]],"c":true}],"e":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[-12,-20],[-12,1520],[2012,1520],[2012,-20]],"c":true}]},{"t":42}],"ix":1},"o":{"a":0,"k":100,"ix":3},"x":{"a":0,"k":0,"ix":4},"nm":"Mask 1"}],"w":2000,"h":1500,"ip":0,"op":450,"st":0,"bm":0},{"ddd":0,"ind":4,"ty":0,"nm":"Partners-ONLY-MSTR","refId":"comp_2","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":0,"k":0,"ix":10},"p":{"a":1,"k":[{"i":{"x":0.2,"y":1},"o":{"x":0.8,"y":0},"n":"0p2_1_0p8_0","t":40,"s":[1770,754,0],"e":[1486,754,0],"to":[-47.3333320617676,0,0],"ti":[47.3333320617676,0,0]},{"t":60}],"ix":2},"a":{"a":0,"k":[1075,450,0],"ix":1},"s":{"a":0,"k":[30,30,100],"ix":6}},"ao":0,"hasMask":true,"masksProperties":[{"inv":false,"mode":"a","pt":{"a":0,"k":{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[0,0],[0,596.667],[2150,596.667],[2150,0]],"c":true},"ix":1},"o":{"a":0,"k":100,"ix":3},"x":{"a":0,"k":0,"ix":4},"nm":"Mask 1"}],"w":2150,"h":900,"ip":33,"op":483,"st":33,"bm":0},{"ddd":0,"ind":5,"ty":0,"nm":"SQUARE Comp 1","refId":"comp_3","sr":1,"ks":{"o":{"a":0,"k":100,"ix":11},"r":{"a":1,"k":[{"i":{"x":[0.2],"y":[1]},"o":{"x":[0.8],"y":[0]},"n":["0p2_1_0p8_0"],"t":40,"s":[45],"e":[0]},{"t":60}],"ix":10},"p":{"a":1,"k":[{"i":{"x":0.2,"y":1},"o":{"x":0.8,"y":0},"n":"0p2_1_0p8_0","t":40,"s":[1763.181,768.117,0],"e":[1491.181,768.117,0],"to":[-45.3333320617676,0,0],"ti":[45.3333320617676,0,0]},{"t":60}],"ix":2},"a":{"a":0,"k":[1431.181,768.117,0],"ix":1},"s":{"a":0,"k":[100,100,100],"ix":6}},"ao":0,"hasMask":true,"masksProperties":[{"inv":false,"mode":"a","pt":{"a":1,"k":[{"i":{"x":0.2,"y":1},"o":{"x":0.8,"y":0},"n":"0p2_1_0p8_0","t":20,"s":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[1219.219,1889.408],[1196.592,1866.781],[2528.781,534.592],[2551.408,557.219]],"c":true}],"e":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[1219.219,1889.408],[285.686,953.686],[1617.875,-378.503],[2551.408,557.219]],"c":true}]},{"i":{"x":0.2,"y":1},"o":{"x":0.8,"y":0},"n":"0p2_1_0p8_0","t":45,"s":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[1219.219,1889.408],[285.686,953.686],[1617.875,-378.503],[2551.408,557.219]],"c":true}],"e":[{"i":[[0,0],[0,0],[0,0],[0,0]],"o":[[0,0],[0,0],[0,0],[0,0]],"v":[[1219.219,1889.409],[-338.125,329.497],[994.064,-1002.692],[2551.408,557.22]],"c":true}]},{"t":46}],"ix":1},"o":{"a":0,"k":100,"ix":3},"x":{"a":0,"k":0,"ix":4},"nm":"Mask 1"}],"w":2000,"h":1500,"ip":0,"op":450,"st":0,"bm":0}]};
+
+/***/ }),
+
+/***/ "./Components/CodeWindow/index.js":
+/*!****************************************!*\
+  !*** ./Components/CodeWindow/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CodeWindow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CodeWindow */ "./Components/CodeWindow/CodeWindow.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (_CodeWindow__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 /***/ }),
 
@@ -1917,7 +1982,7 @@ var WelcomeBio = function WelcomeBio() {
       lineNumber: 36
     },
     __self: this
-  }, "\xA0UI Engineer\xA0"), "\xA0and ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+  }, "\xA0UX Engineer\xA0"), "\xA0and ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "jsx-2609408294" + " " + "bg-cyan8",
     __source: {
       fileName: _jsxFileName,
@@ -1947,7 +2012,7 @@ var WelcomeBio = function WelcomeBio() {
     __self: this
   }, "\xA0IX / coded animation\xA0"), ".")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "2609408294",
-    css: ".icon.jsx-2609408294{width:20px;height:20px;border-radius:3px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNENjLEFBRWMsV0FDQyxZQUNNLGtCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG4vLyBpbXBvcnQgc3R5bGVzIGZyb20gXCIuL1dlbGNvbWVCaW8uY3NzXCI7XG5cbi8vIGNvbnN0IFBhcmFncmFwaCA9IHN0eWxlZC5wYFxuLy8gICBmb250LXdlaWdodDozMDA7XG4vLyBgXG5cbmNvbnN0IFdlbGNvbWVCaW8gPSAoKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwiXCI+XG5cbiAgICA8ZGl2IGlkPVwidG9wU2VjdGlvblwiIGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2x1bW4gY2VudGVyIHdoaXRlIG10NiBtYjVcIj5cbiAgICAgIDxpbWdcbiAgICAgICAgaWQ9XCJwcm9maWxlLXBpY1wiXG4gICAgICAgIGNsYXNzTmFtZT1cImdyb3cyIGNlbnRlciBtYjNcIlxuICAgICAgICBzcmM9XCIuLi8uLi9zdGF0aWMvaWNvbnMvcHJvZmlsZS1waWMuanBnXCJcbiAgICAgICAgYWx0PSdhbHQnXG4gICAgICAvPlxuICAgICAgPHAgY2xhc3NOYW1lPVwiZjJjIHRjXCI+QWFyb24gQWRsZXI8L3A+XG5cblxuICAgICAgey8qIFNPQ0lBTCBJQ09OUyBVTkRFUiBOQU1FICovfVxuICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1jZW50ZXIgbWI0Jz5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2Fhcm5hZGxyXCI+PGltZyBhbHQ9J2dpdGh1YicgICAgICAgICAgICAgICBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9naXRodWIuZ2lmJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9jb2RlcGVuLmlvL2Fhcm9uYWRsZXIvXCI+PGltZyBhbHQ9J2NvZGVwZW4nICAgICAgICAgICBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yIG1sMycgc3JjPScuLi8uLi9zdGF0aWMvaWNvbnMvY29kZXBlbi5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vYWFyb25hZGxlci9cIj48aW1nIGFsdD0nbGlua2VkaW4nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9saW5rZWRpbi5wbmcnIC8+PC9hPlxuICAgICAgICB7LyogPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly93d3cudG9wdGFsLmNvbS9kZXNpZ25lcnMvcmVzdW1lL2Fhcm9uLWFkbGVyXCI+PGltZyBhbHQ9J3RvcHRhbCcgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL3RvcHRhbC5naWYnIC8+PC9hPiAqL31cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9kcmliYmJsZS5jb20vYWFybmFkbHJcIj48aW1nIGFsdD0nZHJpYmJiJyAgICAgICAgICAgICBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yIG1sMycgc3JjPScuLi8uLi9zdGF0aWMvaWNvbnMvQUEtZHJpYmJibGUtaWNvbi5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5wcm9kdWN0aHVudC5jb20vQGFhcm5hZGxyXCI+PGltZyAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9wcm9kaHVudC5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3dvcmtpbmdub3R3b3JraW5nLmNvbS9hYXJuXCI+PGltZyAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy93bncucG5nJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9tZWRpdW0uY29tL0BhYXJvbmFkbGVyXCI+PGltZyBhbHQ9J21lZGl1bScgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL21lZGl1bS5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3R3aXR0ZXIuY29tL2Fhcm9uYWRsZXJcIj48aW1nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy90d2l0dGVyLnBuZycgLz48L2E+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHAgY2xhc3NOYW1lPVwicGFyYWdyYXBoIGY1IGxoLWNvcHk0YiBtaDNcIj5cbiAgICAgICAgSGkgdGhlcmUuICZuYnNwO0knbSBhJm5ic3A7XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7VUkgRW5naW5lZXImbmJzcDs8L3NwYW4+Jm5ic3A7YW5kIDxzcGFuIGNsYXNzTmFtZT1cImJnLWN5YW44XCI+Jm5ic3A7RnJvbnQtZW5kIERldmVsb3BlciZuYnNwOzwvc3Bhbj4mbmJzcDtpbiBOWUMuJm5ic3A7XG4gICAgICAgIEnigJl2ZSB3b3JrZWQgb24gcHJvamVjdHMgZm9yIEZhY2Vib29rLCBHb29nbGUsIElCTSwgUi9HQSwgRHJvZ2E1IGFuZFxuICAgICAgICBvdGhlcnMuICZuYnNwO015IHdvcmsgaGFzIGJlZW4gcmVjb2duaXplZCBieSBDYW5uZXMsIEFJQ1AsIHRoZSBBcnQgRGlyZWN0b3JzXG4gICAgICAgIENsdWIsIENsaW9zLCBBcmNoaXZlLCBBZHdlZWssIGFuZCB0aGUgTmV3IFlvcmsgVGltZXMuICZuYnNwO015IGZvY3VzIGlzIG9uIDxzcGFuIGNsYXNzTmFtZT1cImJnLWdyZWVuOFwiPiZuYnNwO0phdmFTY3JpcHQgRVM2ICsgUmVhY3QmbmJzcDs8L3NwYW4+ICwgPHNwYW4gY2xhc3NOYW1lPVwiYmctdGVhbDhcIj4mbmJzcDtDU1MzJm5ic3A7PC9zcGFuPiAsXG4gICAgICAgIFxuICAgICAgICAgYW5kIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7SVggLyBjb2RlZCBhbmltYXRpb24mbmJzcDs8L3NwYW4+LlxuICAgICAgPC9wPlxuICAgIDwvZGl2PlxuXG4gIDxzdHlsZSBqc3g+e2BcbiAgICAuaWNvbntcbiAgICAgIHdpZHRoOjIwcHg7XG4gICAgICBoZWlnaHQ6IDIwcHg7XG4gICAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgfVxuICAgIC8vLnBhcmFncmFwaHtcbiAgICAvLyAgZm9udC13ZWlnaHQ6MzAwO1xuICAgIC8vfVxuICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgV2VsY29tZUJpbztcbiJdfQ== */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/WelcomeBio/WelcomeBio.js */",
+    css: ".icon.jsx-2609408294{width:20px;height:20px;border-radius:3px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNENjLEFBRWMsV0FDQyxZQUNNLGtCQUFDIiwiZmlsZSI6Ii9Vc2Vycy9hYXJvbmFkbGVyL0Ryb3Bib3gvREVTREVWX0RSSUJCQi93d3ctYWEtbmV4dDcvQ29tcG9uZW50cy9XZWxjb21lQmlvL1dlbGNvbWVCaW8uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG4vLyBpbXBvcnQgc3R5bGVzIGZyb20gXCIuL1dlbGNvbWVCaW8uY3NzXCI7XG5cbi8vIGNvbnN0IFBhcmFncmFwaCA9IHN0eWxlZC5wYFxuLy8gICBmb250LXdlaWdodDozMDA7XG4vLyBgXG5cbmNvbnN0IFdlbGNvbWVCaW8gPSAoKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwiXCI+XG5cbiAgICA8ZGl2IGlkPVwidG9wU2VjdGlvblwiIGNsYXNzTmFtZT1cImZsZXggZmxleC1jb2x1bW4gY2VudGVyIHdoaXRlIG10NiBtYjVcIj5cbiAgICAgIDxpbWdcbiAgICAgICAgaWQ9XCJwcm9maWxlLXBpY1wiXG4gICAgICAgIGNsYXNzTmFtZT1cImdyb3cyIGNlbnRlciBtYjNcIlxuICAgICAgICBzcmM9XCIuLi8uLi9zdGF0aWMvaWNvbnMvcHJvZmlsZS1waWMuanBnXCJcbiAgICAgICAgYWx0PSdhbHQnXG4gICAgICAvPlxuICAgICAgPHAgY2xhc3NOYW1lPVwiZjJjIHRjXCI+QWFyb24gQWRsZXI8L3A+XG5cblxuICAgICAgey8qIFNPQ0lBTCBJQ09OUyBVTkRFUiBOQU1FICovfVxuICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1jZW50ZXIgbWI0Jz5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9naXRodWIuY29tL2Fhcm5hZGxyXCI+PGltZyBhbHQ9J2dpdGh1YicgICAgICAgICAgICAgICBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9naXRodWIuZ2lmJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9jb2RlcGVuLmlvL2Fhcm9uYWRsZXIvXCI+PGltZyBhbHQ9J2NvZGVwZW4nICAgICAgICAgICBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yIG1sMycgc3JjPScuLi8uLi9zdGF0aWMvaWNvbnMvY29kZXBlbi5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4vYWFyb25hZGxlci9cIj48aW1nIGFsdD0nbGlua2VkaW4nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9saW5rZWRpbi5wbmcnIC8+PC9hPlxuICAgICAgICB7LyogPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly93d3cudG9wdGFsLmNvbS9kZXNpZ25lcnMvcmVzdW1lL2Fhcm9uLWFkbGVyXCI+PGltZyBhbHQ9J3RvcHRhbCcgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL3RvcHRhbC5naWYnIC8+PC9hPiAqL31cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9kcmliYmJsZS5jb20vYWFybmFkbHJcIj48aW1nIGFsdD0nZHJpYmJiJyAgICAgICAgICAgICBjbGFzc05hbWU9J2ljb24gZ3Jvdy1sYXJnZS0yIG1sMycgc3JjPScuLi8uLi9zdGF0aWMvaWNvbnMvQUEtZHJpYmJibGUtaWNvbi5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3d3dy5wcm9kdWN0aHVudC5jb20vQGFhcm5hZGxyXCI+PGltZyAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy9wcm9kaHVudC5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3dvcmtpbmdub3R3b3JraW5nLmNvbS9hYXJuXCI+PGltZyAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy93bncucG5nJyAvPjwvYT5cbiAgICAgICAgPGEgdGFyZ2V0PSdfYmxhbmsnIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiBocmVmPVwiaHR0cHM6Ly9tZWRpdW0uY29tL0BhYXJvbmFkbGVyXCI+PGltZyBhbHQ9J21lZGl1bScgY2xhc3NOYW1lPSdpY29uIGdyb3ctbGFyZ2UtMiBtbDMnIHNyYz0nLi4vLi4vc3RhdGljL2ljb25zL21lZGl1bS5wbmcnIC8+PC9hPlxuICAgICAgICA8YSB0YXJnZXQ9J19ibGFuaycgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIGhyZWY9XCJodHRwczovL3R3aXR0ZXIuY29tL2Fhcm9uYWRsZXJcIj48aW1nIGNsYXNzTmFtZT0naWNvbiBncm93LWxhcmdlLTIgbWwzJyBzcmM9Jy4uLy4uL3N0YXRpYy9pY29ucy90d2l0dGVyLnBuZycgLz48L2E+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHAgY2xhc3NOYW1lPVwicGFyYWdyYXBoIGY1IGxoLWNvcHk0YiBtaDNcIj5cbiAgICAgICAgSGkgdGhlcmUuICZuYnNwO0knbSBhJm5ic3A7XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7VVggRW5naW5lZXImbmJzcDs8L3NwYW4+Jm5ic3A7YW5kIDxzcGFuIGNsYXNzTmFtZT1cImJnLWN5YW44XCI+Jm5ic3A7RnJvbnQtZW5kIERldmVsb3BlciZuYnNwOzwvc3Bhbj4mbmJzcDtpbiBOWUMuJm5ic3A7XG4gICAgICAgIEnigJl2ZSB3b3JrZWQgb24gcHJvamVjdHMgZm9yIEZhY2Vib29rLCBHb29nbGUsIElCTSwgUi9HQSwgRHJvZ2E1IGFuZFxuICAgICAgICBvdGhlcnMuICZuYnNwO015IHdvcmsgaGFzIGJlZW4gcmVjb2duaXplZCBieSBDYW5uZXMsIEFJQ1AsIHRoZSBBcnQgRGlyZWN0b3JzXG4gICAgICAgIENsdWIsIENsaW9zLCBBcmNoaXZlLCBBZHdlZWssIGFuZCB0aGUgTmV3IFlvcmsgVGltZXMuICZuYnNwO015IGZvY3VzIGlzIG9uIDxzcGFuIGNsYXNzTmFtZT1cImJnLWdyZWVuOFwiPiZuYnNwO0phdmFTY3JpcHQgRVM2ICsgUmVhY3QmbmJzcDs8L3NwYW4+ICwgPHNwYW4gY2xhc3NOYW1lPVwiYmctdGVhbDhcIj4mbmJzcDtDU1MzJm5ic3A7PC9zcGFuPiAsXG4gICAgICAgIFxuICAgICAgICAgYW5kIDxzcGFuIGNsYXNzTmFtZT1cImJnLWJsdWU2XCI+Jm5ic3A7SVggLyBjb2RlZCBhbmltYXRpb24mbmJzcDs8L3NwYW4+LlxuICAgICAgPC9wPlxuICAgIDwvZGl2PlxuXG4gIDxzdHlsZSBqc3g+e2BcbiAgICAuaWNvbntcbiAgICAgIHdpZHRoOjIwcHg7XG4gICAgICBoZWlnaHQ6IDIwcHg7XG4gICAgICBib3JkZXItcmFkaXVzOiAzcHg7XG4gICAgfVxuICAgIC8vLnBhcmFncmFwaHtcbiAgICAvLyAgZm9udC13ZWlnaHQ6MzAwO1xuICAgIC8vfVxuICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgV2VsY29tZUJpbztcbiJdfQ== */\n/*@ sourceURL=/Users/aaronadler/Dropbox/DESDEV_DRIBBB/www-aa-next7/Components/WelcomeBio/WelcomeBio.js */",
     __self: this
   }));
 };
