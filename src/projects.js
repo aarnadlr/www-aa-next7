@@ -112,6 +112,28 @@ const projects = [
 
 
   {
+    key: 333,
+    image: '../static/discovery_thumb_black2.jpg',
+    title: 'Discovery Channel - Multistep React Form',
+     desc: "React component for a multistep subscriber form. Click to view (resize window to view 3 breakpoint layouts).",
+
+     role1: "Built the UI component using React, Sass, CSS grid, Tachyons and Formik.",
+     role2: "Three media queries provide styling for the component across browser widths.",
+     role3: "Implemented form validation and required field errors.",
+     role4: "User form data saved to component state and logged to the console (view console in browser)",
+    
+     // TAGS:
+    //  tag1: 'sketch',
+     tag1: 'React',
+     tag2: 'CSS Grid',
+     tag3: 'JavaScript',
+     tag4: 'Formik',
+
+     year: 2019,
+     link: "https://discovery-ui.now.sh/"
+  },
+
+  {
     key: 3,
     image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
     title: 'Tradewind Markets - Blockchain platform',
