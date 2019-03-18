@@ -51,7 +51,8 @@ const projects = [
 
      year: 2018,
          // HREF LINK
-    link: "http://kith-store.aaronadler.com"
+    // link: "http://kith-store.aaronadler.com"
+    link: "https://kith.now.sh/"
   },
   
 
