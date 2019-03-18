@@ -107,7 +107,8 @@ const projects = [
     year: 2018,
         // HREF LINK
     // link: "./ibm.html"
-    link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
+    // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
+    link: "https://ibm-partners.now.sh/"
   },
 
 
