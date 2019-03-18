@@ -136,7 +136,7 @@ const projects = [
 
   {
     key: 3,
-    image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
+    image: '../static/Tradewind-800x400.gif',
     title: 'Tradewind Markets - Blockchain platform',
      desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
 
