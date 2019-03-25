@@ -8,7 +8,7 @@ import Footer from '../Components/Footer'
 import MediumCard from '../Components/MediumCard';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
-console.log('aacom-4');
+console.log('aacom-5');
 
 export default () =>
   <div className=''>

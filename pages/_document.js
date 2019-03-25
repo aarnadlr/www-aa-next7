@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
     return (
       <html prefix="og: http://ogp.me/ns#">
         <Head>
-          <meta name="image" property="og:image" content="https://aaronadler.com/og-aa-com.jpg"/>
+          <meta name="image" property="og:image" content="https://aaronadler.com/static/og-aa-com.jpg"/>
           <meta name="author" content="Aaron Adler"/>
           <meta name="keywords" content="Aaron Adler, UX, design, HTML, CSS, JavaScript, React, Node, Sketch, Photoshop"/>
           <meta name="og:title" content="Aaron Adler - UX/Dev"/>
