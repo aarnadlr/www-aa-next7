@@ -34,9 +34,9 @@ const WelcomeBio = () => (
       <p className="paragraph f5 lh-copy4b mh3">
         Hi there. &nbsp;I'm a&nbsp;
         <span className="bg-blue6">&nbsp;UX Engineer&nbsp;</span>&nbsp;and <span className="bg-cyan8">&nbsp;Front-end Developer&nbsp;</span>&nbsp;in NYC.&nbsp;
-        I’ve worked on projects for Facebook, Google, IBM, R/GA, Droga5 and
+        I’ve worked on projects for Facebook, Google, LinkedIn, IBM, R/GA, Droga5 and
         others. &nbsp;My work has been recognized by Cannes, AICP, the Art Directors
-        Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="bg-green8">&nbsp;JavaScript ES6 + React&nbsp;</span> , <span className="bg-teal8">&nbsp;CSS3&nbsp;</span> ,
+        Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="bg-green8">&nbsp;CSS3&nbsp;</span> , <span className="bg-teal8">&nbsp;JavaScript ES6 + React&nbsp;</span> ,
         
          and <span className="bg-blue6">&nbsp;IX / coded animation&nbsp;</span>.
       </p>
