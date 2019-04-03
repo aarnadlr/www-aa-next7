@@ -14,7 +14,7 @@ const Footer = () => (
 
     {/* <!-- CONTACT / EMAIL --> */}
     <div className="container container--marbot80 container--pad10">
-      <a href="mailto:aaron.adler@gmail.com">
+      <a rel="noopener noreferrer" href="mailto:aaron.adler@gmail.com">
         <p className="grow lightest-blue f5">
           <i className="fa fa-envelope-o blue5 mr2" aria-hidden="true"></i> aaron.adler(at)gmail(.com)
         </p>

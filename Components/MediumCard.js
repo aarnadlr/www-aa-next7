@@ -36,7 +36,7 @@ class MediumCard extends Component {
                 <h1>{article.title}</h1>
                 <h2>{article.pubDate}</h2>
                 {/* <a>{article.link}</a> */}
-                <a  href={article.link}>{article.link}</a>
+                <a rel="noopener noreferrer"  href={article.link}>{article.link}</a>
                 <h4>{article.guid}</h4>
                 <h5>{article.author}</h5>
                 --------------------------

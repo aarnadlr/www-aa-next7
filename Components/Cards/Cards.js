@@ -53,7 +53,7 @@ const Cards = () => {
               > */}
                   <div className="br2 ma2 bg-white">
                     {/* <a target="_blank" href={project.link?project.link:null}> */}
-                    <a target="_blank" href={project.link}>
+                    <a target="_blank" rel="noopener noreferrer" href={project.link}>
 
 
 

@@ -16,15 +16,18 @@ export default class MyDocument extends Document {
           <meta name="keywords" content="Aaron Adler, UX, design, HTML, CSS, JavaScript, React, Node, Sketch, Photoshop"/>
           <meta name="og:title" content="Aaron Adler - UX/Dev"/>
           <meta name="og:type" content="website"/>
-          <meta name="og:site_name" content="Aaron Adler - UX/Dev"/>
-          <meta name="og:description" content="Aaron Adler - UX/Front-end Development"/>
+          <meta name="og:site_name" content="Aaron Adler | UX Engineer"/>
+          <meta name="og:description" content="Aaron Adler | UX Engineer"/>
+          <meta name="Description" content="Aaron Adler | UX Engineer"></meta>
           <meta name='viewport' content="width=device-width, initial-scale=1.0"/>
           <meta name="title" property="og:title" content="Aaron Adler - UX/Dev"/>
           <meta property='og:url' content='https://aaronadler.com'/>
-         
+          <meta name="theme-color" content="#000000"/>
 
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"></link>
-       
+          <link rel="stylesheet noopener noreferrer" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/>>
+          <link rel="manifest" href="../manifest.json"/>
+          <link rel="shortcut icon" type="image/x-icon" href="https://aaronadler.com/static/favicon.ico" />
+
         </Head>
         <body>
           <Main />
