@@ -3,7 +3,8 @@
   "name": "aaronadler-uxdev",
   "alias": [
     "aaronadler.com",
-    "www.aaronadler.com"
+    "www.aaronadler.com",
+    "aaron.now.sh"
   ],
   "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }

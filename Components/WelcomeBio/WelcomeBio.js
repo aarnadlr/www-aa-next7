@@ -6,7 +6,7 @@ import React from "react";
 // `
 
 const WelcomeBio = () => (
-  <div className="">
+  <main className="">
 
     <div id="topSection" className="flex flex-column center white mt6 mb5">
       <img
@@ -15,7 +15,7 @@ const WelcomeBio = () => (
         src="../../static/icons/profile-pic.jpg"
         alt='alt'
       />
-      <p className="f2c tc">Aaron Adler</p>
+      <h1 className="f2c tc fw4">Aaron Adler</h1>
 
 
       {/* SOCIAL ICONS UNDER NAME */}
@@ -31,7 +31,7 @@ const WelcomeBio = () => (
         <a target='_blank' rel="noopener noreferrer" href="https://twitter.com/aaronadler"><img className='icon grow-large-2 ml3' src='../../static/icons/twitter.png' /></a>
       </div>
 
-      <p className="paragraph f5 lh-copy4b mh3">
+      <h2 className="paragraph f5 lh-copy4b mh3 fw1">
         Hi there. &nbsp;I'm a&nbsp;
         <span className="bg-blue6">&nbsp;UX Engineer&nbsp;</span>&nbsp;and <span className="bg-cyan8">&nbsp;Front-end Developer&nbsp;</span>&nbsp;in NYC.&nbsp;
         I’ve worked on projects for Facebook, Google, LinkedIn, IBM, R/GA, Droga5 and
@@ -39,7 +39,7 @@ const WelcomeBio = () => (
         Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="bg-green8">&nbsp;CSS3&nbsp;</span> , <span className="bg-teal8">&nbsp;JavaScript ES6 + React&nbsp;</span> ,
         
          and <span className="bg-blue6">&nbsp;IX / coded animation&nbsp;</span>.
-      </p>
+      </h2>
     </div>
 
   <style jsx>{`
@@ -48,11 +48,8 @@ const WelcomeBio = () => (
       height: 20px;
       border-radius: 3px;
     }
-    //.paragraph{
-    //  font-weight:300;
-    //}
   `}</style>
-  </div>
+  </main>
 );
 
 export default WelcomeBio;
