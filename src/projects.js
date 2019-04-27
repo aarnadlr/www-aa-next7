@@ -176,26 +176,26 @@ const projects = [
     link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
   },
 
-  {
-    key: '26',
-    image: '../static/wellsfargo/wfLock2.jpg',
-    title: 'Wells Fargo UX',
+  // {
+  //   key: '26',
+  //   image: '../static/wellsfargo/wfLock2.jpg',
+  //   title: 'Wells Fargo UX',
     
-     desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
+  //    desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
 
-     role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
-     role2: "Built a family of button styles and their default, hover, active, and disabled states.",
-     role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
-    // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
+  //    role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
+  //    role2: "Built a family of button styles and their default, hover, active, and disabled states.",
+  //    role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
+  //   // TAGS:
+  //    tag1: 'Sketch',
+  //    tag2: 'Illustrator',
+  //    tag3: 'Photoshop',
+  //    tag4: 'SVG',
 
-     year: 2018,
-         // HREF LINK
-    link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
-  },
+  //    year: 2018,
+  //        // HREF LINK
+  //   link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
+  // },
 
 
   // vvv BLOCKPARTY

@@ -13,7 +13,14 @@ const CoreTools = () => (
             <span className="fa-stack">
               <i className="fa fas fa-pencil-alt rainbow1" />
             </span>
-            Sketch</li>
+            Sketch
+          </li>
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-th-large rainbow1" />
+            </span>
+            Figma
+          </li>
 
 
 
@@ -31,16 +38,59 @@ const CoreTools = () => (
             CSS3</li>
 
 
+
+            <li className="skill">
+            <span className="fa-stack">
+              <i className="fab fa-js-square rainbow4"></i>
+            </span>
+            Javascript ES6
+          </li>
+
+            
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-th-large rainbow4" />
+              {/* <i className="fab fa-react rainbow9" /> */}
+              <i className="fab fa-react rainbow5"></i>
+            </span>
+            React
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              {/* <i className="fab fa-react rainbow9" /> */}
+              <i className="fas fa-database rainbow6"></i>
+            </span>
+            Redux
+          </li>
+          
+
+          <li className="skill">
+            <span className="fa-stack">
+            <i className="fa fa-code rainbow7" />
+            </span>
+            NextJS
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+            {/* <i className="fa fa-code rainbow9" /> */}
+            🔥 
+            </span>
+            Firebase
+          </li>
+
+
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-th-large rainbow7" />
             </span>
             CSS Grid</li>
 
 
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-bars rainbow5" />
+              <i className="fa fa-bars rainbow7" />
             </span>
             CSS Flexbox</li>
 
@@ -48,8 +98,8 @@ const CoreTools = () => (
           <li className="skill">
             <span className="fa-stack">
               {/* <i className="fa fa-file-photo-o rainbow6" /> */}
-              <i className="fab fa-sass rainbow6"></i>
-            </span>{""}Sass/scss</li>
+              <i className="fab fa-sass rainbow7"></i>
+            </span>{""}Sass/SCSS</li>
 
           <li className="skill">
             <span className="fa-stack">
@@ -73,51 +123,16 @@ const CoreTools = () => (
 
 
           <li className="skill">
-            <span className="fa-stack">
-              <i className="fab fa-js-square rainbow9"></i>
-            </span>
-            Javascript ES6
-          </li>
-
-            
-          <li className="skill">
-            <span className="fa-stack">
-              {/* <i className="fab fa-react rainbow9" /> */}
-              <i className="fab fa-react rainbow9"></i>
-            </span>
-            React
-          </li>
-
-          <li className="skill">
-            <span className="fa-stack">
-              {/* <i className="fab fa-react rainbow9" /> */}
-              <i className="fas fa-database rainbow9"></i>
-            </span>
-            Redux
-          </li>
-          
-
-          <li className="skill">
-            <span className="fa-stack">
-            <i className="fa fa-code rainbow9" />
-            </span>
-            NextJS
-          </li>
-
-          <li className="skill">
-            <span className="fa-stack">
-            {/* <i className="fa fa-code rainbow9" /> */}
-            🔥 
-            </span>
-            Firebase
-          </li>
-
-
-
-          <li className="skill">
             <span role='img' aria-label="skill" className="f4">💅 </span> &nbsp;Styled-Components
           </li>
 
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-language rainbow9" />
+            </span>{" "}
+            Babel
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
@@ -167,6 +182,15 @@ const CoreTools = () => (
             Greensock/GSAP</li>
 
 
+            <li className="skill">
+            <span className="fa-stack">
+              {/* <i className="fab fa-gulp rainbow14" /> */}
+              <i className="fas fa-wine-bottle rainbow12" />
+            </span>{" "}
+            Gulp
+          </li>
+
+
           {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-first-order rainbow17" />
@@ -186,13 +210,6 @@ const CoreTools = () => (
             </span>{" "}
             Git/GitHub</li>
 
-
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-cube rainbow13" />
-              
-            </span>{" "}
-            Blender3D</li>
 
 
           <li className="skill">
@@ -217,13 +234,13 @@ const CoreTools = () => (
 
       <div className="coreskills-box__core-col blue0">
         <h1 className="">Secondary Tools</h1>
-        <p>Software I work with, and I am actively learning.</p>
+        <p>Software and libraries I'm actively practicing with.</p>
         <ul>
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-terminal rainbow11" />
             </span>{" "}
-            NodeJS
+            Node
           </li>
           <li className="skill">
             <span className="fa-stack">
@@ -243,13 +260,7 @@ const CoreTools = () => (
             </span>{" "}
             PostCSS
           </li>
-          <li className="skill">
-            <span className="fa-stack">
-              {/* <i className="fab fa-gulp rainbow14" /> */}
-              <i className="fas fa-wine-bottle rainbow14" />
-            </span>{" "}
-            Gulp
-          </li>
+          
 
           {/* <li className="skill">
             <span className="fa-stack">
@@ -258,20 +269,25 @@ const CoreTools = () => (
             Meteor
           </li> */}
 
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-language rainbow15" />
-            </span>{" "}
-            Babel
-          </li>
+
 
 
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-cube rainbow17" />
+              <i className="fa fa-magic rainbow15" />
             </span>{" "}
             Webpack
           </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-cube rainbow15" />
+              
+            </span>{" "}
+            Blender3D</li>
+
+
+
         </ul>
       </div>
 
