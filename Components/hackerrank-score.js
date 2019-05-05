@@ -19,7 +19,7 @@ export default class HackerrankScore extends Component {
           data: data,
           isLoading: false
         });
-        console.log(data);
+        // console.log(data);
       });
   }
 
@@ -43,7 +43,7 @@ export default class HackerrankScore extends Component {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0)">
+                <g clipPath="url(#clip0)">
                   <path
                     d="M32.0859 8.07471H9.94629V37.9582H32.0859V8.07471Z"
                     fill="white"
@@ -62,8 +62,8 @@ export default class HackerrankScore extends Component {
                     y2="0"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#1BA94C" />
-                    <stop offset="1" stop-color="#32C766" />
+                    <stop stopColor="#1BA94C" />
+                    <stop offset="1" stopColor="#32C766" />
                   </linearGradient>
                   <clipPath id="clip0">
                     <rect width="42" height="46" fill="white" />
@@ -85,7 +85,7 @@ export default class HackerrankScore extends Component {
               transition: all 0.4s ease;
             }
             .hr-badge:hover {
-              background: rgba(255, 255, 255, 0.3);
+              background: rgba(255, 255, 255, 0.25);
               transform: translateY(-3px);
             }
 

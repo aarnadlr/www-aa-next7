@@ -8,6 +8,7 @@ import Footer from '../Components/Footer'
 // import MediumCard from '../Components/MediumCard';
 import Head from 'next/head';
 import HackerrankScore from '../Components/hackerrank-score';
+import Link from 'next/link';
 
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
@@ -28,7 +29,15 @@ export default () =>
     <WelcomeBio/>
 
 
-    <HackerrankScore/>
+    
+    <div className="algos">
+    
+        <a target="_blank" href="https://www.codewars.com/users/aarnadlr">
+          <img src="https://www.codewars.com/users/aarnadlr/badges/large" alt=""/>
+        </a>
+
+      <HackerrankScore/>
+    </div>
 
 
     <Cards />
@@ -40,6 +49,25 @@ export default () =>
     <Footer />
 
 
-  {/* <style jsx>{`
-  `}</style> */}
+  <style jsx>{`
+    .algos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .algos a {
+      transition: all .3s ease;
+      margin: 0 0 40px 0;
+    }
+    .algos a:hover {
+      transform: translateY(-3px);
+    }
+    
+    .algos a img{
+      cursor: pointer;
+      display: block;
+    }
+    
+  `}</style>
   </div>
