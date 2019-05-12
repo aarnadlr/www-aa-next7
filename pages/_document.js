@@ -26,8 +26,7 @@ export default class MyDocument extends Document {
 
           <link rel="stylesheet noopener noreferrer" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossOrigin="anonymous"/>>
           <link rel="manifest" href="../manifest.json"/>
-          <link rel="shortcut icon" type="image/x-icon" href="https://aaronadler.com/static/favicon.ico" />
-
+          <link rel="icon" type="image/x-icon" href="static/favicon.ico" />
         </Head>
         <body>
           <Main />

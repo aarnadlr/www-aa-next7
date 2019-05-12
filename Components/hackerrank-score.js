@@ -97,7 +97,7 @@ export default class HackerrankScore extends Component {
             p {
               font-family: "Teko", sans-serif;
               font-weight: 300;
-              letter-spacing: 0.7px;
+              letter-spacing: .05rem;
               font-size: 21px;
               margin: 0 0 0 10px;
               position: relative;
