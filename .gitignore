@@ -9,6 +9,7 @@ now-secrets.json
 # next.js build output
 .next
 out
+dist
 
 # Dependency directories
 node_modules/
