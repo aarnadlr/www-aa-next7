@@ -35,7 +35,7 @@ const projects = [
   {
     key: 30,
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
-    title: 'EricElliotJS.com',
+    title: 'EricElliottJS.com',
      desc: "UX design and ReactJS web development for Eric Elliott's JavaScript education platform.",
 
      role1: "Designed the site UX at mobile and desktop widths with Sketch and Figma",
