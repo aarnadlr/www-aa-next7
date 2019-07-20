@@ -2,8 +2,8 @@
 const projects = [
   {
     key: 1,
-    // image: './images/thumbs2018/IBM-rect.jpg',
-    image: '../static/thumbs2018/IBM-rect.jpg',
+    // image: './images/thumbs800x400/IBM-rect.jpg',
+    image: '../static/thumbs800x400/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners',
     desc: "UX and JavaScript development for IBM Partners, IBM's business services portal. Click to view the project.",
@@ -20,10 +20,10 @@ const projects = [
 
     // techstack: ""
     // TAGS:
-    tag1: 'Sketch',
-    tag2: 'HTML5',
-    tag3: 'CSS3',
-    tag4: 'JavaScript',
+    tag1: 'HTML5',
+    tag2: 'CSS3',
+    tag3: 'JavaScript',
+    tag4: 'Sketch / Figma',
 
     year: 2018,
         // HREF LINK
@@ -31,7 +31,89 @@ const projects = [
     link: "https://www.ibm.com/partners/start/"
   },
 
-  
+
+  {
+    key: 30,
+    image: '../static/thumbs800x400/eejs_800x400-2.jpg',
+    title: 'EricElliotJS.com',
+     desc: "UX design and ReactJS web development for Eric Elliott's JavaScript education platform.",
+
+     role1: "Designed the site UX at mobile and desktop widths with Sketch and Figma",
+     role2: "Set up initial app with React and NextJS",
+     role3: "Implemented user payments with Paypal SDK",
+     role4: "Set up user auth with Firebase Auth",
+     role5: "Set up persistent account data with Cloud Firestore",
+     role6: "SVG animated brand identity built with Adobe After Effects and LottieJS",
+    // TAGS:
+    //  tag1: 'sketch',
+     tag1: 'JavaScript',
+     tag2: 'React',
+     tag3: 'NextJS',
+     tag4: 'CSS/SASS',
+
+     year: 2019,
+    //  tag6: 'sass/scss',
+    //  tag7: 'svg',
+         // HREF LINK
+    // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+    link: "https://ericelliottjs.com",
+    dim:false
+  },
+
+
+
+
+{
+    key: 5,
+    image: '../static/thumbs800x400/youtubezero3-rect.gif',
+    title: 'YouTube Zero',
+     desc: 'React application providing a zero-click YouTube search interface. Click to view.',
+
+     role1: 'Fetch data from YouTube DataAPI v3. ',
+     role2: 'CSS-in-JS with Styled-components and Tachyons.',
+    // TAGS:
+     tag1: 'React',
+     tag2: 'CSS3',
+     tag3: 'JavaScript',
+     tag4: 'YouTube API',
+
+     year: 2017,
+         // HREF LINK
+    // link: "https://youtubezero.herokuapp.com/"
+    link: "https://youtubezero.now.sh/"
+  },
+
+
+
+  {
+    key: 30,
+    image: '../static/thumbs800x400/artemis_800x400-2.jpg',
+    title: 'Artemis Capital Advisors',
+     desc: "UX design and ReactJS web development for Artemis Capital Advisors.",
+
+     role1: "Designed the site UX at mobile and desktop widths with Figma",
+     role2: "React NextJS app",
+     role3: "Styling with CSS-in-JS styledJSX and external Sass",
+     role4: "Animated brand identity on page load with CSS animation",
+     role5: "Interactive table with sort and filter functionality",
+     role6: "Google Maps API with custom color palette and custom map pin icon",
+    // TAGS:
+    //  tag1: 'sketch',
+     tag1: 'JavaScript',
+     tag2: 'React',
+     tag3: 'NextJS',
+     tag4: 'CSS/SASS',
+
+     year: 2019,
+    //  tag6: 'sass/scss',
+    //  tag7: 'svg',
+         // HREF LINK
+    // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+    link: "https://artemis.llc",
+    dim:false
+  },
+
+
   {
     key: 2,
     image: '../static/kith-rect3.jpg',
@@ -57,32 +139,13 @@ const projects = [
   
 
 
-  {
-    key: 5,
-    image: '../static/thumbs2018/youtubezero3-rect.gif',
-    title: 'YouTube Zero',
-     desc: 'React application providing a zero-click YouTube search interface. Click to view.',
-
-     role1: 'Fetches data in realtime from YouTube DataAPI v3. ',
-     role2: 'Designed using Styled-components and Tachyons.',
-    // TAGS:
-     tag1: 'React',
-     tag2: 'CSS3',
-     tag3: 'JavaScript',
-     tag4: 'YouTube API',
-
-     year: 2017,
-         // HREF LINK
-    // link: "https://youtubezero.herokuapp.com/"
-    link: "https://youtubezero.now.sh/"
-  },
 
 
 
   {
     key: 30,
-    // image: './images/thumbs2018/IBM-rect.jpg',
-    // image: '../static/thumbs2018/IBM-rect.jpg',
+    // image: './images/thumbs800x400/IBM-rect.jpg',
+    // image: '../static/thumbs800x400/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners - Motion Identity',
     desc: "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
@@ -135,32 +198,31 @@ const projects = [
      link: "https://discovery-ui.now.sh/"
   },
 
-  {
-    key: 3,
-    image: '../static/Tradewind-800x400.gif',
-    title: 'Tradewind Markets - Blockchain platform',
-     desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
-
-     role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
-    // TAGS:
-    //  tag1: 'sketch',
-     tag1: 'HTML5',
-     tag2: 'CSS3',
-     tag3: 'JavaScript',
-     tag4: 'Gulp',
-
-     year: 2018,
-    //  tag6: 'sass/scss',
-    //  tag7: 'svg',
-         // HREF LINK
-    // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-    link: "https://tradewindmarkets.com"
-  },
-
+  // {
+  //   key: 3,
+  //   image: '../static/Tradewind-800x400.gif',
+  //   title: 'Tradewind Markets - Blockchain platform',
+  //    desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
+  //
+  //    role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
+  //   // TAGS:
+  //   //  tag1: 'sketch',
+  //    tag1: 'HTML5',
+  //    tag2: 'CSS3',
+  //    tag3: 'JavaScript',
+  //    tag4: 'Gulp',
+  //
+  //    year: 2018,
+  //   //  tag6: 'sass/scss',
+  //   //  tag7: 'svg',
+  //        // HREF LINK
+  //   // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+  //   link: "https://tradewindmarkets.com"
+  // },
 
   {
     key: '2B',
-    image: '../static/thumbs2018/motet3b.jpg',
+    image: '../static/thumbs800x400/motet3b.jpg',
     title: 'Motet - Music App UX',
      desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
 
@@ -243,7 +305,7 @@ const projects = [
   
   {
     key: 4,
-    image: '../static/thumbs2018/verbal4.jpg',
+    image: '../static/thumbs800x400/verbal4.jpg',
     title: 'Verbal - Messaging UI',
      desc: 'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
 
@@ -262,7 +324,7 @@ const projects = [
 
   {
     key: 6,
-    image: '../static/thumbs2018/patagonia-ww3.gif',
+    image: '../static/thumbs800x400/patagonia-ww3.gif',
     title: 'Patagonia Provisions',
      desc: "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
 
@@ -283,7 +345,7 @@ const projects = [
 
   {
     key: 7,
-    image: '../static/thumbs2018/google-play-17-rect.jpg',
+    image: '../static/thumbs800x400/google-play-17-rect.jpg',
     title: 'Google Play',
      desc: 'Campaign concept and design to promote movies, music and book titles on Google Play. Click to view.',
 
@@ -304,7 +366,7 @@ const projects = [
   {
     key: 8,
     gif: true,
-    image: '../static/thumbs2018/daftpunk-320.gif',
+    image: '../static/thumbs800x400/daftpunk-320.gif',
     title: 'Daft Punk - Facebook Camera Effect AR',
      desc: 'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
 
@@ -321,7 +383,7 @@ const projects = [
   },
   {
     key: 9,
-    image: '../static/thumbs2018/cotton-bur-rect.gif',
+    image: '../static/thumbs800x400/cotton-bur-rect.gif',
     title: "Cotton Bureau",
      desc: 'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
 
@@ -357,7 +419,7 @@ const projects = [
   {
     key: 11,
     gif: true,
-    image: '../static/thumbs2018/moic3.gif',
+    image: '../static/thumbs800x400/moic3.gif',
     title: 'Museum of Ice Cream - Facebook Camera Effect',
      desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
 
@@ -375,7 +437,7 @@ const projects = [
 
   // {
   //   key: 12,
-  //   image: '../static/thumbs2018/arthritis-rect.jpg',
+  //   image: '../static/thumbs800x400/arthritis-rect.jpg',
   //   title: 'Arthritis Foundation',
   //    desc: 'Graphic to promote awareness for the Arthritis Foundation. Click to view.',
 

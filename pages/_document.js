@@ -46,7 +46,11 @@ export default class MyDocument extends Document {
           >
           <link rel="manifest" href="../manifest.json" />
           {/* favicons */}
-
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="static/favicons/favicon.ico"
+          />
           <link
             rel="icon"
             type="image/png"
@@ -65,11 +69,7 @@ export default class MyDocument extends Document {
             sizes="16x16"
             href="static/favicons/favicon-16.png"
           />
-          <link
-            rel="icon"
-            type="image/x-icon"
-            href="static/favicons/favicon.ico"
-          />
+
         </Head>
         <body>
           <Main />
