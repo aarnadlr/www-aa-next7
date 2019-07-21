@@ -20,18 +20,18 @@ const WelcomeBio = () => (
 
       {/* SOCIAL ICONS UNDER NAME */}
       <div className='flex justify-center mb4'>
-        <a target='_blank' rel="noopener noreferrer" href="https://github.com/aarnadlr"><img alt='github'               className='icon grow-large-2' src='../../static/icons/github.gif' /></a>
-        <a target='_blank' rel="noopener noreferrer" href="https://codepen.io/aaronadler/"><img alt='codepen'           className='icon grow-large-2 ml3' src='../../static/icons/codepen.png' /></a>
+        <a target='_blank' rel="noopener noreferrer" href="https://github.com/aarnadlr"><img alt='github'     className='github icon grow-large-2' src='../../static/svg/github.svg' /></a>
+        <a target='_blank' rel="noopener noreferrer" href="https://codepen.io/aaronadler/"><img alt='codepen' className='codepen icon grow-large-2 ml3' src='../../static/svg/codepen.svg' /></a>
         <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/aaronadler/"><img alt='linkedin' className='icon grow-large-2 ml3' src='../../static/icons/linkedin.png' /></a>
         {/* <a target='_blank' rel="noopener noreferrer" href="https://www.toptal.com/designers/resume/aaron-adler"><img alt='toptal' className='icon grow-large-2 ml3' src='../../static/icons/toptal.gif' /></a> */}
         <a target='_blank' rel="noopener noreferrer" href="https://dribbble.com/aarnadlr"><img alt='dribbb'             className='icon grow-large-2 ml3' src='../../static/icons/AA-dribbble-icon.png' /></a>
         <a target='_blank' rel="noopener noreferrer" href="https://www.producthunt.com/@aarnadlr"><img                  className='icon grow-large-2 ml3' src='../../static/icons/prodhunt.png' /></a>
-        <a target='_blank' rel="noopener noreferrer" href="https://workingnotworking.com/aarn"><img                     className='icon grow-large-2 ml3' src='../../static/icons/wnw.png' /></a>
+        {/*<a target='_blank' rel="noopener noreferrer" href="https://workingnotworking.com/aarn"><img                     className='icon grow-large-2 ml3' src='../../static/icons/wnw.png' /></a>*/}
         <a target='_blank' rel="noopener noreferrer" href="https://medium.com/@aaronadler"><img alt='medium' className='icon grow-large-2 ml3' src='../../static/icons/medium.png' /></a>
         <a target='_blank' rel="noopener noreferrer" href="https://twitter.com/aaronadler"><img className='icon grow-large-2 ml3' src='../../static/icons/twitter.png' /></a>
       </div>
 
-      <h2 className="paragraph f5 lh-copy4b mh3 fw1">
+      <h2 className="paragraph f5 lh-copy4b mh3 fw5">
         Hi there. &nbsp;I'm a&nbsp;
         <span className="highlight">&nbsp;UX Engineer&nbsp;</span>&nbsp;and <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>&nbsp;in NYC.&nbsp;
         I’ve worked on projects for Facebook, Google, LinkedIn, IBM, R/GA, Droga5 and

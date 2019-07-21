@@ -21,7 +21,7 @@
 // }
 
 body.light-mode {
-  background-color: #e9ebf2;
+  background-color: #ebf2f5;
   color: #011b69;
   transition: background-color 0.3s ease;
 
@@ -42,7 +42,7 @@ body.light-mode {
     background: #002596;
     color: white;
   }
-  .tools p, .contact p{
+  .tools p, #contact, #email p{
     color: #011b69;
   }
   .fa-suitcase:before{
@@ -56,6 +56,12 @@ body.light-mode {
 body.dark-mode {
   background-color: #00124a;
   color: #dfdfdf;
+
+  .github, .codepen {
+    //fill:pink;
+    //background-color: lime;
+    filter: invert(1);
+  }
   a {
     color: white;
   }

@@ -4,7 +4,7 @@ import useDarkMode from 'use-dark-mode';
 import Toggle from './toggle';
 
 const DarkModeToggle = () => {
-  const darkMode = useDarkMode(true);
+  const darkMode = useDarkMode(false);
 
   return (
     <div className="dark-mode-toggle">
