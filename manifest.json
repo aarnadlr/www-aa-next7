@@ -3,12 +3,12 @@
   "name": "Aaron Adler",
   "icons": [
     {
-      "src": "/static/profile-pics/profilePic_192px.png",
+      "src": "static/profile-pics/profilePic_192px.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/static/profile-pics/profilePic_512px.png",
+      "src": "static/profile-pics/profilePic_512px.png",
       "type": "image/png",
       "sizes": "512x512"
     }
