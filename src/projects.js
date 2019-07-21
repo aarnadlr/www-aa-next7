@@ -2,17 +2,13 @@
 const projects = [
   {
     key: 1,
-    // image: './images/thumbs800x400/IBM-rect.jpg',
-    image: '../static/thumbs800x400/IBM-rect.jpg',
-    // image: require('./images/ibm.png'),
+    image: '../static/thumbs800x400/IBM_800x400.jpg',
     title: 'IBM Partners',
-    desc: "UX and JavaScript development for IBM Partners, IBM's business services portal. Click to view the project.",
 
+    desc: "UX design and JavaScript web development for IBM Partners, IBM's business services portal. Click to view the project.",
 
-    // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
-    role1:"Developed wireframes and UX designs using Sketch and AdobeCC",
-
-    role2:"Delivered front-end JavaScript code to IBM engineering",
+    role1:"UX wireframes and design with Sketch",
+    role2:"Front-end JavaScript code",
     
     role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, and column layouts",
     
@@ -23,7 +19,7 @@ const projects = [
     tag1: 'HTML5',
     tag2: 'CSS3',
     tag3: 'JavaScript',
-    tag4: 'Sketch / Figma',
+    tag4: 'Sketch',
 
     year: 2018,
         // HREF LINK
@@ -60,14 +56,11 @@ const projects = [
     dim:false
   },
 
-
-
-
 {
     key: 5,
     image: '../static/thumbs800x400/youtubezero3-rect.gif',
     title: 'YouTube Zero',
-     desc: 'React application providing a zero-click YouTube search interface. Click to view.',
+     desc: 'ReactJS application providing a zero-click YouTube search interface. Click to view.',
 
      role1: 'Fetch data from YouTube DataAPI v3. ',
      role2: 'CSS-in-JS with Styled-components and Tachyons.',

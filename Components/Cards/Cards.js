@@ -8,15 +8,14 @@ const uuidv1 = require("uuid/v1");
 
 const Cards = () => {
   return (
-    <div className="flex flex-wrap justify-center">
-      {projects.map(function(project) {
+    <div className="card-container justify-center">
+      {projects.map((project)=>{
         return (
-          <div className="card" key={uuidv1()}>
+          <div className="card br2 ma2 bg-white" key={uuidv1()}>
             {/* <Tilt
                 className="Tilt"
                 options={{ reverse: true, max: 12, scale: 1.03, speed: 900 }}
               > */}
-            <div className="br2 ma2 bg-white">
               {/* <a target="_blank" href={project.link?project.link:null}> */}
               <a target="_blank" rel="noopener noreferrer" href={project.link}>
                 {/* If the project object has an image key, display img tag. Otherwise, show a div for JS code. */}
@@ -96,13 +95,16 @@ const Cards = () => {
                   </p>
                 </div>
               </a>
-            </div>
             {/* </Tilt> */}
           </div>
         );
       })}
 
       <style jsx>{`
+        .card-container{
+          display:flex;
+          flex-wrap: wrap;
+        }
         .card {
           width: 430px;
           transition: all 0.3s ease;
@@ -115,7 +117,8 @@ const Cards = () => {
 
         .completed {
           border: 1px solid blue;
-          margin-top: 2.7rem;
+          margin-top: 1.8rem;
+          margin-bottom: 0;
         }
 
         .image {
