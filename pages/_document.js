@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
             crossOrigin="anonymous"
           />
 
-          <link rel="manifest" href="../manifest.json" />
+          <link rel="manifest" href="manifest.json" />
           {/* favicons */}
           <link
             rel="icon"
