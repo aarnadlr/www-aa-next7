@@ -13,6 +13,7 @@
     "isomorphic-unfetch": "3.0.0",
     "lottie-react-web": "^2.1.4",
     "next": "latest",
+    "next-offline": "4.0.2",
     "node-sass": "latest",
     "react": "latest",
     "react-dom": "latest",
