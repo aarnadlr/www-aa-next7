@@ -38,7 +38,7 @@ const WelcomeBio = () => (
         others. &nbsp;My work has been recognized by Cannes, AICP, the Art Directors
         Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="highlight">&nbsp;CSS3&nbsp;</span> , <span className="highlight">&nbsp;JavaScript ES6 + React&nbsp;</span> ,
         
-         and <span className="bg-blue6">&nbsp;IX / coded animation&nbsp;</span>.
+         and <span className="highlight">&nbsp;IX / coded animation&nbsp;</span>.
       </h2>
     </div>
 
