@@ -3,7 +3,7 @@
 // import '../../src/css/entry.css';
 
 const Footer = () => (
-  <footer className="center lightest-blue">
+  <footer className="center">
 
     {/* <!-- THANK YOU --> */}
     <div id="contact" className="container container--martop70">
@@ -13,10 +13,10 @@ const Footer = () => (
     </div>
 
     {/* <!-- CONTACT / EMAIL --> */}
-    <div className="container container--marbot80 container--pad10">
+    <div id="email" className="container container--marbot80 container--pad10">
       <a rel="noopener noreferrer" href="mailto:aaron.adler@gmail.com">
-        <p className="grow lightest-blue f5">
-          <i className="fa fa-envelope-o blue5 mr2" aria-hidden="true"></i> aaron.adler(at)gmail(.com)
+        <p className="grow f5">
+          <i className="fa fa-envelope-o mr2" aria-hidden="true"></i> aaron.adler(at)gmail(.com)
         </p>
       </a>
     </div>

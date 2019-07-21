@@ -22,10 +22,14 @@
 
 body.light-mode {
   background-color: #e9ebf2;
-  color: #333;
+  color: #011b69;
   transition: background-color 0.3s ease;
+
+  //.card .textContainer{
+  //}
   .textContainer {
     background: #fff;
+    color: #011b69;
   }
   .hr-badge {
     //background: rgba(0, 0, 0, 0.8);
@@ -35,9 +39,19 @@ body.light-mode {
     background-color: #edeff5;
   }
   .paragraph .highlight {
-    background: #ade6ff;
+    background: #002596;
+    color: white;
+  }
+  .tools p, .contact p{
+    color: #011b69;
+  }
+  .fa-suitcase:before{
+    color:#011b69;
   }
 }
+
+
+
 
 body.dark-mode {
   background-color: #00124a;
@@ -46,7 +60,7 @@ body.dark-mode {
     color: white;
   }
   .textContainer {
-    background: #2b3a6e;
+    background: #1c2d6b;
   }
 
   .dark-mode-toggle > button {
@@ -79,7 +93,7 @@ body.dark-mode {
     cursor: pointer;
     transition: color 0.3s ease;
     &:last-child {
-      color: #666;
+      color:#011b69;
     }
 
     &:focus {

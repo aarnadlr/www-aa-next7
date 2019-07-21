@@ -19,7 +19,7 @@ const TopNav = () => (
       className=""
     >
       <div className="tools flex items-center grow2">
-        <i className="icon fa fa-suitcase blue5" />
+        <i className="icon fa fa-suitcase" />
         <p className="mr4">Tools</p>
       </div>
     </Scrollchor>

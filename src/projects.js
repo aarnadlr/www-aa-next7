@@ -292,7 +292,8 @@ const projects = [
 
      year: 2018,
          // HREF LINK
-    link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider"
+    link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider",
+    dim:true
   },
  
   
@@ -336,26 +337,27 @@ const projects = [
     link: "https://codepen.io/aaronadler/pen/vWoVoN"
   },
 
-  {
-    key: 7,
-    image: '../static/thumbs800x400/google-play-17-rect.jpg',
-    title: 'Google Play',
-     desc: 'Campaign concept and design to promote movies, music and book titles on Google Play. Click to view.',
+  // {
+  //   key: 7,
+  //   image: '../static/thumbs800x400/google-play-17-rect.jpg',
+  //   title: 'Google Play',
+  //    desc: 'Campaign concept and design to promote movies, music and book titles on Google Play. Click to view.',
+  //
+  //    role: "I worked with a writer to develop the creative concept. Designed the layouts with Sketch and Adobe Creative Suite.",
+  //   // TAGS:
+  //    tag1: 'Sketch',
+  //    tag2: 'Illustrator',
+  //    tag3: 'Photoshop',
+  //    tag4: 'SVG',
+  //
+  //    year: 2014,
+  //   //  tag5: 'bodymovin',
+  //   //  tag6: 'Illustrator',
+  //   //  tag7: '',
+  //   // HREF LINK
+  //   link: "https://dribbble.com/shots/3939152-Google-Play-All-Together-Beauty"
+  // },
 
-     role: "I worked with a writer to develop the creative concept. Designed the layouts with Sketch and Adobe Creative Suite.",
-    // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
-
-     year: 2014,
-    //  tag5: 'bodymovin',
-    //  tag6: 'Illustrator',
-    //  tag7: '',
-    // HREF LINK
-    link: "https://dribbble.com/shots/3939152-Google-Play-All-Together-Beauty"
-  },
   {
     key: 8,
     gif: true,
@@ -409,24 +411,26 @@ const projects = [
   //    // HREF LINK
   //    link: "https://thearss.com/"
   // },
-  {
-    key: 11,
-    gif: true,
-    image: '../static/thumbs800x400/moic3.gif',
-    title: 'Museum of Ice Cream - Facebook Camera Effect',
-     desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
 
-     role: "Received the ice cream scoops, cone and peppermint assets as .obj 3D models. Added colors, textures, and materials in ARStudio. Created the typography and background animations in After Effects. Configured the objects to a face-tracker in ARStudio.",
-    // TAGS:
-     tag1: 'ARStudio',
-     tag2: 'Blender3D',
-     tag3: 'Photoshop',
-     tag4: 'After Eff',
-
-     year: 2017,
-      // HREF LINK
-      link: "https://www.facebook.com/160758384681784/videos/162009941223295/"
-  },
+  //
+  // {
+  //   key: 11,
+  //   gif: true,
+  //   image: '../static/thumbs800x400/moic3.gif',
+  //   title: 'Museum of Ice Cream - Facebook Camera Effect',
+  //    desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
+  //
+  //    role: "Received the ice cream scoops, cone and peppermint assets as .obj 3D models. Added colors, textures, and materials in ARStudio. Created the typography and background animations in After Effects. Configured the objects to a face-tracker in ARStudio.",
+  //   // TAGS:
+  //    tag1: 'ARStudio',
+  //    tag2: 'Blender3D',
+  //    tag3: 'Photoshop',
+  //    tag4: 'After Eff',
+  //
+  //    year: 2017,
+  //     // HREF LINK
+  //     link: "https://www.facebook.com/160758384681784/videos/162009941223295/"
+  // },
 
   // {
   //   key: 12,
