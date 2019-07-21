@@ -72,12 +72,12 @@ export default class HackerrankScore extends Component {
               </svg>
             </div>
 
-            <p style={{ color: "white" }}>HackerRank: {hrScore}</p>
+            <p>HackerRank: {hrScore}</p>
           </div>
 
           <style jsx>{`
             .hr-badge {
-              background: rgba(255, 255, 255, 0.2);
+              // background: rgba(255, 255, 255, 0.2);
               width: 168px;
               padding: 10px 14px;
               border-radius: 8px;
@@ -85,7 +85,7 @@ export default class HackerrankScore extends Component {
               transition: all 0.4s ease;
             }
             .hr-badge:hover {
-              background: rgba(255, 255, 255, 0.25);
+              // background: rgba(255, 255, 255, 0.25);
               transform: translateY(-3px);
             }
 

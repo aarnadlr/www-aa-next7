@@ -8,7 +8,7 @@ import Footer from '../Components/Footer'
 // import MediumCard from '../Components/MediumCard';
 import Head from 'next/head';
 import HackerrankScore from '../Components/hackerrank-score';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
@@ -21,6 +21,15 @@ export default () =>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {/* <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"></link> */}
         <link href="https://fonts.googleapis.com/css?family=Teko:300" rel="stylesheet"></link>
+
+
+
+
+
+
+
+
+
       </Head>
     {/* <RSSRequestHOC/> */}
 

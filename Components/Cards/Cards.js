@@ -11,7 +11,7 @@ const Cards = () => {
     <div className="card-container justify-center">
       {projects.map((project)=>{
         return (
-          <div className="card br2 ma2 bg-white" key={uuidv1()}>
+          <div className="card br2 ma2" key={uuidv1()}>
             {/* <Tilt
                 className="Tilt"
                 options={{ reverse: true, max: 12, scale: 1.03, speed: 900 }}
@@ -22,7 +22,8 @@ const Cards = () => {
                 {project.image ? (
                   <img
                     style={{
-                      filter: project.dim ? "brightness(.9)" : "brightness(1)"
+                      filter: project.dim ? "brightness(.9)" : "brightness(1)",
+                      display:'block'
                     }}
                     src={project.image}
                     alt="alt"
@@ -36,15 +37,15 @@ const Cards = () => {
                   <p id="title" className="f3c mt1 mb0 fw6 lh-title">
                     {project.title}
                   </p>
-                  <p id="desc" className="f6b blue7  mt3 mb4 space">
+                  <p id="desc" className="f6b  mt3 mb4 space">
                     {project.desc}
                   </p>
 
-                  <p id="" className="projectRole f6 mt1 blue7 mb2 fw6">
+                  <p id="" className="projectRole f6 mt1 mb2 fw6">
                     My project role :
                   </p>
 
-                  <ul style={{ listStyleType: "circle" }} className="f6b blue7">
+                  <ul style={{ listStyleType: "circle" }} className="f6b">
                     <li className="mt3">
                       {project.role1 ? project.role1 : project.role}
                     </li>
@@ -66,31 +67,31 @@ const Cards = () => {
                     ) : null}
                   </ul>
 
-                  <p id="" className="f6 mt4 mb0 blue7 fw6">
+                  <p id="" className="f6 mt4 mb0 fw6">
                     Project stack:
                   </p>
 
-                  <p first="" className="mt0 tag bg-blue5">
+                  <p first="" className="mt0 tag ">
                     {project.tag1}
                   </p>
 
                   {project.tag2 ? (
-                    <p className="mt0 tag bg-blue6">{project.tag2}</p>
+                    <p className="mt0 tag ">{project.tag2}</p>
                   ) : null}
 
                   {project.tag3 ? (
-                    <p className="mt0 tag bg-indigo7">{project.tag3}</p>
+                    <p className="mt0 tag ">{project.tag3}</p>
                   ) : null}
 
                   {project.tag4 ? (
-                    <p className="mt0 tag bg-violet7">{project.tag4}</p>
+                    <p className="mt0 tag ">{project.tag4}</p>
                   ) : null}
 
                   {project.tag5 ? (
-                    <p className="mt0 tag bg-violet7">{project.tag5}</p>
+                    <p className="mt0 tag ">{project.tag5}</p>
                   ) : null}
 
-                  <p id="" className="completed dib f7 blue7 ph3 pv2">
+                  <p id="" className="completed dib f7 ph3 pv2">
                     Completed: &nbsp;<span className="fw7">{project.year}</span>
                   </p>
                 </div>
@@ -116,7 +117,7 @@ const Cards = () => {
         }
 
         .completed {
-          border: 1px solid blue;
+          border: 1px solid;
           margin-top: 1.8rem;
           margin-bottom: 0;
         }
@@ -131,8 +132,8 @@ const Cards = () => {
           border-top-left-radius: 4px;
         }
         .tag {
-          /* background: blue; */
-          color: white;
+          // background: blue;
+          // color: white;
           display: inline-block;
           padding: 4px 12px;
           border-radius: 6px;

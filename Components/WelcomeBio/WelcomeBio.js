@@ -8,7 +8,7 @@ import React from "react";
 const WelcomeBio = () => (
   <main className="">
 
-    <div id="topSection" className="flex flex-column center white mt6 mb5">
+    <div id="topSection" className="flex flex-column center mt6 mb5">
       <img
         id="profile-pic"
         className="grow2 center mb3"
@@ -33,10 +33,10 @@ const WelcomeBio = () => (
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw1">
         Hi there. &nbsp;I'm a&nbsp;
-        <span className="bg-blue6">&nbsp;UX Engineer&nbsp;</span>&nbsp;and <span className="bg-cyan8">&nbsp;Front-end Developer&nbsp;</span>&nbsp;in NYC.&nbsp;
+        <span className="highlight">&nbsp;UX Engineer&nbsp;</span>&nbsp;and <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>&nbsp;in NYC.&nbsp;
         I’ve worked on projects for Facebook, Google, LinkedIn, IBM, R/GA, Droga5 and
         others. &nbsp;My work has been recognized by Cannes, AICP, the Art Directors
-        Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="bg-green8">&nbsp;CSS3&nbsp;</span> , <span className="bg-teal8">&nbsp;JavaScript ES6 + React&nbsp;</span> ,
+        Club, Clios, Archive, Adweek, and the New York Times. &nbsp;My focus is on <span className="highlight">&nbsp;CSS3&nbsp;</span> , <span className="highlight">&nbsp;JavaScript ES6 + React&nbsp;</span> ,
         
          and <span className="bg-blue6">&nbsp;IX / coded animation&nbsp;</span>.
       </h2>

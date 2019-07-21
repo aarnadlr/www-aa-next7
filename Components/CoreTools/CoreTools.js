@@ -2,10 +2,10 @@
 
 const CoreTools = () => (
   <div id="coretools" className="flex container">
-    <div className="justify-center coreskills-box lightest-blue ">
+    <div className="justify-center coreskills-box ">
 
 
-      <div className="coreskills-box__core-col blue0">
+      <div className="coreskills-box__core-col">
         <h1 className="">Core Tools</h1>
         <p>Software and libraries I often work with in projects.</p>
         <ul>

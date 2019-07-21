@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "now-dev": "next -p $PORT",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -7,18 +8,19 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.0",
+    "@zeit/next-sass": "latest",
     "bodymovin": "^4.13.0",
     "isomorphic-unfetch": "3.0.0",
     "lottie-react-web": "^2.1.4",
     "next": "latest",
-    "node-sass": "^4.7.2",
+    "node-sass": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-lottie": "^1.2.3",
     "react-scrollchor": "^6.0.0",
     "styled-components": "^4.1.2",
-    "styled-jsx-plugin-sass": "^1.0.0"
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "use-dark-mode": "2.3.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.6.0"
