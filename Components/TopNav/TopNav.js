@@ -1,8 +1,8 @@
 // import React from 'react';
 // import 'font-awesome/css/font-awesome.min.css';
 // import moduleName from '@fortawesome/fontawesome-free'
-import Scrollchor from "react-scrollchor";
-import DarkModeToggle from "../darkModeToggle";
+import Scrollchor from 'react-scrollchor';
+import DarkModeToggle from '../darkModeToggle';
 
 const easeInOutQuart = function(x, t, b, c, d) {
   if ((t /= d / 2) < 1) return (c / 2) * t * t * t * t + b;
@@ -11,8 +11,7 @@ const easeInOutQuart = function(x, t, b, c, d) {
 
 const TopNav = () => (
   <div className="container">
-
-    <DarkModeToggle/>
+    <DarkModeToggle />
     <Scrollchor
       animate={{ offset: 50, duration: 1400, easing: easeInOutQuart }}
       to="#coretools"
@@ -39,7 +38,7 @@ const TopNav = () => (
       .container {
         display: flex;
         justify-content: flex-end;
-        
+
         width: 400px;
         height: 60px;
         position: fixed;

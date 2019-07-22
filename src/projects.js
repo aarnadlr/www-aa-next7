@@ -1,17 +1,18 @@
-
 const projects = [
   {
     key: 1,
     image: '../static/thumbs800x400/IBM_800x400.jpg',
     title: 'IBM Partners',
 
-    desc: "UX design and JavaScript web development for IBM Partners, IBM's business services portal. Click to view the project.",
+    desc:
+      'UX design and JavaScript web development for IBM Partners, IBM\'s business services portal. Click to view the project.',
 
-    role1:"UX wireframes and design with Sketch",
-    role2:"Front-end JavaScript code",
-    
-    role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, and column layouts",
-    
+    role1: 'UX wireframes and design with Sketch',
+    role2: 'Front-end JavaScript code',
+
+    role3:
+      'Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, and column layouts',
+
     // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
     // techstack: ""
@@ -22,118 +23,115 @@ const projects = [
     tag4: 'Sketch',
 
     year: 2018,
-        // HREF LINK
+    // HREF LINK
     // link: "./ibm.html"
-    link: "https://www.ibm.com/partners/start/"
+    link: 'https://www.ibm.com/partners/start/',
   },
-
 
   {
     key: 30,
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
     title: 'EricElliottJS.com',
-     desc: "UX design and ReactJS web development for Eric Elliott's JavaScript education platform.",
+    desc:
+      'UX design and ReactJS web development for Eric Elliott\'s JavaScript education platform.',
 
-     role1: "Designed the site UX at mobile and desktop widths with Sketch and Figma",
-     role2: "Set up initial app with React and NextJS",
-     role3: "Implemented user payments with Paypal SDK",
-     role4: "Set up user auth with Firebase Auth",
-     role5: "Set up persistent account data with Cloud Firestore",
-     role6: "SVG animated brand identity built with Adobe After Effects and LottieJS",
+    role1:
+      'Designed the site UX at mobile and desktop widths with Sketch and Figma',
+    role2: 'Set up initial app with React and NextJS',
+    role3: 'Implemented user payments with Paypal SDK',
+    role4: 'Set up user auth with Firebase Auth',
+    role5: 'Set up persistent account data with Cloud Firestore',
+    role6:
+      'SVG animated brand identity built with Adobe After Effects and LottieJS',
     // TAGS:
     //  tag1: 'sketch',
-     tag1: 'JavaScript',
-     tag2: 'React',
-     tag3: 'NextJS',
-     tag4: 'CSS/SASS',
+    tag1: 'JavaScript',
+    tag2: 'React',
+    tag3: 'NextJS',
+    tag4: 'CSS/SASS',
 
-     year: 2019,
+    year: 2019,
     //  tag6: 'sass/scss',
     //  tag7: 'svg',
-         // HREF LINK
+    // HREF LINK
     // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-    link: "https://ericelliottjs.com",
-    dim:false
+    link: 'https://ericelliottjs.com',
+    dim: false,
   },
 
-{
+  {
     key: 5,
     image: '../static/thumbs800x400/youtubezero3-rect.gif',
     title: 'YouTube Zero',
-     desc: 'ReactJS application providing a zero-click YouTube search interface. Click to view.',
+    desc:
+      'ReactJS application providing a zero-click YouTube search interface. Click to view.',
 
-     role1: 'Fetch data from YouTube DataAPI v3. ',
-     role2: 'CSS-in-JS with Styled-components and Tachyons.',
+    role1: 'Fetch data from YouTube DataAPI v3. ',
+    role2: 'CSS-in-JS with Styled-components and Tachyons.',
     // TAGS:
-     tag1: 'React',
-     tag2: 'CSS3',
-     tag3: 'JavaScript',
-     tag4: 'YouTube API',
+    tag1: 'React',
+    tag2: 'CSS3',
+    tag3: 'JavaScript',
+    tag4: 'YouTube API',
 
-     year: 2017,
-         // HREF LINK
+    year: 2017,
+    // HREF LINK
     // link: "https://youtubezero.herokuapp.com/"
-    link: "https://youtubezero.now.sh/"
+    link: 'https://youtubezero.now.sh/',
   },
-
-
 
   {
     key: 30,
     image: '../static/thumbs800x400/artemis_800x400-2.jpg',
     title: 'Artemis Capital Advisors',
-     desc: "UX design and ReactJS web development for Artemis Capital Advisors.",
+    desc: 'UX design and ReactJS web development for Artemis Capital Advisors.',
 
-     role1: "Designed the site UX at mobile and desktop widths with Figma",
-     role2: "React NextJS app",
-     role3: "Styling with CSS-in-JS styledJSX and external Sass",
-     role4: "Animated brand identity on page load with CSS animation",
-     role5: "Interactive table with sort and filter functionality",
-     role6: "Google Maps API with custom color palette and custom map pin icon",
+    role1: 'Designed the site UX at mobile and desktop widths with Figma',
+    role2: 'React NextJS app',
+    role3: 'Styling with CSS-in-JS styledJSX and external Sass',
+    role4: 'Animated brand identity on page load with CSS animation',
+    role5: 'Interactive table with sort and filter functionality',
+    role6: 'Google Maps API with custom color palette and custom map pin icon',
     // TAGS:
     //  tag1: 'sketch',
-     tag1: 'JavaScript',
-     tag2: 'React',
-     tag3: 'NextJS',
-     tag4: 'CSS/SASS',
+    tag1: 'JavaScript',
+    tag2: 'React',
+    tag3: 'NextJS',
+    tag4: 'CSS/SASS',
 
-     year: 2019,
+    year: 2019,
     //  tag6: 'sass/scss',
     //  tag7: 'svg',
-         // HREF LINK
+    // HREF LINK
     // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-    link: "https://artemis.llc",
-    dim:false
+    link: 'https://artemis.llc',
+    dim: false,
   },
-
 
   {
     key: 2,
     image: '../static/kith-rect3.jpg',
     title: 'Kith Footwear',
-     desc: 'Ecommerce store prototype. Built with React, Styled-components, CSS Grid, Tachyons, and more. Click to view the project.',
+    desc:
+      'Ecommerce store prototype. Built with React, Styled-components, CSS Grid, Tachyons, and more. Click to view the project.',
 
-     role1: "Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.",
-     role2: "Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.",
-
+    role1:
+      'Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.',
+    role2:
+      'Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.',
 
     // TAGS:
-     tag1: 'HTML5',
-     tag2: 'CSS Grid',
-     tag3: 'JavaScript',
-     tag4: 'React',
+    tag1: 'HTML5',
+    tag2: 'CSS Grid',
+    tag3: 'JavaScript',
+    tag4: 'React',
     //  tag4: 'Styled-components',
 
-     year: 2018,
-         // HREF LINK
+    year: 2018,
+    // HREF LINK
     // link: "http://kith-store.aaronadler.com"
-    link: "https://kith.now.sh/"
+    link: 'https://kith.now.sh/',
   },
-  
-
-
-
-
 
   {
     key: 30,
@@ -141,19 +139,14 @@ const projects = [
     // image: '../static/thumbs800x400/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners - Motion Identity',
-    desc: "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
+    desc:
+      'JavaScript brand animation for IBM Partners, IBM\'s business services portal. Click to interact with the animation in a playground environment.',
 
+    role1:
+      'Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.',
 
-    // role: "UX wireframes, UI design, and client-side coded components using CSS3 and JavaScript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
-    // role1:"Developed wireframes and UX designs using Sketch and AdobeCC",
-
-    
-    // role3:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
-    
-    role1:"Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.",
-    
-    role2:"Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.",
-    // techstack: ""
+    role2:
+      'Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.',
     // TAGS:
     tag1: 'Sketch',
     tag2: 'AfterEffects',
@@ -161,34 +154,36 @@ const projects = [
     tag4: 'JavaScript',
 
     year: 2018,
-        // HREF LINK
+    // HREF LINK
     // link: "./ibm.html"
     // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
-    link: "https://ibm-partners.now.sh/"
+    link: 'https://ibm-partners.now.sh/',
   },
-
-
 
   {
     key: 333,
     image: '../static/discovery_thumb_black2.jpg',
     title: 'Discovery Channel - Multistep React Form',
-     desc: "React component for a multistep subscriber form. Click to view (resize window to view 3 breakpoint layouts).",
+    desc:
+      'React component for a multistep subscriber form. Click to view (resize window to view 3 breakpoint layouts).',
 
-     role1: "Built the UI component using React, Sass, CSS grid, Tachyons and Formik.",
-     role2: "Three media queries provide styling for the component across browser widths.",
-     role3: "Implemented form validation and required field errors.",
-     role4: "User form data saved to component state and logged to the console (view console in browser)",
-    
-     // TAGS:
+    role1:
+      'Built the UI component using React, Sass, CSS grid, Tachyons and Formik.',
+    role2:
+      'Three media queries provide styling for the component across browser widths.',
+    role3: 'Implemented form validation and required field errors.',
+    role4:
+      'User form data saved to component state and logged to the console (view console in browser)',
+
+    // TAGS:
     //  tag1: 'sketch',
-     tag1: 'React',
-     tag2: 'CSS Grid',
-     tag3: 'JavaScript',
-     tag4: 'Formik',
+    tag1: 'React',
+    tag2: 'CSS Grid',
+    tag3: 'JavaScript',
+    tag4: 'Formik',
 
-     year: 2019,
-     link: "https://discovery-ui.now.sh/"
+    year: 2019,
+    link: 'https://discovery-ui.now.sh/',
   },
 
   // {
@@ -196,7 +191,6 @@ const projects = [
   //   image: '../static/Tradewind-800x400.gif',
   //   title: 'Tradewind Markets - Blockchain platform',
   //    desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
-  //
   //    role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
   //   // TAGS:
   //   //  tag1: 'sketch',
@@ -217,25 +211,28 @@ const projects = [
     key: '2B',
     image: '../static/thumbs800x400/motet3b.jpg',
     title: 'Motet - Music App UX',
-     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
+    desc:
+      'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
 
-     role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
+    role:
+      'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
     // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
+    tag1: 'Sketch',
+    tag2: 'Illustrator',
+    tag3: 'Photoshop',
+    tag4: 'SVG',
 
-     year: 2017,
-         // HREF LINK
-    link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
+    year: 2017,
+    // HREF LINK
+    link:
+      'https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design',
   },
 
   // {
   //   key: '26',
   //   image: '../static/wellsfargo/wfLock2.jpg',
   //   title: 'Wells Fargo UX',
-    
+
   //    desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
 
   //    role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
@@ -252,7 +249,6 @@ const projects = [
   //   link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
   // },
 
-
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
@@ -260,81 +256,88 @@ const projects = [
     key: '2BB',
     image: '../static/Blockparty-800x400-3.jpg',
     title: 'Blockparty - Blockchain app UX',
-     desc: 'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
+    desc:
+      'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
 
-     role: "Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.",
+    role:
+      'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
     // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'DMesh',
-     tag4: 'React',
+    tag1: 'Sketch',
+    tag2: 'Illustrator',
+    tag3: 'DMesh',
+    tag4: 'React',
 
-     year: 2018,
-         // HREF LINK
-    link: "https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design"
+    year: 2018,
+    // HREF LINK
+    link:
+      'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
   },
-
-
-
 
   {
     key: '2C',
-    image: 'https://dl.dropboxusercontent.com/s/4siji9ixbeggje9/blockchain-RECT-2.gif',
+    image:
+      'https://dl.dropboxusercontent.com/s/4siji9ixbeggje9/blockchain-RECT-2.gif',
     title: 'Blockchain.com - Wallet UI',
-     desc: 'Currency Slider Component for iOS Wallet App, which allows the user to select and transact with multiple currencies. Click to view.',
+    desc:
+      'Currency Slider Component for iOS Wallet App, which allows the user to select and transact with multiple currencies. Click to view.',
 
-     role: "Developed the Currency Slider Component with Sketch and AdobeCC. Designed the UI component of all screens at 1x with Sketch.",
+    role:
+      'Developed the Currency Slider Component with Sketch and AdobeCC. Designed the UI component of all screens at 1x with Sketch.',
     // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
+    tag1: 'Sketch',
+    tag2: 'Illustrator',
+    tag3: 'Photoshop',
+    tag4: 'SVG',
 
-     year: 2018,
-         // HREF LINK
-    link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider",
-    dim:true
+    year: 2018,
+    // HREF LINK
+    link:
+      'https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider',
+    dim: true,
   },
- 
-  
+
   {
     key: 4,
     image: '../static/thumbs800x400/verbal4.jpg',
     title: 'Verbal - Messaging UI',
-     desc: 'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
+    desc:
+      'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
 
-     role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
+    role:
+      'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
     // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
+    tag1: 'Sketch',
+    tag2: 'Illustrator',
+    tag3: 'Photoshop',
+    tag4: 'SVG',
 
-     year: 2016,
+    year: 2016,
     // HREF LINK
-    link: "https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design"
+    link:
+      'https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design',
   },
-  
 
   {
     key: 6,
     image: '../static/thumbs800x400/patagonia-ww3.gif',
     title: 'Patagonia Provisions',
-     desc: "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
+    desc:
+      'Animated sequence for Patagonia Provisions, Patagonia\'s line of foods and recipes. Click to view.',
 
-     role: "Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.",
+    role:
+      'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
     // TAGS:
     //  tag1: 'sketch',
     //  tag2: 'CSS3',
-     tag1: 'After Effects',
-     tag2: 'JavaScript',
-     tag3: 'Lottie',
+    tag1: 'After Effects',
+    tag2: 'JavaScript',
+    tag3: 'Lottie',
     //  tag4: 'Illustrator',
-     tag5: 'SVG',
+    tag5: 'SVG',
 
-     year: 2017,
-         // HREF LINK
-    link: "https://codepen.io/aaronadler/pen/vWoVoN"
+    year: 2017,
+    // HREF LINK
+    link: 'https://codepen.io/aaronadler/pen/vWoVoN',
   },
 
   // {
@@ -363,37 +366,39 @@ const projects = [
     gif: true,
     image: '../static/thumbs800x400/daftpunk-320.gif',
     title: 'Daft Punk - Facebook Camera Effect AR',
-     desc: 'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
+    desc:
+      'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
 
-     role: "Received the helmet as a .obj 3D model. Added textures, materials and lighting in Blender and ARStudio. Created the background animations in After Effects. Configured the object to a face-tracker in ARStudio.",
+    role:
+      'Received the helmet as a .obj 3D model. Added textures, materials and lighting in Blender and ARStudio. Created the background animations in After Effects. Configured the object to a face-tracker in ARStudio.',
     // TAGS:
-     tag1: 'ARstudio',
-     tag2: 'Blender3D',
-     tag3: 'Photoshop',
-     tag4: 'After Eff',
+    tag1: 'ARstudio',
+    tag2: 'Blender3D',
+    tag3: 'Photoshop',
+    tag4: 'After Eff',
 
-     year: 2017,
-     // HREF LINK
-     link: "https://www.facebook.com/160758384681784/videos/166745714083051"
+    year: 2017,
+    // HREF LINK
+    link: 'https://www.facebook.com/160758384681784/videos/166745714083051',
   },
   {
     key: 9,
     image: '../static/thumbs800x400/cotton-bur-rect.gif',
-    title: "Cotton Bureau",
-     desc: 'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
+    title: 'Cotton Bureau',
+    desc:
+      'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
 
-     role: "tba",
+    role: 'tba',
     // TAGS:
-     tag1: 'Illustrator',
-     tag2: 'After Effects',
-     tag3: 'JavaScript',
-     tag4: 'lottie',
+    tag1: 'Illustrator',
+    tag2: 'After Effects',
+    tag3: 'JavaScript',
+    tag4: 'lottie',
 
-     year: 2017,
-     // HREF LINK
-     link: "https://codepen.io/aaronadler/pen/OzLYYM"
-  }
-  ,
+    year: 2017,
+    // HREF LINK
+    link: 'https://codepen.io/aaronadler/pen/OzLYYM',
+  },
   // {
   //   key: 10,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',
@@ -450,8 +455,6 @@ const projects = [
   //   link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
   // },
 
-
-  
   // {
   //   key: 13,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/facebook-rect.jpg',
@@ -603,7 +606,6 @@ const projects = [
   //        link: ""
   // },
 
-
   // {
   //   key: 23,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/lgc-rect.jpg',
@@ -618,7 +620,6 @@ const projects = [
   //   link: ""
   // },
 
-
   // {
   //   key: 24,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/snickers-rect.jpg',
@@ -632,7 +633,6 @@ const projects = [
   //     // HREF LINK
   //     link: ""
   // },
-
 
   // {
   //   key: 25,
@@ -651,7 +651,6 @@ const projects = [
   //    // HREF LINK
   //    link: ""
   // }
-
-]
+];
 
 export default projects;

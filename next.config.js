@@ -1,5 +1,5 @@
-const withSass = require("@zeit/next-sass");
-const withOffline = require("next-offline");
+const withSass = require('@zeit/next-sass');
+const withOffline = require('next-offline');
 
 const nextConfig = {
   // target: 'serverless',
@@ -26,7 +26,5 @@ const nextConfig = {
     ],
   },
 };
-
-
 
 module.exports = withOffline(withSass({ dontAutoRegisterSw: true }));

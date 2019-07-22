@@ -1,10 +1,6 @@
-
-
 const CoreTools = () => (
   <div id="coretools" className="flex container">
     <div className="justify-center coreskills-box ">
-
-
       <div className="coreskills-box__core-col">
         <h1 className="">Core Tools</h1>
         <p>Software and libraries I often work with in projects.</p>
@@ -22,31 +18,27 @@ const CoreTools = () => (
             Figma
           </li>
 
-
-
           <li className="skill">
             <span className="fa-stack">
               <i className="fab fas fa-code rainbow2" />
             </span>
-            HTML5</li>
-
+            HTML5
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-css3 rainbow3" />
             </span>
-            CSS3</li>
+            CSS3
+          </li>
 
-
-
-            <li className="skill">
+          <li className="skill">
             <span className="fa-stack">
               <i className="fab fa-js-square rainbow4"></i>
             </span>
             Javascript ES6
           </li>
 
-            
           <li className="skill">
             <span className="fa-stack">
               {/* <i className="fab fa-react rainbow9" /> */}
@@ -62,85 +54,85 @@ const CoreTools = () => (
             </span>
             Redux
           </li>
-          
 
           <li className="skill">
             <span className="fa-stack">
-            <i className="fa fa-code rainbow7" />
+              <i className="fa fa-code rainbow7" />
             </span>
             NextJS
           </li>
 
           <li className="skill">
             <span className="fa-stack">
-            {/* <i className="fa fa-code rainbow9" /> */}
-            🔥 
+              {/* <i className="fa fa-code rainbow9" /> */}
+              🔥
             </span>
             Firebase
           </li>
-
-
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-th-large rainbow7" />
             </span>
-            CSS Grid</li>
-
+            CSS Grid
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-bars rainbow7" />
             </span>
-            CSS Flexbox</li>
-
+            CSS Flexbox
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               {/* <i className="fa fa-file-photo-o rainbow6" /> */}
               <i className="fab fa-sass rainbow7"></i>
-            </span>{""}Sass/SCSS</li>
+            </span>
+            {''}Sass/SCSS
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-play-circle rainbow7" />
             </span>
-            After Effects</li>
+            After Effects
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-camera rainbow8" />
             </span>
-            Photoshop</li>
-
+            Photoshop
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-bezier-curve rainbow8" />
             </span>
-            Illustrator</li>
-
-
-
-          <li className="skill">
-            <span role='img' aria-label="skill" className="f4">💅 </span> &nbsp;Styled-Components
+            Illustrator
           </li>
 
+          <li className="skill">
+            <span role='img' aria-label='skill' className='f4'>
+              💅{' '}
+            </span>{' '}
+            &nbsp;Styled-Components
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-language rainbow9" />
-            </span>{" "}
+            </span>{' '}
             Babel
           </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-th-large rainbow9" />
-            </span>{" "}
-            Bootstrap 4</li>
-
-       
+            </span>{' '}
+            Bootstrap 4
+          </li>
 
           {/* <li className="skill">
             <span className="fa-stack">
@@ -151,22 +143,22 @@ const CoreTools = () => (
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-bolt rainbow10" />
-            </span>{" "}
-            Tachyons</li>
-
+            </span>{' '}
+            Tachyons
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-magic rainbow11" />
-            </span>{" "}
-            jQuery</li>
-            
+            </span>{' '}
+            jQuery
+          </li>
+
           {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-laptop rainbow16" />
             </span>{" "}
             IBM Color Library</li> */}
-
 
           {/* <li className="skill">
             <span className="fa-stack">
@@ -174,22 +166,20 @@ const CoreTools = () => (
             </span>{" "}
             Palx</li> */}
 
-            
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-video rainbow12" />
-            </span>{" "}
-            Greensock/GSAP</li>
+            </span>{' '}
+            Greensock/GSAP
+          </li>
 
-
-            <li className="skill">
+          <li className="skill">
             <span className="fa-stack">
               {/* <i className="fab fa-gulp rainbow14" /> */}
               <i className="fas fa-wine-bottle rainbow12" />
-            </span>{" "}
+            </span>{' '}
             Gulp
           </li>
-
 
           {/* <li className="skill">
             <span className="fa-stack">
@@ -197,40 +187,35 @@ const CoreTools = () => (
             </span>{" "}
             SemanticUI</li> */}
 
-
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-window-maximize rainbow12" />
-            </span>{" "}
-            SVG</li>
-            
-            <li className="skill">
+            </span>{' '}
+            SVG
+          </li>
+
+          <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-laptop-code rainbow13" />
-            </span>{" "}
-            Git/GitHub</li>
-
-
+            </span>{' '}
+            Git/GitHub
+          </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fab fa-facebook-square rainbow14" />
-            </span>{" "}
-            Facebook AR Studio</li>
+            </span>{' '}
+            Facebook AR Studio
+          </li>
 
-{/*             
+          {/*             
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-columns rainbow14" />
             </span>{" "}
             InDesign</li> */}
-
         </ul>
       </div>
-
-
-
-
 
       <div className="coreskills-box__core-col blue0">
         <h1 className="">Secondary Tools</h1>
@@ -239,28 +224,27 @@ const CoreTools = () => (
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-terminal rainbow11" />
-            </span>{" "}
+            </span>{' '}
             Node
           </li>
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-random rainbow12" />
-            </span>{" "}
+            </span>{' '}
             Express
           </li>
           <li className="skill">
             <span className="fa-stack">
               <i className="fas fa-database rainbow13" />
-            </span>{" "}
+            </span>{' '}
             MongoDB
           </li>
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-briefcase rainbow14" />
-            </span>{" "}
+            </span>{' '}
             PostCSS
           </li>
-          
 
           {/* <li className="skill">
             <span className="fa-stack">
@@ -269,102 +253,80 @@ const CoreTools = () => (
             Meteor
           </li> */}
 
-
-
-
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-magic rainbow15" />
-            </span>{" "}
+            </span>{' '}
             Webpack
           </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-cube rainbow15" />
-              
-            </span>{" "}
-            Blender3D</li>
-
-
-
+            </span>{' '}
+            Blender3D
+          </li>
         </ul>
       </div>
-
-
-
     </div>
 
+    <style jsx>{`
+      .container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
 
-  <style jsx>{`
-  .container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
+      .coreskills-box {
+        border: 1px solid #7db9e5;
+        margin: 100px 0 0;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 70%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 90%;
+        text-align: left;
+        padding-bottom: 50px;
+      }
 
-.coreskills-box {
-  border: 1px solid #7db9e5;
-  margin: 100px 0 0;
-  text-align: center;
-  padding-bottom: 20px;
-  width: 70%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 90%;
-  text-align: left;
-  padding-bottom: 50px
-}
+      .coreskills-box__core-col {
+        line-height: 2rem;
+        width: 260px;
+        margin: 40px 30px;
+        font-size: 0.9rem;
+      }
 
+      .coreskills-box__core-col p {
+        margin-bottom: 30px;
+        /* font-size: 1rem */
+        font-size: 0.9rem;
+        line-height: 2;
+      }
 
+      h1 {
+        font-size: 1.5rem;
+      }
 
-.coreskills-box__core-col {
-  line-height: 2rem;
-  width: 260px;
-  margin: 40px 30px;
-  font-size: .9rem
-}
+      i {
+        // color: #1b2fe9;
+      }
+      .skill {
+        line-height: 2;
+        list-style: none;
+      }
 
-
-
-
-.coreskills-box__core-col p {
-  margin-bottom: 30px;
-  /* font-size: 1rem */
-    font-size: .9rem;
-    line-height: 2;
-}
-
-
-
-
-h1 {
-  font-size: 1.5rem
-}
-
-
-i {
- // color: #1b2fe9;
-}
-.skill {
-  line-height: 2;
-  list-style: none
-}
-
-ul{
-  /* margin-left: 0 !important; */
-  padding: 0;
-  list-style-type: none;
-
-}
-
-
-  `}</style>  
+      ul {
+        /* margin-left: 0 !important; */
+        padding: 0;
+        list-style-type: none;
+      }
+    `}</style>
   </div>
 );
 

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import fetch from "isomorphic-unfetch";
+import { Component } from 'react';
+import fetch from 'isomorphic-unfetch';
 
 export default class HackerrankScore extends Component {
   state = {
@@ -9,7 +9,7 @@ export default class HackerrankScore extends Component {
 
   componentDidMount() {
     fetch(
-      "https://cdn.contentful.com/spaces/5uofj56iylkc/environments/master/entries?access_token=0f542b1ab45cc72b3bb7a47b30269c8be13b21308efc8faefdbf15db4940e731&content_type=hackerRankScore"
+      'https://cdn.contentful.com/spaces/5uofj56iylkc/environments/master/entries?access_token=0f542b1ab45cc72b3bb7a47b30269c8be13b21308efc8faefdbf15db4940e731&content_type=hackerRankScore'
     )
       // Get the response and convert it to JSON:
       .then(response => response.json())
@@ -90,14 +90,13 @@ export default class HackerrankScore extends Component {
             }
 
             .svg-wrapper {
-             
-              position:relative;
-              top:2px;
+              position: relative;
+              top: 2px;
             }
             p {
-              font-family: "Teko", sans-serif;
+              font-family: 'Teko', sans-serif;
               font-weight: 300;
-              letter-spacing: .05rem;
+              letter-spacing: 0.05rem;
               font-size: 21px;
               margin: 0 0 0 10px;
               position: relative;

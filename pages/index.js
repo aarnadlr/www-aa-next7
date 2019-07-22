@@ -1,14 +1,14 @@
-import "../styles/style.scss";
-import { register, unregister } from "next-offline/runtime";
-
-import TopNav from "../Components/TopNav";
-import WelcomeBio from "../Components/WelcomeBio";
-import Cards from "../Components/Cards";
-import CoreTools from "../Components/CoreTools";
-import Footer from "../Components/Footer";
+import '../styles/style.scss';
+import { register, unregister } from 'next-offline/runtime';
+import React from 'react';
+import Head from 'next/head';
+import TopNav from '../Components/TopNav';
+import WelcomeBio from '../Components/WelcomeBio';
+import Cards from '../Components/Cards';
+import CoreTools from '../Components/CoreTools';
+import Footer from '../Components/Footer';
 // import MediumCard from '../Components/MediumCard';
-import Head from "next/head";
-import HackerrankScore from "../Components/hackerrank-score";
+import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
 
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
@@ -19,6 +19,7 @@ class Index extends React.Component {
   componentDidMount() {
     register();
   }
+
   componentWillUnmount() {
     unregister();
   }
@@ -36,7 +37,7 @@ class Index extends React.Component {
           <link
             href="https://fonts.googleapis.com/css?family=Teko:300"
             rel="stylesheet"
-          ></link>
+          />
         </Head>
         {/* <RSSRequestHOC/> */}
 
@@ -63,26 +64,28 @@ class Index extends React.Component {
 
         <Footer />
 
-        <style jsx>{`
-          .algos {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          }
+        <style jsx>
+          {`
+            .algos {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            }
 
-          .algos a {
-            transition: all 0.3s ease;
-            margin: 0 0 40px 0;
-          }
-          .algos a:hover {
-            transform: translateY(-3px);
-          }
+            .algos a {
+              transition: all 0.3s ease;
+              margin: 0 0 40px 0;
+            }
+            .algos a:hover {
+              transform: translateY(-3px);
+            }
 
-          .algos a img {
-            cursor: pointer;
-            display: block;
-          }
-        `}</style>
+            .algos a img {
+              cursor: pointer;
+              display: block;
+            }
+          `}
+        </style>
       </div>
     );
   }

@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 // import Tilt from "react-tilt";
-import projects from "../../src/projects";
-import CodeWindow from "../CodeWindow.js/CodeWindow";
+import projects from '../../src/projects';
+import CodeWindow from '../CodeWindow.js/CodeWindow';
 // import './Cards.css';
 // import '../../src/css/entry.css';
-const uuidv1 = require("uuid/v1");
+const uuidv1 = require('uuid/v1');
 
 const Cards = () => {
   return (
@@ -12,17 +12,16 @@ const Cards = () => {
       {projects.map(project => {
         return (
           <div className="card br2" key={uuidv1()}>
-
             <a target="_blank" rel="noopener noreferrer" href={project.link}>
               {project.image ? (
                 <img
                   style={{
-                    filter: project.dim ? "brightness(.9)" : "brightness(1)",
-                    display: "block"
+                    filter: project.dim ? 'brightness(.9)' : 'brightness(1)',
+                    display: 'block',
                   }}
                   src={project.image}
                   alt="alt"
-                  className={project.gif ? "gifStyle" : "image"}
+                  className={project.gif ? 'gifStyle' : 'image'}
                 />
               ) : (
                 <CodeWindow />
@@ -40,7 +39,7 @@ const Cards = () => {
                   My project role :
                 </p>
 
-                <ul style={{ listStyleType: "circle" }} className="f6b">
+                <ul style={{ listStyleType: 'circle' }} className="f6b">
                   <li className="mt3">
                     {project.role1 ? project.role1 : project.role}
                   </li>
@@ -89,11 +88,8 @@ const Cards = () => {
                 <p id="" className="completed dib f7 ph3 pv2">
                   Completed: &nbsp;<span className="fw7">{project.year}</span>
                 </p>
-
               </div>
-
             </a>
-
           </div>
         );
       })}
