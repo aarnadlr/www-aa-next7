@@ -59,26 +59,26 @@ const projects = [
     dim: false,
   },
 
-  {
-    key: 5,
-    image: '../static/thumbs800x400/youtubezero3-rect.gif',
-    title: 'YouTube Zero',
-    desc:
-      'ReactJS application providing a zero-click YouTube search interface. Click to view.',
-
-    role1: 'Fetch data from YouTube DataAPI v3. ',
-    role2: 'CSS-in-JS with Styled-components and Tachyons.',
-    // TAGS:
-    tag1: 'React',
-    tag2: 'CSS3',
-    tag3: 'JavaScript',
-    tag4: 'YouTube API',
-
-    year: 2017,
-    // HREF LINK
-    // link: "https://youtubezero.herokuapp.com/"
-    link: 'https://youtubezero.now.sh/',
-  },
+  // {
+  //   key: 5,
+  //   image: '../static/thumbs800x400/youtubezero3-rect.gif',
+  //   title: 'YouTube Zero',
+  //   desc:
+  //     'ReactJS application providing a zero-click YouTube search interface. Click to view.',
+  //
+  //   role1: 'Fetch data from YouTube DataAPI v3. ',
+  //   role2: 'CSS-in-JS with Styled-components and Tachyons.',
+  //   // TAGS:
+  //   tag1: 'React',
+  //   tag2: 'CSS3',
+  //   tag3: 'JavaScript',
+  //   tag4: 'YouTube API',
+  //
+  //   year: 2017,
+  //   // HREF LINK
+  //   // link: "https://youtubezero.herokuapp.com/"
+  //   link: 'https://youtubezero.now.sh/',
+  // },
 
   {
     key: 30,
@@ -135,9 +135,6 @@ const projects = [
 
   {
     key: 30,
-    // image: './images/thumbs800x400/IBM-rect.jpg',
-    // image: '../static/thumbs800x400/IBM-rect.jpg',
-    // image: require('./images/ibm.png'),
     title: 'IBM Partners - Motion Identity',
     desc:
       'JavaScript brand animation for IBM Partners, IBM\'s business services portal. Click to interact with the animation in a playground environment.',
@@ -157,7 +154,7 @@ const projects = [
     // HREF LINK
     // link: "./ibm.html"
     // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
-    link: 'https://ibm-partners.now.sh/',
+    link: 'https://ibmpartners.now.sh/',
   },
 
   {
