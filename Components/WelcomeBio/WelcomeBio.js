@@ -12,112 +12,118 @@ const WelcomeBio = () => (
         id="profile-pic"
         className="grow2 center mb3"
         src="../../static/icons/profile-pic.jpg"
-        alt='alt'
+        alt="alt"
       />
       <h1 className="f2c tc fw4">Aaron Adler</h1>
 
       {/* SOCIAL ICONS UNDER NAME */}
-      <div className='flex justify-center mb4'>
+      <div className="flex justify-center mb4">
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://github.com/aarnadlr'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/aarnadlr"
         >
           <img
-            alt='github'
-            className='github icon grow-large-2'
-            src='../../static/svg/github.svg'
+            alt="github"
+            className="github icon grow-large-2"
+            src="../../static/svg/github.svg"
           />
         </a>
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://codepen.io/aaronadler/'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://codepen.io/aaronadler/"
         >
           <img
-            alt='codepen'
-            className='codepen icon grow-large-2 ml3'
-            src='../../static/svg/codepen.svg'
+            alt="codepen"
+            className="codepen icon grow-large-2 ml3"
+            src="../../static/svg/codepen.svg"
           />
         </a>
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.linkedin.com/in/aaronadler/'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/aaronadler/"
         >
           <img
-            alt='linkedin'
-            className='icon grow-large-2 ml3'
-            src='../../static/icons/linkedin.png'
+            alt="linkedin"
+            className="icon grow-large-2 ml3"
+            src="../../static/icons/linkedin.png"
           />
         </a>
         {/* <a target='_blank' rel="noopener noreferrer" href="https://www.toptal.com/designers/resume/aaron-adler"><img alt='toptal' className='icon grow-large-2 ml3' src='../../static/icons/toptal.gif' /></a> */}
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://dribbble.com/aarnadlr'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://dribbble.com/aarnadlr"
         >
           <img
-            alt='dribbb'
-            className='icon grow-large-2 ml3'
-            src='../../static/icons/AA-dribbble-icon.png'
+            alt="dribbb"
+            className="icon grow-large-2 ml3"
+            src="../../static/icons/AA-dribbble-icon.png"
           />
         </a>
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://www.producthunt.com/@aarnadlr'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.producthunt.com/@aarnadlr"
         >
           <img
-            className='icon grow-large-2 ml3'
-            src='../../static/icons/prodhunt.png'
+            className="icon grow-large-2 ml3"
+            src="../../static/icons/prodhunt.png"
           />
         </a>
         {/*<a target='_blank' rel="noopener noreferrer" href="https://workingnotworking.com/aarn"><img                     className='icon grow-large-2 ml3' src='../../static/icons/wnw.png' /></a>*/}
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://medium.com/@aaronadler'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://medium.com/@aaronadler"
         >
           <img
-            alt='medium'
-            className='icon grow-large-2 ml3'
-            src='../../static/icons/medium.png'
+            alt="medium"
+            className="icon grow-large-2 ml3"
+            src="../../static/icons/medium.png"
           />
         </a>
         <a
-          target='_blank'
-          rel='noopener noreferrer'
-          href='https://twitter.com/aaronadler'
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/aaronadler"
         >
           <img
-            className='icon grow-large-2 ml3'
-            src='../../static/icons/twitter.png'
+            className="icon grow-large-2 ml3"
+            src="../../static/icons/twitter.png"
           />
         </a>
       </div>
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
         Hi there. &nbsp;I'm a&nbsp;
-        <span className="highlight">&nbsp;UX Engineer&nbsp;</span>&nbsp;and{' '}
-        <span className='highlight'>&nbsp;Front-end Developer&nbsp;</span>
-        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, Google,
-        LinkedIn, IBM, R/GA, Droga5 and others. &nbsp;My work has been
-        recognized by Cannes, AICP, the Art Directors Club, Clios, Archive,
-        Adweek, and the New York Times. &nbsp;My focus is on{' '}
-        <span className='highlight'>&nbsp;CSS3&nbsp;</span> ,{' '}
-        <span className="highlight">&nbsp;JavaScript ES6 + React&nbsp;</span> ,
-        and <span className="highlight">&nbsp;IX / coded animation&nbsp;</span>.
+        <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>
+        &nbsp;and <span className="highlight">&nbsp;UX Engineer&nbsp;</span>
+        &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
+        R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
+        Art Directors Club, and the New York Times. &nbsp;My focus is on{' '}
+        <span className="highlight">&nbsp;JavaScript&nbsp;</span>
+        ,
+        {' '}
+        <span className="highlight">&nbsp;React&nbsp;</span>
+        , and
+        {' '}
+        <span className="highlight">&nbsp;CSS&nbsp;</span>
+        .
       </h2>
     </div>
 
-    <style jsx>{`
+    <style jsx>
+      {`
       .icon {
         width: 20px;
         height: 20px;
         border-radius: 3px;
       }
-    `}</style>
+    `}
+    </style>
   </main>
 );
 

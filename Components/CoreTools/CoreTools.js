@@ -7,19 +7,6 @@ const CoreTools = () => (
         <ul>
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fas fa-pencil-alt rainbow1" />
-            </span>
-            Sketch
-          </li>
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-th-large rainbow1" />
-            </span>
-            Figma
-          </li>
-
-          <li className="skill">
-            <span className="fa-stack">
               <i className="fab fas fa-code rainbow2" />
             </span>
             HTML5
@@ -57,21 +44,6 @@ const CoreTools = () => (
 
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-code rainbow7" />
-            </span>
-            NextJS
-          </li>
-
-          <li className="skill">
-            <span className="fa-stack">
-              {/* <i className="fa fa-code rainbow9" /> */}
-              🔥
-            </span>
-            Firebase
-          </li>
-
-          <li className="skill">
-            <span className="fa-stack">
               <i className="fa fa-th-large rainbow7" />
             </span>
             CSS Grid
@@ -89,36 +61,65 @@ const CoreTools = () => (
               {/* <i className="fa fa-file-photo-o rainbow6" /> */}
               <i className="fab fa-sass rainbow7"></i>
             </span>
-            {''}Sass/SCSS
+            {''}Sass/SCSS/LESS
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-code rainbow7" />
+            </span>
+            NextJS
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fas fa-pencil-alt rainbow1" />
+            </span>
+            Sketch
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-th-large rainbow1" />
+            </span>
+            Figma
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              {/* <i className="fa fa-code rainbow9" /> */}
+              🔥
+            </span>
+            Firebase
           </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-play-circle rainbow7" />
             </span>
-            After Effects
+            Adobe After Effects
           </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-camera rainbow8" />
             </span>
-            Photoshop
+            Adobe Photoshop
           </li>
 
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-bezier-curve rainbow8" />
             </span>
-            Illustrator
+            Adobe Illustrator
           </li>
 
-          <li className="skill">
-            <span role='img' aria-label='skill' className='f4'>
-              💅{' '}
-            </span>{' '}
-            &nbsp;Styled-Components
-          </li>
+          {/*<li className="skill">*/}
+          {/*  <span role='img' aria-label='skill' className='f4'>*/}
+          {/*    💅{' '}*/}
+          {/*  </span>{' '}*/}
+          {/*  &nbsp;Styled-Components*/}
+          {/*</li>*/}
 
           <li className="skill">
             <span className="fa-stack">
@@ -208,7 +209,7 @@ const CoreTools = () => (
             Facebook AR Studio
           </li>
 
-          {/*             
+          {/*
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-columns rainbow14" />
@@ -217,22 +218,45 @@ const CoreTools = () => (
         </ul>
       </div>
 
+
+
+
       <div className="coreskills-box__core-col blue0">
         <h1 className="">Secondary Tools</h1>
-        <p>Software and libraries I'm actively practicing with.</p>
+        <p>Software and libraries I also work with.</p>
         <ul>
+
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fas fa-database rainbow9" />
+            </span>{' '}
+            GraphQL Apollo Client / Server
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-bezier-curve rainbow10" />
+            </span>{' '}
+            TensorFlow.js
+          </li>
+
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-terminal rainbow11" />
             </span>{' '}
             Node
           </li>
+
+
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-random rainbow12" />
             </span>{' '}
             Express
           </li>
+
+
           <li className="skill">
             <span className="fa-stack">
               <i className="fas fa-database rainbow13" />

@@ -5,7 +5,7 @@ const projects = [
     title: 'IBM Partners',
 
     desc:
-      'UX design and JavaScript web development for IBM Partners, IBM\'s business services portal. Click to view the project.',
+      'JavaScript web development and UX design for IBM Partners, IBM\'s business services portal. Click to view the project.',
 
     role1: 'UX wireframes and design with Sketch',
     role2: 'Front-end JavaScript code',
@@ -33,7 +33,7 @@ const projects = [
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
     title: 'EricElliottJS.com',
     desc:
-      'UX design and ReactJS web development for Eric Elliott\'s JavaScript education platform.',
+      'React web development and UX design for Eric Elliott\'s JavaScript education platform.',
 
     role1:
       'Designed the site UX at mobile and desktop widths with Sketch and Figma',
@@ -84,7 +84,7 @@ const projects = [
     key: 30,
     image: '../static/thumbs800x400/artemis_800x400-2.jpg',
     title: 'Artemis Capital Advisors',
-    desc: 'UX design and ReactJS web development for Artemis Capital Advisors.',
+    desc: 'React web development and UX design for Artemis Capital Advisors.',
 
     role1: 'Designed the site UX at mobile and desktop widths with Figma',
     role2: 'React NextJS app',
@@ -113,12 +113,12 @@ const projects = [
     image: '../static/kith-rect3.jpg',
     title: 'Kith Footwear',
     desc:
-      'Ecommerce store prototype. Built with React, Styled-components, CSS Grid, Tachyons, and more. Click to view the project.',
+      'Ecommerce store prototype. Built with React, styled-components, CSS Grid, Tachyons. Click to view the project.',
 
     role1:
       'Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.',
     role2:
-      'Set up custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.',
+      'Custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.',
 
     // TAGS:
     tag1: 'HTML5',
@@ -204,26 +204,26 @@ const projects = [
   //   link: "https://tradewindmarkets.com"
   // },
 
-  {
-    key: '2B',
-    image: '../static/thumbs800x400/motet3b.jpg',
-    title: 'Motet - Music App UX',
-    desc:
-      'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
-
-    role:
-      'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Illustrator',
-    tag3: 'Photoshop',
-    tag4: 'SVG',
-
-    year: 2017,
-    // HREF LINK
-    link:
-      'https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design',
-  },
+  // {
+  //   key: '2B',
+  //   image: '../static/thumbs800x400/motet3b.jpg',
+  //   title: 'Motet - Music App UX',
+  //   desc:
+  //     'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
+  //
+  //   role:
+  //     'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Illustrator',
+  //   tag3: 'Photoshop',
+  //   tag4: 'SVG',
+  //
+  //   year: 2017,
+  //   // HREF LINK
+  //   link:
+  //     'https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design',
+  // },
 
   // {
   //   key: '26',
@@ -293,26 +293,26 @@ const projects = [
     dim: true,
   },
 
-  {
-    key: 4,
-    image: '../static/thumbs800x400/verbal4.jpg',
-    title: 'Verbal - Messaging UI',
-    desc:
-      'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
-
-    role:
-      'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Illustrator',
-    tag3: 'Photoshop',
-    tag4: 'SVG',
-
-    year: 2016,
-    // HREF LINK
-    link:
-      'https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design',
-  },
+  // {
+  //   key: 4,
+  //   image: '../static/thumbs800x400/verbal4.jpg',
+  //   title: 'Verbal - Messaging UI',
+  //   desc:
+  //     'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
+  //
+  //   role:
+  //     'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Illustrator',
+  //   tag3: 'Photoshop',
+  //   tag4: 'SVG',
+  //
+  //   year: 2016,
+  //   // HREF LINK
+  //   link:
+  //     'https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design',
+  // },
 
   {
     key: 6,
@@ -378,24 +378,24 @@ const projects = [
     // HREF LINK
     link: 'https://www.facebook.com/160758384681784/videos/166745714083051',
   },
-  {
-    key: 9,
-    image: '../static/thumbs800x400/cotton-bur-rect.gif',
-    title: 'Cotton Bureau',
-    desc:
-      'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
-
-    role: 'tba',
-    // TAGS:
-    tag1: 'Illustrator',
-    tag2: 'After Effects',
-    tag3: 'JavaScript',
-    tag4: 'lottie',
-
-    year: 2017,
-    // HREF LINK
-    link: 'https://codepen.io/aaronadler/pen/OzLYYM',
-  },
+  // {
+  //   key: 9,
+  //   image: '../static/thumbs800x400/cotton-bur-rect.gif',
+  //   title: 'Cotton Bureau',
+  //   desc:
+  //     'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
+  //
+  //   role: 'tba',
+  //   // TAGS:
+  //   tag1: 'Illustrator',
+  //   tag2: 'After Effects',
+  //   tag3: 'JavaScript',
+  //   tag4: 'lottie',
+  //
+  //   year: 2017,
+  //   // HREF LINK
+  //   link: 'https://codepen.io/aaronadler/pen/OzLYYM',
+  // },
   // {
   //   key: 10,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',

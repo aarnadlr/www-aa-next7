@@ -21,8 +21,8 @@ const Footer = () => (
 
     <div className='f7 flex justify-center pt5 pb5'>
       <p className='w-70 tc lh-copy2'>
-        Site built with <span className='teal6'>NextJS, React, Sass</span> and{' '}
-        <span className='cyan5'>Flexbox</span>.
+        Site built with <span className='teal6'>NextJS, React, Sass</span>
+        .
       </p>
     </div>
 
