@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
           <meta name='author' content='Aaron Adler' />
           <meta
             name='keywords'
-            content='Aaron Adler, UX, design, HTML, CSS, JavaScript, React, Node, Sketch, Photoshop'
+            content='Aaron Adler, frontend, developer, software, engineer, UX, design, HTML, CSS, JavaScript, React, Node, Sketch, Photoshop'
           />
           <meta name='og:title' content='Aaron Adler - UX/Dev' />
           <meta name='og:type' content='website' />

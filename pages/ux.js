@@ -3,12 +3,12 @@ import { register, unregister } from 'next-offline/runtime';
 import React from 'react';
 import Head from 'next/head';
 import TopNav from '../Components/TopNav';
-import WelcomeBio from '../Components/WelcomeBio';
+import WelcomeBioUX from '../Components/WelcomeBioUX';
 import Cards from '../Components/Cards';
 import CoreTools from '../Components/CoreTools';
 import Footer from '../Components/Footer';
-// import MediumCard from '../Components/MediumCard';
-import HackerrankScore from '../Components/hackerrank-score';
+// import MediumCard from '../Components/ZMediumCard';
+// import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
 
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
@@ -43,18 +43,8 @@ class Index extends React.Component {
 
         <TopNav />
 
-        <WelcomeBio />
+        <WelcomeBioUX />
 
-        <div className="algos">
-          <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/aarnadlr">
-            <img
-              src="https://www.codewars.com/users/aarnadlr/badges/large"
-              alt=""
-            />
-          </a>
-
-          <HackerrankScore />
-        </div>
 
         <Cards />
 

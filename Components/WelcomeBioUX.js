@@ -1,11 +1,7 @@
 import React from 'react';
-// import styles from "./WelcomeBio.css";
+import Link from 'next/link';
 
-// const Paragraph = styled.p`
-//   font-weight:300;
-// `
-
-const WelcomeBio = () => (
+const WelcomeBioUX = () => (
   <main className="">
     <div id="topSection" className="flex flex-column center mt6 mb5">
       <img
@@ -73,7 +69,7 @@ const WelcomeBio = () => (
             src="../../static/icons/prodhunt.png"
           />
         </a>
-        {/* <a target='_blank' rel="noopener noreferrer" href="https://workingnotworking.com/aarn"><img                     className='icon grow-large-2 ml3' src='../../static/icons/wnw.png' /></a> */}
+        {/*<a target='_blank' rel="noopener noreferrer" href="https://workingnotworking.com/aarn"><img                     className='icon grow-large-2 ml3' src='../../static/icons/wnw.png' /></a>*/}
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -93,27 +89,27 @@ const WelcomeBio = () => (
           <img
             className="icon grow-large-2 ml3"
             src="../../static/icons/twitter.png"
-            alt="icon"
           />
         </a>
       </div>
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
-        Hi there. &nbsp;I&#39;m a&nbsp;
+        Hi there. &nbsp;I'm a&nbsp;
         <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>
-        &nbsp;and <span className="highlight">&nbsp;UX Engineer&nbsp;</span>
+        &nbsp;and <span className="highlight">&nbsp;UX Designer&nbsp;</span>
         &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
-        Art Directors Club, and the New York Times. &nbsp;My focus is on
-        {' '}
-        <span className="highlight">&nbsp;JavaScript&nbsp;</span>
-        ,
-        {' '}
-        <span className="highlight">&nbsp;React&nbsp;</span>
-        , and
-        {' '}
-        <span className="highlight">&nbsp;CSS&nbsp;</span>
-        .
+        Art Directors Club, and the New York Times. &nbsp;My focus is on{' '}
+        <span className="highlight">&nbsp;JavaScript&nbsp;</span>,{' '}
+        <span className="highlight">&nbsp;React&nbsp;</span>, and{' '}
+        <span className="highlight">&nbsp;CSS&nbsp;</span>.
+      </h2>
+
+      <h2 className="paragraph f5 lh-copy4b mh3 fw5">
+        Below, please find a selectino of <span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}
+        <Link href="/">
+          <a className={'hoverLink'} style={{color: 'rgb(13, 2, 165)',  fontWeight: 600}}>Tap here to view software development work</a>
+        </Link>.
       </h2>
     </div>
 
@@ -124,9 +120,12 @@ const WelcomeBio = () => (
           height: 20px;
           border-radius: 3px;
         }
+        a.hoverLink:hover{
+          text-decoration: underline;
+        }
       `}
     </style>
   </main>
 );
 
-export default WelcomeBio;
+export default WelcomeBioUX;
