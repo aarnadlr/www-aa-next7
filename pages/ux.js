@@ -15,7 +15,7 @@ import Footer from '../Components/Footer';
 
 // console.log('aacom-5');
 
-class Index extends React.Component {
+class UXpage extends React.Component {
   componentDidMount() {
     register();
   }
@@ -81,4 +81,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default UXpage;
