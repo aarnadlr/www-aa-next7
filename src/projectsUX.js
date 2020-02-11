@@ -5,7 +5,7 @@ const projectsUX = [
     title: 'IBM Partners',
 
     desc:
-      'JavaScript web development and UX design for IBM Partners, IBM\'s business services portal. Click to view the project.',
+      "JavaScript web development and UX design for IBM Partners, IBM's business services portal. Click to view the project.",
 
     role1: 'UX wireframes and design with Sketch',
     role2: 'Front-end JavaScript code',
@@ -25,7 +25,7 @@ const projectsUX = [
     year: 2018,
     // HREF LINK
     // link: "./ibm.html"
-    link: 'https://www.ibm.com/partners/start/',
+    link: 'https://www.ibm.com/partners/start/'
   },
 
   {
@@ -33,7 +33,7 @@ const projectsUX = [
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
     title: 'EricElliottJS.com',
     desc:
-      'React web development and UX design for Eric Elliott\'s JavaScript education platform.',
+      "React web development and UX design for Eric Elliott's JavaScript education platform.",
 
     role1:
       'Designed the site UX at mobile and desktop widths with Sketch and Figma',
@@ -56,7 +56,7 @@ const projectsUX = [
     // HREF LINK
     // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
     link: 'https://ericelliottjs.com',
-    dim: false,
+    dim: false
   },
 
   // {
@@ -105,7 +105,7 @@ const projectsUX = [
     // HREF LINK
     // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
     link: 'https://artemis.llc',
-    dim: false,
+    dim: false
   },
 
   {
@@ -130,14 +130,14 @@ const projectsUX = [
     year: 2018,
     // HREF LINK
     // link: "http://kith-store.aaronadler.com"
-    link: 'https://kith.now.sh/',
+    link: 'https://kith.now.sh/'
   },
 
   {
     key: 30,
     title: 'IBM Partners - Motion Identity',
     desc:
-      'JavaScript brand animation for IBM Partners, IBM\'s business services portal. Click to interact with the animation in a playground environment.',
+      "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
 
     role1:
       'Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.',
@@ -154,7 +154,7 @@ const projectsUX = [
     // HREF LINK
     // link: "./ibm.html"
     // link: "https://ww2.aaronadler.com/anim-demos/5_ibm-circle-diamond/"
-    link: 'https://ibmpartners.now.sh/',
+    link: 'https://ibmpartners.now.sh/'
   },
 
   {
@@ -180,7 +180,7 @@ const projectsUX = [
     tag4: 'Formik',
 
     year: 2019,
-    link: 'https://discovery-ui.now.sh/',
+    link: 'https://discovery-ui.now.sh/'
   },
 
   // {
@@ -267,7 +267,7 @@ const projectsUX = [
     year: 2018,
     // HREF LINK
     link:
-      'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
+      'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design'
   },
 
   {
@@ -290,7 +290,7 @@ const projectsUX = [
     // HREF LINK
     link:
       'https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider',
-    dim: true,
+    dim: true
   },
 
   // {
@@ -319,7 +319,7 @@ const projectsUX = [
     image: '../static/thumbs800x400/patagonia-ww3.gif',
     title: 'Patagonia Provisions',
     desc:
-      'Animated sequence for Patagonia Provisions, Patagonia\'s line of foods and recipes. Click to view.',
+      "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
 
     role:
       'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
@@ -334,7 +334,7 @@ const projectsUX = [
 
     year: 2017,
     // HREF LINK
-    link: 'https://codepen.io/aaronadler/pen/vWoVoN',
+    link: 'https://codepen.io/aaronadler/pen/vWoVoN'
   },
 
   // {
@@ -376,8 +376,8 @@ const projectsUX = [
 
     year: 2017,
     // HREF LINK
-    link: 'https://www.facebook.com/160758384681784/videos/166745714083051',
-  },
+    link: 'https://www.facebook.com/160758384681784/videos/166745714083051'
+  }
   // {
   //   key: 9,
   //   image: '../static/thumbs800x400/cotton-bur-rect.gif',

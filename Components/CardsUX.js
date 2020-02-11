@@ -9,7 +9,7 @@ const uuidv1 = require('uuid/v1');
 const CardsUX = () => {
   return (
     <div className="card-container justify-center">
-      {projects.map((project) => {
+      {projects.map(project => {
         return (
           <div className="card br2" key={uuidv1()}>
             <a target="_blank" rel="noopener noreferrer" href={project.link}>
@@ -17,7 +17,7 @@ const CardsUX = () => {
                 <img
                   style={{
                     filter: project.dim ? 'brightness(.9)' : 'brightness(1)',
-                    display: 'block',
+                    display: 'block'
                   }}
                   src={project.image}
                   alt="alt"
