@@ -1,5 +1,5 @@
 import '../styles/style.scss';
-import { register, unregister } from 'next-offline/runtime';
+// import { register, unregister } from 'next-offline/runtime';
 import React from 'react';
 import Head from 'next/head';
 import TopNav from '../Components/TopNav';
@@ -15,70 +15,54 @@ import Footer from '../Components/Footer';
 
 // console.log('aacom-5');
 
-class UXpage extends React.Component {
-  componentDidMount() {
-    register();
-  }
+const UxPage = () => (
+  <div>
+    <Head>
+      <title>Aaron Adler | UX Engineer</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      {/* <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"></link> */}
+      <link
+        href="https://fonts.googleapis.com/css?family=Teko:300"
+        rel="stylesheet"
+      />
+    </Head>
+    {/* <RSSRequestHOC/> */}
 
-  componentWillUnmount() {
-    unregister();
-  }
+    <TopNav />
 
-  render() {
-    return (
-      <div>
-        <Head>
-          <title>Aaron Adler | UX Engineer</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-          {/* <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"></link> */}
-          <link
-            href="https://fonts.googleapis.com/css?family=Teko:300"
-            rel="stylesheet"
-          />
-        </Head>
-        {/* <RSSRequestHOC/> */}
+    <WelcomeBioUX />
 
-        <TopNav />
+    <CardsUX />
 
-        <WelcomeBioUX />
+    {/* <MediumCard/> */}
 
+    <CoreTools />
 
-        <CardsUX />
+    <Footer />
 
-        {/* <MediumCard/> */}
+    <style jsx>
+      {`
+        .algos {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
 
-        <CoreTools />
+        .algos a {
+          transition: all 0.3s ease;
+          margin: 0 0 40px 0;
+        }
+        .algos a:hover {
+          transform: translateY(-3px);
+        }
 
-        <Footer />
+        .algos a img {
+          cursor: pointer;
+          display: block;
+        }
+      `}
+    </style>
+  </div>
+);
 
-        <style jsx>
-          {`
-            .algos {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-            }
-
-            .algos a {
-              transition: all 0.3s ease;
-              margin: 0 0 40px 0;
-            }
-            .algos a:hover {
-              transform: translateY(-3px);
-            }
-
-            .algos a img {
-              cursor: pointer;
-              display: block;
-            }
-          `}
-        </style>
-      </div>
-    );
-  }
-}
-
-export default UXpage;
+export default UxPage;

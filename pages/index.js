@@ -13,7 +13,7 @@ import HackerrankScore from '../Components/hackerrank-score';
 
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
-// console.log('aacom-5');
+console.log('aacom_2-10');
 
 class Index extends React.Component {
   componentDidMount() {
