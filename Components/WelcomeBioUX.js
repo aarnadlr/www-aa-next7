@@ -99,16 +99,20 @@ const WelcomeBioUX = () => (
         &nbsp;and <span className="highlight">&nbsp;UX Designer&nbsp;</span>
         &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
-        Art Directors Club, and the New York Times. &nbsp;My focus is on{' '}
-        <span className="highlight">&nbsp;JavaScript&nbsp;</span>,{' '}
-        <span className="highlight">&nbsp;React&nbsp;</span>, and{' '}
-        <span className="highlight">&nbsp;CSS&nbsp;</span>.
+        Art Directors Club, and the New York Times.
+
+        {/*&nbsp;My focus is on{' '}*/}
+        {/*<span className="highlight">&nbsp;JavaScript&nbsp;</span>,{' '}*/}
+        {/*<span className="highlight">&nbsp;React&nbsp;</span>, and{' '}*/}
+        {/*<span className="highlight">&nbsp;CSS&nbsp;</span>.*/}
       </h2>
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
-        Below, please find a selectino of <span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}
-        <Link href="/">
-          <a className={'hoverLink'} style={{color: 'rgb(13, 2, 165)',  fontWeight: 600}}>Tap here to view software development work</a>
+        Below, please find a selection of <span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}
+        <Link href="/" >
+          <a
+            // target={'_blank'}
+            className={'hoverLink'} style={{color: 'rgb(13, 2, 165)', fontWeight: 600}}>Tap here to view software development work</a>
         </Link>.
       </h2>
     </div>

@@ -4,7 +4,7 @@ import React from 'react';
 import Head from 'next/head';
 import TopNav from '../Components/TopNav';
 import WelcomeBioUX from '../Components/WelcomeBioUX';
-import Cards from '../Components/Cards';
+import CardsUX from '../Components/CardsUX';
 import CoreTools from '../Components/CoreTools';
 import Footer from '../Components/Footer';
 // import MediumCard from '../Components/ZMediumCard';
@@ -46,7 +46,7 @@ class Index extends React.Component {
         <WelcomeBioUX />
 
 
-        <Cards />
+        <CardsUX />
 
         {/* <MediumCard/> */}
 

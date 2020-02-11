@@ -71,6 +71,7 @@ const WelcomeBio = () => (
           <img
             className="icon grow-large-2 ml3"
             src="../../static/icons/prodhunt.png"
+            alt="img"
           />
         </a>
         {/* <a target='_blank' rel="noopener noreferrer" href="https://workingnotworking.com/aarn"><img                     className='icon grow-large-2 ml3' src='../../static/icons/wnw.png' /></a> */}
@@ -101,7 +102,8 @@ const WelcomeBio = () => (
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
         Hi there. &nbsp;I&#39;m a&nbsp;
         <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>
-        &nbsp;and <span className="highlight">&nbsp;UX Engineer&nbsp;</span>
+        &nbsp;and&nbsp;
+        <span className="highlight">&nbsp;UX Engineer&nbsp;</span>
         &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times. &nbsp;My focus is on
