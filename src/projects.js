@@ -28,6 +28,32 @@ const projects = [
     link: 'https://www.ibm.com/partners/start/',
   },
 
+
+  {
+    key: 31,
+    image: '../static/thumbs800x400/appnexus-thumb.jpg',
+    title: 'AppNexus',
+    desc:
+      'ReactJS web development and component testing for AppNexus\' global advertising platform.',
+
+    role1:
+      'Evolved/refactored ANX_React, their proprietary react component design system',
+    role2: 'Unit testing with Jest/ Mocha/ Chai',
+    role3: 'Fixed UI and business logic bugs',
+    role4: 'Fetched data from REST and GraphQL APIs',
+    // TAGS:
+    //  tag1: 'sketch',
+    tag1: 'JavaScript',
+    tag2: 'React',
+    tag3: 'Design System',
+    tag4: 'CSS/SASS',
+
+    year: 2019,
+    link: 'https://www.appnexus.com/fr',
+    dim: false,
+  },
+
+
   {
     key: 30,
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
@@ -79,6 +105,32 @@ const projects = [
   //   // link: "https://youtubezero.herokuapp.com/"
   //   link: 'https://youtubezero.now.sh/',
   // },
+
+
+   {
+    key: 6,
+    image: '../static/thumbs800x400/patagonia-ww3.gif',
+    title: 'Patagonia Provisions',
+    desc:
+      'Animated sequence for Patagonia Provisions, Patagonia\'s line of foods and recipes. Click to view.',
+
+    role:
+      'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
+    // TAGS:
+    //  tag1: 'sketch',
+    //  tag2: 'CSS3',
+    tag1: 'After Effects',
+    tag2: 'JavaScript',
+    tag3: 'Lottie',
+    //  tag4: 'Illustrator',
+    tag5: 'SVG',
+
+    year: 2017,
+    // HREF LINK
+    link: 'https://codepen.io/aaronadler/pen/vWoVoN',
+  },
+
+
 
   {
     key: 30,
@@ -314,28 +366,6 @@ const projects = [
   //     'https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design',
   // },
 
-  {
-    key: 6,
-    image: '../static/thumbs800x400/patagonia-ww3.gif',
-    title: 'Patagonia Provisions',
-    desc:
-      'Animated sequence for Patagonia Provisions, Patagonia\'s line of foods and recipes. Click to view.',
-
-    role:
-      'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
-    // TAGS:
-    //  tag1: 'sketch',
-    //  tag2: 'CSS3',
-    tag1: 'After Effects',
-    tag2: 'JavaScript',
-    tag3: 'Lottie',
-    //  tag4: 'Illustrator',
-    tag5: 'SVG',
-
-    year: 2017,
-    // HREF LINK
-    link: 'https://codepen.io/aaronadler/pen/vWoVoN',
-  },
 
   // {
   //   key: 7,
