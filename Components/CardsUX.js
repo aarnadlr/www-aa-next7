@@ -16,7 +16,12 @@ const CardsUX = () => {
               {project.image ? (
                 <img
                   style={{
-                    filter: project.dim ? 'brightness(.9)' : 'brightness(1)',
+                    filter: project.dim ? 'brightness(.97)' : 'brightness(1)',
+                    // filter: project.dim ? 'filter: hue-rotate(45deg)' : 'filter: hue-rotate(0deg)',
+                    // filter: project.dim ? '-webkit-filter: hue-rotate(45deg)' : '-webkit-filter: hue-rotate(0deg)',
+
+
+
                     display: 'block'
                   }}
                   src={project.image}
@@ -35,31 +40,31 @@ const CardsUX = () => {
                   {project.desc}
                 </p>
 
-                <p id="" className="projectRole f6 mt1 mb2 fw6">
-                  My project role :
-                </p>
+                {/*<p id="" className="projectRole f6 mt1 mb2 fw6">*/}
+                {/*  My project role :*/}
+                {/*</p>*/}
 
-                <ul style={{ listStyleType: 'circle' }} className="f6b">
-                  <li className="mt3">
-                    {project.role1 ? project.role1 : project.role}
-                  </li>
-                  {project.role2 ? (
-                    <li className="mt3">{project.role2}</li>
-                  ) : null}
-                  {project.role3 ? (
-                    <li className="mt3">{project.role3}</li>
-                  ) : null}
-                  {project.role4 ? (
-                    <li className="mt3">{project.role4}</li>
-                  ) : null}
-                  {project.role5 ? (
-                    <li className="mt3">{project.role5}</li>
-                  ) : null}
+                {/*<ul style={{ listStyleType: 'circle' }} className="f6b">*/}
+                {/*  <li className="mt3">*/}
+                {/*    {project.role1 ? project.role1 : project.role}*/}
+                {/*  </li>*/}
+                {/*  {project.role2 ? (*/}
+                {/*    <li className="mt3">{project.role2}</li>*/}
+                {/*  ) : null}*/}
+                {/*  {project.role3 ? (*/}
+                {/*    <li className="mt3">{project.role3}</li>*/}
+                {/*  ) : null}*/}
+                {/*  {project.role4 ? (*/}
+                {/*    <li className="mt3">{project.role4}</li>*/}
+                {/*  ) : null}*/}
+                {/*  {project.role5 ? (*/}
+                {/*    <li className="mt3">{project.role5}</li>*/}
+                {/*  ) : null}*/}
 
-                  {project.role6 ? (
-                    <li className="mt3">{project.role6}</li>
-                  ) : null}
-                </ul>
+                {/*  {project.role6 ? (*/}
+                {/*    <li className="mt3">{project.role6}</li>*/}
+                {/*  ) : null}*/}
+                {/*</ul>*/}
 
                 <p id="" className="f6 mt4 mb0 fw6">
                   Project stack:

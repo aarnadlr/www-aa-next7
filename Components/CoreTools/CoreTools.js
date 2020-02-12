@@ -14,7 +14,7 @@ const CoreTools = () => (
 
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-css3 rainbow3" />
+              <i className="fab fa-css3 rainbow3" />
             </span>
             CSS3
           </li>

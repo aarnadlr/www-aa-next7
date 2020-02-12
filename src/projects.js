@@ -249,56 +249,56 @@ const projects = [
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
-  {
-    key: '2BB',
-    image: '../static/Blockparty-800x400-3.jpg',
-    title: 'Blockparty - Blockchain app UX',
-    desc:
-      'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
-
-    role:
-      'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Illustrator',
-    tag3: 'DMesh',
-    tag4: 'React',
-
-    year: 2018,
-    // HREF LINK
-    link:
-      'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
-  },
-
-  {
-    key: '2C',
-    image:
-      'https://dl.dropboxusercontent.com/s/4siji9ixbeggje9/blockchain-RECT-2.gif',
-    title: 'Blockchain.com - Wallet UI',
-    desc:
-      'Currency Slider Component for iOS Wallet App, which allows the user to select and transact with multiple currencies. Click to view.',
-
-    role:
-      'Developed the Currency Slider Component with Sketch and AdobeCC. Designed the UI component of all screens at 1x with Sketch.',
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Illustrator',
-    tag3: 'Photoshop',
-    tag4: 'SVG',
-
-    year: 2018,
-    // HREF LINK
-    link:
-      'https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider',
-    dim: true,
-  },
+  // {
+  //   key: '2BB',
+  //   image: '../static/Blockparty-800x400-3.jpg',
+  //   title: 'Blockparty - Blockchain app UX',
+  //   desc:
+  //     'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
+  //
+  //   role:
+  //     'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Illustrator',
+  //   tag3: 'DMesh',
+  //   tag4: 'React',
+  //
+  //   year: 2018,
+  //   // HREF LINK
+  //   link:
+  //     'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
+  // },
+  //
+  // {
+  //   key: '2C',
+  //   image:
+  //     'https://dl.dropboxusercontent.com/s/4siji9ixbeggje9/blockchain-RECT-2.gif',
+  //   title: 'Blockchain.com - Wallet UI',
+  //   desc:
+  //     'Currency Slider Component for iOS Wallet App, which allows the user to select and transact with multiple currencies. Click to view.',
+  //
+  //   role:
+  //     'Developed the Currency Slider Component with Sketch and AdobeCC. Designed the UI component of all screens at 1x with Sketch.',
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Illustrator',
+  //   tag3: 'Photoshop',
+  //   tag4: 'SVG',
+  //
+  //   year: 2018,
+  //   // HREF LINK
+  //   link:
+  //     'https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider',
+  //   dim: true,
+  // },
 
   // {
   //   key: 4,
   //   image: '../static/thumbs800x400/verbal4.jpg',
   //   title: 'Verbal - Messaging UI',
   //   desc:
-  //     'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
+  //     'Minimal messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
   //
   //   role:
   //     'Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.',
