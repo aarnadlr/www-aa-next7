@@ -301,26 +301,26 @@ const projects = [
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
-  // {
-  //   key: '2BB',
-  //   image: '../static/Blockparty-800x400-3.jpg',
-  //   title: 'Blockparty - Blockchain app UX',
-  //   desc:
-  //     'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
-  //
-  //   role:
-  //     'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
-  //   // TAGS:
-  //   tag1: 'Sketch',
-  //   tag2: 'Illustrator',
-  //   tag3: 'DMesh',
-  //   tag4: 'React',
-  //
-  //   year: 2018,
-  //   // HREF LINK
-  //   link:
-  //     'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
-  // },
+  {
+    key: '2BB',
+    image: '../static/Blockparty-800x400-3.jpg',
+    title: 'Blockparty - Blockchain app UX',
+    desc:
+      'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
+
+    role:
+      'Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.',
+    // TAGS:
+    tag1: 'Sketch',
+    tag2: 'Illustrator',
+    tag3: 'DMesh',
+    tag4: 'React',
+
+    year: 2018,
+    // HREF LINK
+    link:
+      'https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design',
+  },
   //
   // {
   //   key: '2C',
