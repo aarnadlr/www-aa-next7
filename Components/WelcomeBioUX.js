@@ -105,7 +105,8 @@ const WelcomeBioUX = () => (
           <a
             // target={'_blank'}
             className={'hoverLink'}
-            style={{ color: 'rgb(13, 2, 165)', fontWeight: 600 }}
+            // style={{ color: 'rgb(13, 2, 165)', fontWeight: 600 }}
+            style={{ color: 'rgb(14, 0, 202)' }}
           >
             Tap here to view software development work
           </a>

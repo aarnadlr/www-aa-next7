@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+
 // import styles from "./WelcomeBio.css";
 
 // const Paragraph = styled.p`
@@ -115,8 +117,21 @@ const WelcomeBio = () => (
         , and
         {' '}
         <span className="highlight">&nbsp;CSS&nbsp;</span>
-        .
+        .&nbsp;&nbsp;
+
+         <Link href="/ux">
+          <a
+            // target={'_blank'}
+            className={'hoverLink'}
+            // style={{ color: 'rgb(13, 2, 165)' }}
+            style={{ color: 'rgb(14, 0, 202)' }}
+          >
+            Tap here to view only UX Design work.
+          </a>
+        </Link>
       </h2>
+
+
     </div>
 
     <style jsx>
@@ -125,6 +140,9 @@ const WelcomeBio = () => (
           width: 20px;
           height: 20px;
           border-radius: 3px;
+        }
+        a.hoverLink:hover {
+          text-decoration: underline;
         }
       `}
     </style>
