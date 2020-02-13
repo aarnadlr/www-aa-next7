@@ -95,12 +95,26 @@ const WelcomeBioUX = () => (
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
         Hi there. &nbsp;I'm a&nbsp;
-        <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>
-        &nbsp;and <span className="highlight">&nbsp;UX Designer&nbsp;</span>
+        {/*<span className="highlight">&nbsp;Front-end Developer&nbsp;</span>*/}
+        {/*&nbsp;and*/}
+        <span className="highlight">&nbsp;UX Designer&nbsp;</span>
         &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
-        Art Directors Club, and the New York Times. &nbsp;Below, please find a selection of{' '}
-        <span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}
+        Art Directors Club, and the New York Times.
+
+        &nbsp;My focus is on
+        {' '}
+        <span className="highlight">&nbsp;Responsive Design&nbsp;</span>
+        &nbsp;,
+        {' '}
+        <span className="highlight">&nbsp;UI Animation&nbsp;</span>
+        &nbsp;and
+        {' '}
+        <span className="highlight">&nbsp;Design Systems&nbsp;</span>
+        &nbsp;.&nbsp;&nbsp;
+
+        {/*Below, please find a selection of{' '}*/}
+        {/*<span className="highlight">&nbsp;UX Design&nbsp;</span> projects.{' '}*/}
         <Link href="/">
           <a
             // target={'_blank'}
@@ -117,6 +131,9 @@ const WelcomeBioUX = () => (
 
     <style jsx>
       {`
+        #topSection{
+          max-width: 556px;
+        }
         .icon {
           width: 20px;
           height: 20px;

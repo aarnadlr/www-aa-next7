@@ -103,21 +103,21 @@ const WelcomeBio = () => (
 
       <h2 className="paragraph f5 lh-copy4b mh3 fw5">
         Hi there. &nbsp;I&#39;m a&nbsp;
-        <span className="highlight">&nbsp;Front-end Developer&nbsp;</span>
-        &nbsp;and&nbsp;
-        <span className="highlight">&nbsp;UX Engineer&nbsp;</span>
+        <span className="highlight">&nbsp;Front-end Software Developer&nbsp;</span>
+        {/*&nbsp;and&nbsp;*/}
+        {/*<span className="highlight">&nbsp;UX Engineer&nbsp;</span>*/}
         &nbsp;in NYC.&nbsp; I’ve worked on projects for Facebook, IBM, AppNexus,
         R/GA and others. &nbsp;My work has been recognized by Cannes, AICP, the
         Art Directors Club, and the New York Times. &nbsp;My focus is on
         {' '}
         <span className="highlight">&nbsp;JavaScript&nbsp;</span>
-        ,
+        &nbsp;,
         {' '}
         <span className="highlight">&nbsp;React&nbsp;</span>
-        , and
+        &nbsp;, and
         {' '}
         <span className="highlight">&nbsp;CSS&nbsp;</span>
-        .&nbsp;&nbsp;
+        &nbsp;.&nbsp;&nbsp;
 
          <Link href="/ux">
           <a
@@ -126,7 +126,7 @@ const WelcomeBio = () => (
             // style={{ color: 'rgb(13, 2, 165)' }}
             style={{ color: 'rgb(14, 0, 202)' }}
           >
-            Tap here to view only UX Design work.
+            Tap here to view UX Design work.
           </a>
         </Link>
       </h2>
@@ -136,6 +136,9 @@ const WelcomeBio = () => (
 
     <style jsx>
       {`
+        #topSection{
+          max-width: 554px;
+        }
         .icon {
           width: 20px;
           height: 20px;
