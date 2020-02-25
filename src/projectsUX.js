@@ -36,8 +36,8 @@ const projectsUX = [
     // role2: 'Front-end JavaScript code',
 
     tag1: 'Figma',
-    tag2: 'Adobe Illustrtr',
-    tag3: 'Brand Identity',
+    tag2: 'Adobe Illus',
+    tag3: 'Brand ID',
     tag4: 'Typography',
     year: 2019,
     link: 'https://www.figma.com/file/P4Nb6jyjLzp5YEUxaAkrhS/Walrus-Brand-Identity-System-PRES?node-id=0%3A1',
@@ -77,17 +77,13 @@ const projectsUX = [
     // role2: 'Front-end JavaScript code',
 
     tag1: 'Figma',
-    tag2: 'Adobe Illustrator',
+    tag2: 'Adobe CC',
     tag3: 'Brand Identity',
     tag4: 'Mobile',
     year: 2019,
     link: 'https://www.figma.com/file/uDF1d9dcHOXSsC6eBt6OOV/Open-Igloo-Brand-Identity-System-PRES?node-id=1%3A444',
     dim: true
   },
-
-
-
-
 
 
     {
@@ -101,7 +97,7 @@ const projectsUX = [
     // role2: 'Front-end JavaScript code',
 
     tag1: 'Figma',
-    tag2: 'Adobe Illustrator',
+    tag2: 'Adobe CC',
     tag3: 'Brand Identity',
     tag4: 'Mobile',
     year: 2019,

@@ -45,7 +45,7 @@ const projects = [
     //  tag1: 'sketch',
     tag1: 'JavaScript',
     tag2: 'React',
-    tag3: 'Design System',
+    tag3: 'UX/UI',
     tag4: 'CSS/SASS',
 
     year: 2019,
@@ -198,7 +198,7 @@ const projects = [
       'Scales to any size, runs in the browser at 60fps, compiles to a tiny 43k JSON file.',
     // TAGS:
     tag1: 'Sketch',
-    tag2: 'AfterEffects',
+    tag2: 'Adobe CC',
     tag3: 'CSS3',
     tag4: 'JavaScript',
 
@@ -399,10 +399,10 @@ const projects = [
     role:
       'Received the helmet as a .obj 3D model. Added textures, materials and lighting in Blender and ARStudio. Created the background animations in After Effects. Configured the object to a face-tracker in ARStudio.',
     // TAGS:
-    tag1: 'ARstudio',
+    tag1: 'AR',
     tag2: 'Blender3D',
     tag3: 'Photoshop',
-    tag4: 'After Eff',
+    tag4: 'AfterEff',
 
     year: 2017,
     // HREF LINK
