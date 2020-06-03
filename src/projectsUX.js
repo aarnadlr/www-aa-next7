@@ -2,7 +2,7 @@ const projectsUX = [
     // ARTEMIS CAP ADVISORS
     {
         key: 8,
-        image: '../static/ux/thumb_artemis.jpg',
+        image: '../static/ux/thumb_artemis2.jpg',
         title: 'Artemis Capital Advisors',
 
         desc:
@@ -24,7 +24,7 @@ const projectsUX = [
     // INTELLIGENT CROSS
     {
         key: 8,
-        image: '../static/ux/thumb_ic.jpg',
+        image: '../static/ux/thumb_ic2.jpg',
         title: 'Intelligent Cross',
 
         desc:

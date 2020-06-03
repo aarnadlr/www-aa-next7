@@ -22,7 +22,7 @@ const CardsUX = () => {
                                     style={{
                                         filter: project.dim
                                             ? 'brightness(.97)'
-                                            : 'brightness(1.05)',
+                                            : 'brightness(1.025)',
                                         // filter: project.dim ? 'filter: hue-rotate(45deg)' : 'filter: hue-rotate(0deg)',
                                         // filter: project.dim ? '-webkit-filter: hue-rotate(45deg)' : '-webkit-filter: hue-rotate(0deg)',
 
@@ -118,7 +118,7 @@ const CardsUX = () => {
                     width: 430px;
                     transition: all 0.3s ease;
                     margin: 0.5rem;
-                    box-shadow: 0px 0px 24px 0px rgba(0,23,41,0.1);
+                    box-shadow: 0px 0px 24px 0px rgba(0,23,41,0.15);
 
                     background-color: white;
                     &:hover {
