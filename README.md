@@ -12,10 +12,6 @@ npm run dev
 ---
 ---
 ---
----
----
----
----
 
 
 Install it and run:
