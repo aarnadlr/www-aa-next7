@@ -21,6 +21,27 @@ const projectsUX = [
         dim: false,
     },
 
+    {
+        key: 8,
+        image: '../static/ux/thumb_super2.jpg',
+        title: 'Supercard',
+
+        desc:
+            'UX mobile app design for Supercard, digital greeting cards. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Web App',
+        year: 2019,
+        link:
+            'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
+        dim: false,
+    },
+
     // INTELLIGENT CROSS
     {
         key: 8,
@@ -43,13 +64,14 @@ const projectsUX = [
         dim: false,
     },
 
+    // OPEN IGLOO UX
     {
         key: 8,
-        image: '../static/ux/supercard1.jpg',
-        title: 'Supercard',
+        image: '../static/ux/thumb_openigloo.jpg',
+        title: 'Open Igloo',
 
         desc:
-            'UX mobile app design for Supercard, digital greeting cards. Click to view the project in Figma.',
+            'UX mobile and desktop app design for Open Igloo, real estate app. Not yet public: Please contact me to view a portion of the Figma project.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
@@ -59,9 +81,8 @@ const projectsUX = [
         tag3: 'Mobile',
         tag4: 'Web App',
         year: 2019,
-        link:
-            'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
-        dim: true,
+        link: '#',
+        dim: false,
     },
 
     {
