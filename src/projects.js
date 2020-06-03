@@ -34,7 +34,7 @@ const projects = [
     image: '../static/thumbs800x400/appnexus-thumb.jpg',
     title: 'AppNexus',
     desc:
-      'ReactJS web development and component testing for AppNexus\' global advertising platform.',
+      'ReactJS web development, component creation, and unit testing for AppNexus\' global advertising platform.',
 
     role1:
       'Evolved/refactored ANX_React, their proprietary react component design system',
@@ -59,7 +59,7 @@ const projects = [
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
     title: 'EricElliottJS.com',
     desc:
-      'React web development and UX design for Eric Elliott\'s JavaScript education platform.',
+      'React web development, component creation and UX design for Eric Elliott\'s JavaScript education platform.',
 
     role1:
       'Designed the site UX at mobile and desktop widths with Sketch and Figma',
@@ -136,7 +136,7 @@ const projects = [
     key: 30,
     image: '../static/thumbs800x400/artemis_800x400-2.jpg',
     title: 'Artemis Capital Advisors',
-    desc: 'React web development and UX design for Artemis Capital Advisors.',
+    desc: 'React web development, component creation and UX design for Artemis Capital Advisors.',
 
     role1: 'Designed the site UX at mobile and desktop widths with Figma',
     role2: 'React NextJS app',
