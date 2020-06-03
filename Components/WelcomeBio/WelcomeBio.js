@@ -124,7 +124,7 @@ const WelcomeBio = () => (
             // target={'_blank'}
             className={'hoverLink'}
             // style={{ color: 'rgb(13, 2, 165)' }}
-            style={{ color: 'rgb(14, 0, 202)' }}
+            // style={{ color: 'rgb(14, 0, 202)' }}
           >
             Tap here to view UX Design work.
           </a>
@@ -143,9 +143,6 @@ const WelcomeBio = () => (
           width: 20px;
           height: 20px;
           border-radius: 3px;
-        }
-        a.hoverLink:hover {
-          text-decoration: underline;
         }
       `}
     </style>

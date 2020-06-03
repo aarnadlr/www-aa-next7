@@ -1,27 +1,22 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/with-next-sass)
 
-# Example app with next-sass
+# www-aa-next7
 
-## How to use
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
+## Run app in development:
 
 ```bash
-npx create-next-app --example with-next-sass with-next-sass-app
-# or
-yarn create next-app --example with-next-sass with-next-sass-app
+npm run dev
 ```
 
-### Download manually
 
-Download the example:
+---
+---
+---
+---
+---
+---
+---
+---
 
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-next-sass
-cd with-next-sass
-```
 
 Install it and run:
 

@@ -270,3 +270,5 @@ Temporary Items
 # End of https://www.gitignore.io/api/node,macos
 .idea/
 .now
+
+.DS_Store

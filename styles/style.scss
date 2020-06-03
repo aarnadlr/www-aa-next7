@@ -52,7 +52,17 @@ body.light-mode {
   }
 }
 
-
+a {
+  color: #0039d4;
+  font-weight: 600;
+}
+a.hoverLink:hover {
+  color: #b7caff;
+  text-decoration: underline;
+}
+a.hoverLink:visited {
+  color: #0039d4;
+}
 
 
 body.dark-mode {
@@ -65,8 +75,16 @@ body.dark-mode {
     filter: invert(1);
   }
   a {
-    color: white;
+    color: #638bfa;
   }
+  a.hoverLink:hover {
+    color: #b7caff;
+    text-decoration: underline;
+  }
+  a.hoverLink:visited {
+    color: #638bfa;
+  }
+
   .textContainer {
     background: #1c2d6b;
   }
