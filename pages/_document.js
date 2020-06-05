@@ -10,65 +10,69 @@ import React from 'react';
 export default class MyDocument extends Document {
   render() {
     return (
-      <html lang='en' prefix='og: http://ogp.me/ns#'>
+      <html lang="en" prefix="og: http://ogp.me/ns#">
         <Head>
           <meta
-            name='image'
-            property='og:image'
-            content='https://aaronadler.com/static/og-aa-com.jpg'
+            name="image"
+            property="og:image"
+            content="https://aaronadler.com/static/og-aa-com.jpg"
           />
-          <meta name='author' content='Aaron Adler' />
+          <meta name="author" content="Aaron Adler" />
           <meta
-            name='keywords'
-            content='Aaron Adler, frontend, developer, software, engineer, UX, design, HTML, CSS, JavaScript, React, Node, Sketch, Photoshop'
+            name="keywords"
+            content="Aaron Adler, frontend, developer, software, engineer, UX, design, HTML, CSS, JavaScript, React, Node, Sketch, Photoshop"
           />
-          <meta name='og:title' content='Aaron Adler - UX/Dev' />
-          <meta name='og:type' content='website' />
-          <meta name='og:site_name' content='Aaron Adler | UX Engineer' />
-          <meta name='og:description' content='Aaron Adler | UX Engineer' />
-          <meta name='Description' content='Aaron Adler | UX Engineer' />
+          <meta name="og:title" content="Aaron Adler - UX/Dev" />
+          <meta name="og:type" content="website" />
+          <meta name="og:site_name" content="Aaron Adler | UX Engineer" />
+          <meta name="og:description" content="Aaron Adler | UX Engineer" />
+          <meta name="Description" content="Aaron Adler | UX Engineer" />
           <meta
-            name='viewport'
-            content='width=device-width, initial-scale=1.0'
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
           />
           <meta
-            name='title'
-            property='og:title'
-            content='Aaron Adler - UX/Dev'
+            name="title"
+            property="og:title"
+            content="Aaron Adler | UX/Front-end Dev"
           />
-          <meta property='og:url' content='https://aaronadler.com' />
-          <meta name='theme-color' content='#000000' />
+          <meta property="og:url" content="https://aaronadler.com" />
+          <meta name="theme-color" content="#000000" />
           <link
-            rel='stylesheet noopener noreferrer'
-            href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'
-            integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU'
-            crossOrigin='anonymous'
+            rel="stylesheet noopener noreferrer"
+            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+            crossOrigin="anonymous"
           />
+          <link rel="manifest" href="/static/manifest.json" />
 
-          <link rel='manifest' href='/static/manifest.json' />
           {/* favicons */}
           <link
-            rel='icon'
-            type='image/x-icon'
-            href='static/favicons/favicon.ico'
+            rel="apple-touch-icon"
+            href="https://aaronadler.com/static/favicons/aa192.png"
           />
           <link
-            rel='icon'
-            type='image/png'
-            sizes='48x48'
-            href='static/favicons/favicon-48.png'
+            rel="icon"
+            type="image/x-icon"
+            href="static/favicons/favicon.ico"
           />
           <link
-            rel='icon'
-            type='image/png'
-            sizes='32x32'
-            href='static/favicons/favicon-32.png'
+            rel="icon"
+            type="image/png"
+            sizes="48x48"
+            href="static/favicons/favicon-48.png"
           />
           <link
-            rel='icon'
-            type='image/png'
-            sizes='16x16'
-            href='static/favicons/favicon-16.png'
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="static/favicons/favicon-32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="static/favicons/favicon-16.png"
           />
 
           {/* <script */}
