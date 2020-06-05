@@ -1,17 +1,45 @@
 const projects = [
   {
     key: 1,
-    image: '../static/thumbs800x400/IBM_800x400.jpg',
-    title: 'IBM Partners',
+    image: '../static/thumbs800x400/supercard-dev2.jpg',
+    title: 'Supercard',
 
     desc:
-      'JavaScript web development and UX design for IBM Partners, IBM\'s business services portal. Click to view the project.',
+      'TypeScript / React web development, and UX design for Supercard, digital birthday greetings app. Click to view the project.',
 
-    role1: 'UX wireframes and design with Sketch',
-    role2: 'Front-end JavaScript code',
+    role2: 'UX Design: Mobile wireframes and design with Figma',
+    role1: 'Front-end: TypeScript / React / Styled-components development',
 
     role3:
-      'Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, and column layouts',
+      'Backend: Vercel serverless functions connected to MongoDB',
+
+    // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+
+    // techstack: ""
+    // TAGS:
+    tag1: 'HTML5',
+    tag2: 'SCSS',
+    tag3: 'JavaScript',
+    tag4: 'TypeScript',
+    tag5: 'React',
+
+    year: 2020,
+    // HREF LINK
+    link: 'https://supercardco.com',
+  },
+  {
+    key: 1,
+    image: '../static/thumbs800x400/IBM_800x400.jpg',
+    title: 'IBM',
+
+    desc:
+      'JavaScript web development, and UX design for IBM Partners, IBM\'s business services portal. Click to view the project.',
+
+    role1: 'UX Design: Mobile and desktop wireframes and design with Sketch',
+    role2: 'Front-end: JavaScript development',
+
+    role3:
+      'Transitioned UX from IBM’s Northstar design system to its new Duo design system. New typestyles, color palettes, column grid',
 
     // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
@@ -34,19 +62,20 @@ const projects = [
     image: '../static/thumbs800x400/appnexus-thumb.jpg',
     title: 'AppNexus',
     desc:
-      'ReactJS web development, component creation, and unit testing for AppNexus\' global advertising platform.',
+      'ReactJS web development, Storybook component creation, and unit testing for AppNexus\' global advertising platform.',
 
     role1:
       'Evolved/refactored ANX_React, their proprietary react component design system',
-    role2: 'Unit testing with Jest/ Mocha/ Chai',
-    role3: 'Fixed UI and business logic bugs',
-    role4: 'Fetched data from REST and GraphQL APIs',
+    role2: 'Unit testing with Jest / Mocha / Chai',
+    role3: 'Fixed UI and application logic bugs',
+    role4: 'Data fetching from REST and GraphQL APIs',
     // TAGS:
     //  tag1: 'sketch',
     tag1: 'JavaScript',
     tag2: 'React',
     tag3: 'UX/UI',
-    tag4: 'CSS/SASS',
+    tag4: 'SCSS',
+    tag5: 'Storybook',
 
     year: 2019,
     link: 'https://www.appnexus.com/fr',
@@ -61,14 +90,13 @@ const projects = [
     desc:
       'React web development, component creation and UX design for Eric Elliott\'s JavaScript education platform.',
 
-    role1:
-      'Designed the site UX at mobile and desktop widths with Sketch and Figma',
-    role2: 'Set up initial app with React and NextJS',
+    role1: 'Front-end: React and NextJS development',
+    role2:
+      'UX Design: Mobile and desktop wireframes and design with Sketch',
     role3: 'Implemented user payments with Paypal SDK',
-    role4: 'Set up user auth with Firebase Auth',
-    role5: 'Set up persistent account data with Cloud Firestore',
-    role6:
-      'SVG animated brand identity built with Adobe After Effects and LottieJS',
+    role4: 'Implemented user auth with Firebase Auth and persistent data with Cloud Firestore',
+    role5:
+      'SVG/JS animation with Adobe After Effects and LottieJS',
     // TAGS:
     //  tag1: 'sketch',
     tag1: 'JavaScript',
@@ -110,7 +138,7 @@ const projects = [
    {
     key: 6,
     image: '../static/thumbs800x400/patagonia-ww3.gif',
-    title: 'Patagonia Provisions',
+    title: 'Patagonia',
     desc:
       'Animated sequence for Patagonia Provisions, Patagonia\'s line of foods and recipes. Click to view.',
 
@@ -138,18 +166,19 @@ const projects = [
     title: 'Artemis Capital Advisors',
     desc: 'React web development, component creation and UX design for Artemis Capital Advisors.',
 
-    role1: 'Designed the site UX at mobile and desktop widths with Figma',
-    role2: 'React NextJS app',
-    role3: 'Styling with CSS-in-JS styledJSX and external Sass',
-    role4: 'Animated brand identity on page load with CSS animation',
-    role5: 'Interactive table with sort and filter functionality',
-    role6: 'Google Maps API with custom color palette and custom map pin icon',
+    role1: 'Front-end: JavaScript / React / NextJS app development',
+    role2: 'UX Design: Mobile and desktop wireframes and design with Figma',
+    role3: 'CSS styles: CSS-in-JS / styledJSX / external SASS',
+    role4: 'Animated brand identity with CSS animation',
+    role5: 'React interactive data table component with sort and filter functionality',
+    role6: 'Google Maps API with custom color palette and custom map pin',
     // TAGS:
     //  tag1: 'sketch',
     tag1: 'JavaScript',
     tag2: 'React',
     tag3: 'NextJS',
     tag4: 'CSS/SASS',
+    tag5: 'Figma',
 
     year: 2019,
     //  tag6: 'sass/scss',
@@ -160,30 +189,31 @@ const projects = [
     dim: false,
   },
 
-  {
-    key: 2,
-    image: '../static/kith-rect3.jpg',
-    title: 'Kith Footwear',
-    desc:
-      'Ecommerce store prototype. Built with React, styled-components, CSS Grid, Tachyons. Click to view the project.',
+  // KITH
+  // {
+  //   key: 2,
+  //   image: '../static/kith-rect3.jpg',
+  //   title: 'Kith Footwear',
+  //   desc:
+  //     'Ecommerce store prototype. Built with React, styled-components, CSS Grid, Tachyons. Click to view the project.',
 
-    role1:
-      'Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.',
-    role2:
-      'Custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.',
+  //   role1:
+  //     'Each piece of UI is a React component. Product cards rendered from a mapped array, and inserted into a responsive CSS Grid.',
+  //   role2:
+  //     'Custom media queries with ES6 template strings, which retrieve screen widths from a JavaScript object.',
 
-    // TAGS:
-    tag1: 'HTML5',
-    tag2: 'CSS Grid',
-    tag3: 'JavaScript',
-    tag4: 'React',
-    //  tag4: 'Styled-components',
+  //   // TAGS:
+  //   tag1: 'HTML5',
+  //   tag2: 'CSS Grid',
+  //   tag3: 'JavaScript',
+  //   tag4: 'React',
+  //   //  tag4: 'Styled-components',
 
-    year: 2018,
-    // HREF LINK
-    // link: "http://kith-store.aaronadler.com"
-    link: 'https://kith.now.sh/',
-  },
+  //   year: 2018,
+  //   // HREF LINK
+  //   // link: "http://kith-store.aaronadler.com"
+  //   link: 'https://kith.now.sh/',
+  // },
 
   {
     key: 30,
