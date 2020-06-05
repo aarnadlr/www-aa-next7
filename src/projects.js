@@ -10,8 +10,7 @@ const projects = [
     role2: 'UX Design: Mobile wireframes and design with Figma',
     role1: 'Front-end: TypeScript / React / Styled-components development',
 
-    role3:
-      'Backend: Vercel serverless functions connected to MongoDB',
+    role3: 'Backend: Vercel serverless functions connected to MongoDB',
 
     // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
 
@@ -33,7 +32,7 @@ const projects = [
     title: 'IBM',
 
     desc:
-      'JavaScript web development, and UX design for IBM Partners, IBM\'s business services portal. Click to view the project.',
+      "JavaScript web development, and UX design for IBM Partners, IBM's business services portal. Click to view the project.",
 
     role1: 'UX Design: Mobile and desktop wireframes and design with Sketch',
     role2: 'Front-end: JavaScript development',
@@ -56,13 +55,12 @@ const projects = [
     link: 'https://www.ibm.com/partners/start/',
   },
 
-
   {
     key: 31,
     image: '../static/thumbs800x400/appnexus-thumb.jpg',
     title: 'AppNexus',
     desc:
-      'ReactJS web development, Storybook component creation, and unit testing for AppNexus\' global advertising platform.',
+      "ReactJS web development, Storybook component creation, and unit testing for AppNexus' global advertising platform.",
 
     role1:
       'Evolved/refactored ANX_React, their proprietary react component design system',
@@ -82,21 +80,19 @@ const projects = [
     dim: false,
   },
 
-
   {
     key: 30,
     image: '../static/thumbs800x400/eejs_800x400-2.jpg',
     title: 'EricElliottJS.com',
     desc:
-      'React web development, component creation and UX design for Eric Elliott\'s JavaScript education platform.',
+      "React web development, component creation and UX design for Eric Elliott's JavaScript education platform.",
 
     role1: 'Front-end: React and NextJS development',
-    role2:
-      'UX Design: Mobile and desktop wireframes and design with Sketch',
+    role2: 'UX Design: Mobile and desktop wireframes and design with Sketch',
     role3: 'Implemented user payments with Paypal SDK',
-    role4: 'Implemented user auth with Firebase Auth and persistent data with Cloud Firestore',
-    role5:
-      'SVG/JS animation with Adobe After Effects and LottieJS',
+    role4:
+      'Implemented user auth with Firebase Auth and persistent data with Cloud Firestore',
+    role5: 'SVG/JS animation with Adobe After Effects and LottieJS',
     // TAGS:
     //  tag1: 'sketch',
     tag1: 'JavaScript',
@@ -134,13 +130,12 @@ const projects = [
   //   link: 'https://youtubezero.now.sh/',
   // },
 
-
-   {
+  {
     key: 6,
     image: '../static/thumbs800x400/patagonia-ww3.gif',
     title: 'Patagonia',
     desc:
-      'Animated sequence for Patagonia Provisions, Patagonia\'s line of foods and recipes. Click to view.',
+      "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
 
     role:
       'Created the Provisions design artwork in Pshop/Illustrator, based on brand assets. Animated the assets in After Effects. Rendered to JSON and implemented into a codebase.',
@@ -158,19 +153,19 @@ const projects = [
     link: 'https://codepen.io/aaronadler/pen/vWoVoN',
   },
 
-
-
   {
     key: 30,
     image: '../static/thumbs800x400/artemis_800x400-2.jpg',
     title: 'Artemis Capital Advisors',
-    desc: 'React web development, component creation and UX design for Artemis Capital Advisors.',
+    desc:
+      'React web development, component creation and UX design for Artemis Capital Advisors.',
 
     role1: 'Front-end: JavaScript / React / NextJS app development',
     role2: 'UX Design: Mobile and desktop wireframes and design with Figma',
     role3: 'CSS styles: CSS-in-JS / styledJSX / external SASS',
     role4: 'Animated brand identity with CSS animation',
-    role5: 'React interactive data table component with sort and filter functionality',
+    role5:
+      'React interactive data table component with sort and filter functionality',
     role6: 'Google Maps API with custom color palette and custom map pin',
     // TAGS:
     //  tag1: 'sketch',
@@ -219,7 +214,7 @@ const projects = [
     key: 30,
     title: 'IBM Partners - Motion Identity',
     desc:
-      'JavaScript brand animation for IBM Partners, IBM\'s business services portal. Click to interact with the animation in a playground environment.',
+      "JavaScript brand animation for IBM Partners, IBM's business services portal. Click to interact with the animation in a playground environment.",
 
     role1:
       'Designed identity in Illustrator. Animated motion in After Effects. Exported to JSON and SVG with Bodymovin to run in the browser.',
@@ -395,7 +390,6 @@ const projects = [
   //   link:
   //     'https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design',
   // },
-
 
   // {
   //   key: 7,

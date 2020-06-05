@@ -10,10 +10,7 @@ import Footer from '../Components/Footer';
 // import MediumCard from '../Components/MediumCard';
 import HackerrankScore from '../Components/hackerrank-score';
 // import Link from 'next/link';
-
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
-
-console.log('aa_2-25');
 
 class Index extends React.Component {
   componentDidMount() {
@@ -33,7 +30,6 @@ class Index extends React.Component {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          {/* <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet"></link> */}
           <link
             href="https://fonts.googleapis.com/css?family=Teko:300"
             rel="stylesheet"
@@ -46,7 +42,11 @@ class Index extends React.Component {
         <WelcomeBio />
 
         <div className="algos">
-          <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/aarnadlr">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.codewars.com/users/aarnadlr"
+          >
             <img
               src="https://www.codewars.com/users/aarnadlr/badges/large"
               alt=""
