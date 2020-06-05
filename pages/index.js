@@ -1,5 +1,5 @@
 import '../styles/style.scss';
-import { register, unregister } from 'next-offline/runtime';
+// import { register, unregister } from 'next-offline/runtime';
 import React from 'react';
 import Head from 'next/head';
 import TopNav from '../Components/TopNav';
@@ -13,13 +13,13 @@ import HackerrankScore from '../Components/hackerrank-score';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
 class Index extends React.Component {
-  componentDidMount() {
-    register();
-  }
+  // componentDidMount() {
+    // register();
+  // }
 
-  componentWillUnmount() {
-    unregister();
-  }
+  // componentWillUnmount() {
+    // unregister();
+  // }
 
   render() {
     return (

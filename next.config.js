@@ -1,4 +1,8 @@
 const withSass = require('@zeit/next-sass');
-const withOffline = require('next-offline')
+const withPWA = require('next-pwa')
 
-module.exports = withOffline(withSass())
+module.exports = withSass(withPWA({
+  pwa: {
+    dest: 'public'
+  }
+}))
