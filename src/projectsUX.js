@@ -1,12 +1,13 @@
 const projectsUX = [
-    // ARTEMIS CAP ADVISORS
-    {
+
+      // OPEN IGLOO UX
+      {
         key: 8,
-        image: '../static/ux/thumb_artemis2.jpg',
-        title: 'Artemis Capital Advisors',
+        image: '../static/ux/thumb_openigloo.jpg',
+        title: 'Open Igloo',
 
         desc:
-            'UX mobile and desktop app design for Artemis Capital Advisors, financial firm. Click to view the project in Figma.',
+            'UX mobile and desktop app design for Open Igloo, real estate app. Click to view the project in Figma.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
@@ -16,12 +17,35 @@ const projectsUX = [
         tag3: 'Mobile',
         tag4: 'Web App',
         year: 2019,
-        link:
-            'https://www.figma.com/file/YuaZGxG99g8xG7NOK4jCAi/Artemis-Site-Mobile-and-Desktop-UX-R3?node-id=0%3A1',
+        link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
         dim: false,
     },
 
+    // EY FILE IMPORT WIZARD
     {
+        key: 8,
+        image: '../static/ux/thumb_EY.jpg',
+        title: 'Ernst & Young',
+
+        desc:
+            'UX desktop app design for a SaaS File Import Wizard user flow. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Dashboard',
+        tag4: 'SaaS',
+        // tag5: 'Desktop',
+        year: 2020,
+        link:
+            'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
+        dim: false,
+    },
+
+     // SUPERCARD
+     {
         key: 8,
         image: '../static/ux/thumb_super2.jpg',
         title: 'Supercard',
@@ -42,6 +66,31 @@ const projectsUX = [
         dim: false,
     },
 
+
+    // ARTEMIS CAP ADVISORS
+    {
+        key: 8,
+        image: '../static/ux/thumb_artemis2.jpg',
+        title: 'Artemis Capital Advisors',
+
+        desc:
+            'UX mobile and desktop app design for Artemis Capital Advisors, financial firm. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Web App',
+        // tag5: 'Finance',
+        year: 2019,
+        link:
+            'https://www.figma.com/file/YuaZGxG99g8xG7NOK4jCAi/Artemis-Site-Mobile-and-Desktop-UX-R3?node-id=0%3A1',
+        dim: false,
+    },
+
+   
     // INTELLIGENT CROSS
     {
         key: 8,
@@ -64,26 +113,7 @@ const projectsUX = [
         dim: false,
     },
 
-    // OPEN IGLOO UX
-    {
-        key: 8,
-        image: '../static/ux/thumb_openigloo.jpg',
-        title: 'Open Igloo',
-
-        desc:
-            'UX mobile and desktop app design for Open Igloo, real estate app. Not yet public: Please contact me to view a portion of the Figma project.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Web App',
-        year: 2019,
-        link: '#',
-        dim: false,
-    },
+  
 
     {
         key: 30,
