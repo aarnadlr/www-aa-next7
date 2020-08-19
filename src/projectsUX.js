@@ -1,5 +1,29 @@
 const projectsUX = [
-
+    // IBM PARTNERS FIGMA
+    {
+        key: 12839,
+        image: '../static/ux/IBMP_THUMB2.jpg',
+        title: 'IBM Partners',
+    
+        desc:
+          "UX design for IBM Partners, IBM's business services portal. Site wireframes and design. Implemented IBM's Duo design system: Type, palettes, grids. Click to view the project in Figma.",
+    
+    
+    
+        // role4:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+    
+        // techstack: ""
+        // TAGS:
+        tag1: 'Figma',
+        tag2: 'Desktop',
+        tag3: 'B2B',
+        tag4: 'Sketch',
+    
+        year: 2018,
+        // HREF LINK
+        // link: "./ibm.html"
+        link: 'https://www.figma.com/file/BRKj04qEZVjVrpRn1vvknn/IBM-Partners-UX-Homepage?node-id=0%3A1',
+      },
       // OPEN IGLOO UX
       {
         key: 8,
@@ -7,7 +31,7 @@ const projectsUX = [
         title: 'Open Igloo',
 
         desc:
-            'UX mobile and desktop app design for Open Igloo, real estate app. Click to view the project in Figma.',
+            'UX design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
 
         // role1: 'UX wireframes and design with Sketch',
         // role2: 'Front-end JavaScript code',
@@ -15,8 +39,8 @@ const projectsUX = [
         tag1: 'Figma',
         tag2: 'UX',
         tag3: 'Mobile',
-        tag4: 'Web App',
-        year: 2019,
+        tag4: 'Prototype',
+        year: 2020,
         link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
         dim: false,
     },
@@ -60,7 +84,7 @@ const projectsUX = [
         tag2: 'UX',
         tag3: 'Mobile',
         tag4: 'Web App',
-        year: 2019,
+        year: 2020,
         link:
             'https://www.figma.com/file/TMftwd6BI0Pgawhzs2xH9h/Supercard-Mobile-UX-R2?node-id=0%3A1',
         dim: false,
