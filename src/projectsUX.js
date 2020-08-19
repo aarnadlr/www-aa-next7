@@ -2,7 +2,7 @@ const projectsUX = [
     // IBM PARTNERS FIGMA
     {
         key: 12839,
-        image: '../static/ux/IBMP_THUMB2.jpg',
+        image: '../static/ux/IBMP_THUMB2-.jpg',
         title: 'IBM Partners',
     
         desc:
