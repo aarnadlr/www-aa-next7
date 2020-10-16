@@ -24,26 +24,7 @@ const projectsUX = [
         // link: "./ibm.html"
         link: 'https://www.figma.com/file/BRKj04qEZVjVrpRn1vvknn/IBM-Partners-UX-Homepage?node-id=0%3A1',
       },
-      // OPEN IGLOO UX
-      {
-        key: 8,
-        image: '../static/ux/thumb_openigloo.jpg',
-        title: 'Open Igloo',
-
-        desc:
-            'UX design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Prototype',
-        year: 2020,
-        link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
-        dim: false,
-    },
+      
 
     // EY FILE IMPORT WIZARD
     {
@@ -65,6 +46,51 @@ const projectsUX = [
         year: 2020,
         link:
             'https://www.figma.com/file/v4qpALSo4380PTEbTPV0TE/Ernst-and-Young-IRIS-File-Upload-UX?node-id=0%3A1',
+        dim: false,
+    },
+
+      // WELLS FARGO
+      {
+        key: 8,
+        image: '../static/ux/wf-thumb2.jpg',
+        title: 'Wells Fargo',
+
+        desc:
+            'Contributed to Wells Fargo\'s new design system and style guide. Constructed desktop interfaces for sections of the consumer banking application. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag4: 'Sketch',
+        tag2: 'UX',
+        tag3: 'Finance',
+        // tag5: 'Desktop',
+        year: 2018,
+        link:
+            'https://www.figma.com/file/cOSAtp1cuTasFYOOxcBezO/Wells-Fargo-UX-Design-System?node-id=0%3A1',
+        dim: false,
+    },
+
+
+    // OPEN IGLOO UX
+    {
+        key: 8,
+        image: '../static/ux/thumb_openigloo.jpg',
+        title: 'Open Igloo',
+
+        desc:
+            'UX design and functional Figma prototype for Open Igloo, real estate market app. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Prototype',
+        year: 2020,
+        link: 'https://www.figma.com/file/5Ck0WRjzAFjCQYW2dIj1YH/openigloo-UX-Design-Prototype-R3?node-id=0%3A1',
         dim: false,
     },
 
@@ -114,30 +140,6 @@ const projectsUX = [
         dim: false,
     },
 
-   
-    // INTELLIGENT CROSS
-    {
-        key: 8,
-        image: '../static/ux/thumb_ic2.jpg',
-        title: 'Intelligent Cross',
-
-        desc:
-            'UX mobile app and desktop design for Intelligent Cross, financial trading firm. Click to view the project in Figma.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Web App',
-        year: 2019,
-        link:
-            'https://www.figma.com/file/rxa82uFNL9Y1CjYvWO7KZ0/Intelligent-Cross-Mobile-and-Desktop-UX-R6?node-id=0%3A1',
-        dim: false,
-    },
-
-  
 
     {
         key: 30,
@@ -183,6 +185,32 @@ const projectsUX = [
             'https://www.figma.com/file/P4Nb6jyjLzp5YEUxaAkrhS/Walrus-Brand-Identity-System-PRES?node-id=0%3A1',
         dim: true,
     },
+
+
+   
+    // INTELLIGENT CROSS
+    {
+        key: 8,
+        image: '../static/ux/thumb_ic2.jpg',
+        title: 'Intelligent Cross',
+
+        desc:
+            'UX mobile app and desktop design for Intelligent Cross, financial trading firm. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Web App',
+        year: 2019,
+        link:
+            'https://www.figma.com/file/rxa82uFNL9Y1CjYvWO7KZ0/Intelligent-Cross-Mobile-and-Desktop-UX-R6?node-id=0%3A1',
+        dim: false,
+    },
+
+  
 
     {
         key: 1,
