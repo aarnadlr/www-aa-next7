@@ -117,29 +117,6 @@ const projectsUX = [
     },
 
 
-    // ARTEMIS CAP ADVISORS
-    {
-        key: 8,
-        image: '../static/ux/thumb_artemis2.jpg',
-        title: 'Artemis Capital Advisors',
-
-        desc:
-            'UX mobile and desktop app design for Artemis Capital Advisors, financial firm. Click to view the project in Figma.',
-
-        // role1: 'UX wireframes and design with Sketch',
-        // role2: 'Front-end JavaScript code',
-
-        tag1: 'Figma',
-        tag2: 'UX',
-        tag3: 'Mobile',
-        tag4: 'Web App',
-        // tag5: 'Finance',
-        year: 2019,
-        link:
-            'https://www.figma.com/file/YuaZGxG99g8xG7NOK4jCAi/Artemis-Site-Mobile-and-Desktop-UX-R3?node-id=0%3A1',
-        dim: false,
-    },
-
 
     {
         key: 30,
@@ -184,6 +161,30 @@ const projectsUX = [
         link:
             'https://www.figma.com/file/P4Nb6jyjLzp5YEUxaAkrhS/Walrus-Brand-Identity-System-PRES?node-id=0%3A1',
         dim: true,
+    },
+
+
+    // ARTEMIS CAP ADVISORS
+    {
+        key: 8,
+        image: '../static/ux/thumb_artemis2.jpg',
+        title: 'Artemis Capital Advisors',
+
+        desc:
+            'UX mobile and desktop app design for Artemis Capital Advisors, financial firm. Click to view the project in Figma.',
+
+        // role1: 'UX wireframes and design with Sketch',
+        // role2: 'Front-end JavaScript code',
+
+        tag1: 'Figma',
+        tag2: 'UX',
+        tag3: 'Mobile',
+        tag4: 'Web App',
+        // tag5: 'Finance',
+        year: 2019,
+        link:
+            'https://www.figma.com/file/YuaZGxG99g8xG7NOK4jCAi/Artemis-Site-Mobile-and-Desktop-UX-R3?node-id=0%3A1',
+        dim: false,
     },
 
 
