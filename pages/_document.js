@@ -17,6 +17,7 @@ export default class MyDocument extends Document {
             property="og:image"
             content="https://aaronadler.com/static/og-aa-com.jpg"
           />
+          <meta name="image:alt" content="Aaron Adler | UX Engineer"/>
           <meta name="author" content="Aaron Adler" />
           <meta
             name="keywords"
