@@ -17,7 +17,7 @@ class Index extends React.Component {
     return (
       <div>
         {
-          console.log('updated 1/19/21')
+          console.log('updated 1/19/21-2')
         }
         <Head>
           <title>Aaron Adler | UX Engineer</title>
