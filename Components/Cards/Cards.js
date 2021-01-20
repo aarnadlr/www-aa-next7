@@ -104,9 +104,9 @@ const Cards = () => {
           transition: all 0.3s ease;
           margin: 0.5rem;
 
-          &:hover {
-            transform: translateY(-10px);
-          }
+        }
+        .card:hover {
+          transform: translateY(-10px);
         }
 
         .completed {

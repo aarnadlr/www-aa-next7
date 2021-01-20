@@ -1,4 +1,3 @@
-import '../styles/style.scss';
 // import { register, unregister } from 'next-offline/runtime';
 import React from 'react';
 import Head from 'next/head';

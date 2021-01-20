@@ -1,8 +1,8 @@
-const withSass = require('@zeit/next-sass');
-const withPWA = require('next-pwa')
+const withWorkbox = require("next-with-workbox");
 
-module.exports = withSass(withPWA({
-  pwa: {
-    dest: 'public'
-  }
-}))
+module.exports = withWorkbox({
+    workbox: {
+     // ... any workbox-webpack-plugin.GenerateSW option
+    },
+    // ... other Next.js config values
+  });

@@ -121,10 +121,10 @@ const CardsUX = () => {
                     box-shadow: 0px 0px 24px 0px rgba(0,23,41,0.15);
 
                     background-color: white;
-                    &:hover {
+                }
+                .card:hover {
                         transform: translateY(-10px);
                     }
-                }
 
                 .completed {
                     border: 1px solid;

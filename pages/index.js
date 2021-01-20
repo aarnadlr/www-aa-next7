@@ -1,4 +1,3 @@
-import '../styles/style.scss';
 // import { register, unregister } from 'next-offline/runtime';
 import React from 'react';
 import Head from 'next/head';
@@ -13,17 +12,13 @@ import HackerrankScore from '../Components/hackerrank-score';
 // import RSSRequestHOC from '../Components/HOCs/RSSRequestHOC'
 
 class Index extends React.Component {
-  // componentDidMount() {
-    // register();
-  // }
-
-  // componentWillUnmount() {
-    // unregister();
-  // }
 
   render() {
     return (
       <div>
+        {
+          console.log('updated 1/19/21')
+        }
         <Head>
           <title>Aaron Adler | UX Engineer</title>
           <meta
