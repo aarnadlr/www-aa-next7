@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React, { useEffect } from "react";
 import { Workbox } from "workbox-window";
-import '../styles/style.css';
+import '../styles/style.scss';
 
 function MyApp({ Component, pageProps }) {
 
