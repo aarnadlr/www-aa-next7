@@ -14,7 +14,6 @@
     "next-offline": "4.0.2",
     "next-pwa": "2.5.0",
     "next-with-workbox": "2.0.1",
-    "node-sass": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-lottie": "1.2.3",
