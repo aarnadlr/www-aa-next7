@@ -1,24 +1,27 @@
 import Head from 'next/head';
-import React, { useEffect } from "react";
-import { Workbox } from "workbox-window";
+import React, { useEffect } from 'react';
 import '../styles/style.scss';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+`;
+
+const theme = {
+  colors: {
+    primary: '#0070f3',
+  },
+};
 
 function MyApp({ Component, pageProps }) {
 
-  useEffect(() => {
-    if (
-      !("serviceWorker" in navigator) ||
-      process.env.NODE_ENV !== "production"
-    ) {
-      console.warn("Progressive Web App support is disabled");
-      return;
-    }
-const wb = new Workbox("sw.js", { scope: "/" });
-    wb.register();
-  }, []);
-
   return (
     <>
+      <GlobalStyle />
       <Head>
         <meta name="viewport" content="viewport-fit=cover" />
 
@@ -83,7 +86,9 @@ const wb = new Workbox("sw.js", { scope: "/" });
           href="static/favicons/favicon-16.png"
         />
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }
