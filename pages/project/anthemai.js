@@ -75,7 +75,6 @@ const ImageWithCaption = ({ image, caption }) => (
     <style jsx>{`
       img.imageframe {
         display: block;
-        opacity: 0.1;
       }
       span {
         font-size: 14px;
@@ -87,6 +86,7 @@ const ImageWithCaption = ({ image, caption }) => (
   </>
 );
 
+const veryLightBlue = '#e2edf1';
 const darkBlue = '#011B69';
 
 const Header = styled.h1`
@@ -123,45 +123,43 @@ export default function Anthemai() {
   // const { projectPage } = router.query;
 
   return (
-    <div className="container">
-      {/* <p>This is a project page named {projectPage}</p> */}
+    <div className="outer-container">
+      <div className="container">
+        {/* <p>This is a project page named {projectPage}</p> */}
 
-      {/* <img src="/static/btn_returnhome.svg" className="button" alt="button" /> */}
+        {/* <img src="/static/btn_returnhome.svg" className="button" alt="button" /> */}
 
-      <ReturnHomeButton
-        position={'absolute'}
-        top={'40px'}
-        right={0}
-        margin={null}
-      />
+        <ReturnHomeButton
+          position={'absolute'}
+          top={'40px'}
+          right={0}
+          margin={null}
+        />
 
-      <div className="inner">
-        {/* <img src="/static/projectbadge.svg" className="badge" alt="badge" /> */}
+        <div className="inner">
+          {/* <img src="/static/projectbadge.svg" className="badge" alt="badge" /> */}
 
-        <LineHeader />
+          <LineHeader />
 
-<div className="flex-container">
-  
-          <img
-            src="/static/logobox-anthemai.jpg"
-            alt="logobox-anthemai"
-            width="96"
-            height="96"
+          <div className="flex-container">
+            <img
+              src="/static/logobox-anthemai.jpg"
+              alt="logobox-anthemai"
+              width="96"
+              height="96"
+              className="logobox"
+            />
 
-            className="logobox"
-          />
-  
-          <div className="textContainer">
-            <Header style={{ '--color': '#011b69' }}>Anthem AI</Header>
-  
-            <h3>
-              Telemedicine web application connecting physicians and their
-              patients
-            </h3>
+            <div className="text-container">
+              <Header style={{ '--color': '#011b69' }}>Anthem AI</Header>
+
+              <h3>
+                Telemedicine web application connecting physicians and their
+                patients
+              </h3>
+            </div>
           </div>
-
-</div>
-        {/* <Image
+          {/* <Image
           src="/static/Blockparty-800x400-2.jpg"
           alt="portfolio image"
           width={792}
@@ -176,42 +174,50 @@ export default function Anthemai() {
           // className="imageframe"
         /> */}
 
-        <ImageWithCaption
-          image={'Blockparty-800x400-2'}
-          caption="one This is a one-line area for a caption"
-        />
+          <ImageWithCaption
+            image={'anthemai/provider__healthos--dashboard'}
+            caption="two This is a one-line area for a caption"
+          />
 
-        <ImageWithCaption
-          image={'Blockparty-800x400-2'}
-          caption="two This is a one-line area for a caption"
-        />
+          <ImageWithCaption
+            image={'anthemai/Patients_rev'}
+            caption="three This is a one-line area for a caption"
+          />
+          <ImageWithCaption
+            image={'anthemai/provider__telehealth--patients'}
+            caption="three This is a one-line area for a caption"
+          />
 
-        <ImageWithCaption
-          image={'Blockparty-800x400-2'}
-          caption="three This is a one-line area for a caption"
-        />
+          <ImageWithCaption
+            image={'anthemai/patient__telehealth--appointments'}
+            caption="one This is a one-line area for a caption"
+          />
+          <ImageWithCaption
+            image={'anthemai/Sign-In_rev'}
+            caption="three This is a one-line area for a caption"
+          />
 
-        <br />
-        <br />
+          <br />
+          <br />
 
-        {/* <img
+          {/* <img
           src="/static/btn_returnhome.svg"
           className="button-bottom"
           alt="button"
         /> */}
 
-        <ReturnHomeButton
-          position={'static'}
-          top={'initial'}
-          right={'initial'}
-          margin={'0 auto'}
-          centered={true}
-        />
+          <ReturnHomeButton
+            position={'static'}
+            top={'initial'}
+            right={'initial'}
+            margin={'0 auto'}
+            centered={true}
+          />
 
-        <br />
-        <br />
+          <br />
+          <br />
+        </div>
       </div>
-
       <style jsx>{`
         * {
           color: #011b69;
@@ -219,10 +225,14 @@ export default function Anthemai() {
         .badge {
           position: relative;
         }
+        .text-container {
+          background: none;
+        }
 
-.flex-container{
-  display:flex;
-}
+        .flex-container {
+          display: flex;
+          margin: 0 0 48px 0;
+        }
         .logobox {
           margin: 48px 24px 0 0;
         }
@@ -231,6 +241,10 @@ export default function Anthemai() {
           top: 112px;
         }
 
+        .outer-container {
+          background-color: ${veryLightBlue};
+          height: 140%;
+        }
         .container {
           position: relative;
           max-width: 792px;
